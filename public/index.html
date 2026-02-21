@@ -61,18 +61,22 @@
 
   <script src="/socket.io/socket.io.js"></script>
   <script>
+    // Host path: just validate name and redirect — room creation happens in host.html
+    // after the host picks a script.
+    // Player path: still needs a socket to emit join-room.
     const socket = io();
 
-    const btnHost = document.getElementById('btn-host');
-    const btnJoin = document.getElementById('btn-join');
-    const hostNameInput = document.getElementById('host-name-input');
-    const codeInput = document.getElementById('code-input');
-    const joinNameInput = document.getElementById('join-name-input');
-    const msgEl = document.getElementById('msg');
+    const btnHost      = document.getElementById('btn-host');
+    const btnJoin      = document.getElementById('btn-join');
+    const hostNameInput= document.getElementById('host-name-input');
+    const codeInput    = document.getElementById('code-input');
+    const joinNameInput= document.getElementById('join-name-input');
+    const msgEl        = document.getElementById('msg');
 
     function showError(text) {
       msgEl.textContent = text;
       msgEl.className = 'msg msg-error';
+      msgEl.classList.remove('hidden');
     }
 
     codeInput.addEventListener('input', () => {
@@ -82,19 +86,9 @@
     btnHost.addEventListener('click', () => {
       const name = hostNameInput.value.trim();
       if (!name) { showError('Enter your name to create a room.'); hostNameInput.focus(); return; }
-
-      btnHost.disabled = true;
-      socket.emit('create-room', { name }, (res) => {
-        if (res.error || !res.code) {
-          showError(res.error || 'Could not create room. Please try again.');
-          btnHost.disabled = false;
-          return;
-        }
-        sessionStorage.setItem('tr-code', res.code);
-        sessionStorage.setItem('tr-role', 'host');
-        sessionStorage.setItem('tr-name', name);
-        window.location.href = 'host.html';
-      });
+      sessionStorage.setItem('tr-role', 'host');
+      sessionStorage.setItem('tr-name', name);
+      window.location.href = 'host.html';
     });
 
     btnJoin.addEventListener('click', () => {

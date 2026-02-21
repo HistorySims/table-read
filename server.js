@@ -13,7 +13,8 @@ const io = new Server(server, {
 
 const PORT = process.env.PORT || 3000;
 
-// Pre-compute line counts per character so clients can show them on the cast screen
+// Pre-compute line counts per character so clients can show them on the cast screen.
+// Keeps the JSON files clean — no need to maintain counts by hand.
 const preparedScripts = scripts.map((script) => {
   const counts = {};
   script.characters.forEach((c) => { counts[c.name] = 0; });
@@ -69,10 +70,7 @@ function sendCurrentBeat(code) {
 
   const beat = room.script.beats[room.currentBeat];
   let activePlayer = null;
-
-  if (beat.type === 'dialogue') {
-    activePlayer = room.assignments[beat.character] || null;
-  }
+  if (beat.type === 'dialogue') activePlayer = room.assignments[beat.character] || null;
 
   io.to(code).emit('beat', {
     index: room.currentBeat,
@@ -97,37 +95,44 @@ function advanceBeat(code) {
   if (!room || room.state !== 'performance') return;
 
   room.currentBeat++;
-
   if (room.currentBeat >= room.script.beats.length) {
     room.state = 'ended';
     io.to(code).emit('performance-ended');
     return;
   }
-
   sendCurrentBeat(code);
-}
-
-// Find a player's socket in the room (returns socket or undefined)
-function findPlayerSocket(room, playerName) {
-  const player = room.players.find((p) => p.name === playerName);
-  return player ? io.sockets.sockets.get(player.id) : undefined;
 }
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Script catalogue — used by the host's script-selection screen
+app.get('/api/scripts', (req, res) => {
+  res.json(preparedScripts.map((s, i) => ({
+    id: i,
+    title: s.title,
+    author: s.author || null,
+    description: s.description || null,
+    characters: s.characters.map((c) => ({
+      name: c.name,
+      lineCount: c.lineCount,
+      difficulty: c.difficulty || null,
+    })),
+    beatCount: s.beats.length,
+  })));
+});
+
 io.on('connection', (socket) => {
-  // Application-level heartbeat to keep connections alive through proxies
   socket.on('ping', () => socket.emit('pong'));
 
-  // Host creates a room
-  socket.on('create-room', ({ name } = {}, callback) => {
+  // Host creates a room with a chosen script
+  socket.on('create-room', ({ name, scriptIndex = 0 } = {}, callback) => {
     if (typeof callback !== 'function') return;
 
     const trimmedName = (name || '').trim();
     if (!trimmedName) return callback({ error: 'Please enter your name.' });
 
+    const script = preparedScripts[scriptIndex] || preparedScripts[0];
     const code = makeUniqueCode();
-    const script = preparedScripts[0];
     const assignments = {};
     script.characters.forEach((c) => { assignments[c.name] = null; });
 
@@ -146,7 +151,7 @@ io.on('connection', (socket) => {
     socket.data.role = 'host';
     socket.data.name = trimmedName;
 
-    console.log(`Room ${code} created by ${trimmedName}`);
+    console.log(`Room ${code} created by ${trimmedName} (script: ${script.title})`);
     callback({ code, script: { title: script.title, characters: script.characters } });
   });
 
@@ -159,8 +164,7 @@ io.on('connection', (socket) => {
     const trimmedName = (name || '').trim();
     if (!trimmedName) return callback({ error: 'Please enter your name.' });
 
-    const player = { id: socket.id, name: trimmedName };
-    room.players.push(player);
+    room.players.push({ id: socket.id, name: trimmedName });
     socket.join(code);
     socket.data.code = code;
     socket.data.role = 'player';
@@ -178,7 +182,7 @@ io.on('connection', (socket) => {
     broadcastAssignments(code);
   });
 
-  // Claim or unclaim a character (tap to toggle)
+  // Claim or unclaim a character (player self-service, lobby only)
   socket.on('claim-character', ({ character }) => {
     const { code, name } = socket.data;
     if (!code || !rooms[code]) return;
@@ -187,35 +191,27 @@ io.on('connection', (socket) => {
     if (!(character in room.assignments)) return;
 
     if (room.assignments[character] === name) {
-      room.assignments[character] = null; // unclaim
+      room.assignments[character] = null;
     } else if (!room.assignments[character]) {
-      room.assignments[character] = name; // claim
+      room.assignments[character] = name;
     }
-    // else: taken by someone else — ignore
-
     broadcastAssignments(code);
   });
 
-  // Host force-assigns a character to any player (or clears it)
-  // Works in both lobby and performance states
+  // Host force-assigns a character to any player (lobby or performance)
   socket.on('force-assign', ({ character, toPlayer }) => {
     const { code, role } = socket.data;
     if (!code || !rooms[code] || role !== 'host') return;
     const room = rooms[code];
     if (!(character in room.assignments)) return;
 
-    // toPlayer must be a real person in the room, or null to clear
     if (toPlayer !== null) {
-      const isHost = toPlayer === room.hostName;
-      const isPlayer = room.players.some((p) => p.name === toPlayer);
-      if (!isHost && !isPlayer) return;
+      const valid = toPlayer === room.hostName || room.players.some((p) => p.name === toPlayer);
+      if (!valid) return;
     }
 
     room.assignments[character] = toPlayer || null;
     broadcastAssignments(code);
-
-    // If a performance is in progress, re-send the current beat so the newly
-    // assigned player immediately sees their cue (or loses it)
     if (room.state === 'performance') sendCurrentBeat(code);
   });
 
@@ -228,27 +224,20 @@ io.on('connection', (socket) => {
     const target = room.players.find((p) => p.name === playerName);
     if (!target) return;
 
-    // If in performance and the current beat belongs to this player's character,
-    // auto-reassign that character to the host so the scene doesn't deadlock
+    // If the booted player owns the current active beat, hand it to the host
     if (room.state === 'performance') {
-      const currentBeat = room.script.beats[room.currentBeat];
-      if (
-        currentBeat.type === 'dialogue' &&
-        room.assignments[currentBeat.character] === playerName
-      ) {
-        room.assignments[currentBeat.character] = room.hostName;
+      const beat = room.script.beats[room.currentBeat];
+      if (beat.type === 'dialogue' && room.assignments[beat.character] === playerName) {
+        room.assignments[beat.character] = room.hostName;
       }
     }
 
-    // Release all other characters they held
     Object.keys(room.assignments).forEach((char) => {
       if (room.assignments[char] === playerName) room.assignments[char] = null;
     });
 
-    // Remove them from the player list
     room.players = room.players.filter((p) => p.name !== playerName);
 
-    // Tell their socket they've been removed
     const targetSocket = io.sockets.sockets.get(target.id);
     if (targetSocket) targetSocket.emit('kicked', { reason: 'You were removed by the host.' });
 
@@ -256,7 +245,7 @@ io.on('connection', (socket) => {
     broadcastAssignments(code);
     if (room.state === 'performance') sendCurrentBeat(code);
 
-    console.log(`${playerName} was booted from room ${code}`);
+    console.log(`${playerName} booted from room ${code}`);
   });
 
   // Host starts the performance
@@ -282,7 +271,7 @@ io.on('connection', (socket) => {
     if (room.state !== 'performance') return;
 
     const beat = room.script.beats[room.currentBeat];
-    if (beat.type !== 'dialogue') return; // stage directions auto-advance
+    if (beat.type !== 'dialogue') return;
 
     const activePlayer = room.assignments[beat.character];
     if (name !== activePlayer && role !== 'host') return;

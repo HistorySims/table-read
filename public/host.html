@@ -9,24 +9,35 @@
 <body>
   <div class="card">
 
+    <!-- ── SCRIPT SELECTION VIEW ── -->
+    <div id="view-scripts">
+      <div class="logo">
+        <h1>Table Read</h1>
+      </div>
+      <h2 style="margin-bottom:0.25rem;">Choose a Script</h2>
+      <p class="muted" style="margin-bottom:1rem;">Hosting as <strong id="host-name-display"></strong></p>
+      <div id="script-list">
+        <div class="muted" style="text-align:center;padding:2rem 0;">Loading scripts…</div>
+      </div>
+      <div id="msg-scripts" class="msg msg-error hidden"></div>
+    </div>
+
     <!-- ── LOBBY VIEW ── -->
-    <div id="view-lobby">
+    <div id="view-lobby" class="hidden">
       <div class="lobby-header">
         <div>
           <div class="join-code" id="join-code">----</div>
-          <div class="join-code-label">Share this code</div>
+          <div class="join-code-label" id="lobby-script-title">Share this code</div>
         </div>
         <button class="btn btn-outline btn-copy" id="btn-copy">Copy</button>
       </div>
 
-      <!-- Players with boot buttons -->
       <div class="section-header">
         <h2>Players</h2>
         <span class="player-count" id="player-count">0 joined</span>
       </div>
       <ul class="player-list" id="player-list"></ul>
 
-      <!-- Cast with assign controls -->
       <div class="section-header" style="margin-top:1.25rem;">
         <h2>Cast</h2>
         <span class="player-count">tap Claim or use assign ▾</span>
@@ -57,7 +68,7 @@
         </div>
       </div>
 
-      <!-- Host cast management panel (toggle) -->
+      <!-- Host cast management panel -->
       <div id="host-tools-panel" class="host-tools-panel hidden">
         <div class="host-tools-title">Host Controls</div>
         <div class="host-tools-section-label">Roles</div>
@@ -66,14 +77,12 @@
         <ul class="host-player-list" id="host-player-list-perf"></ul>
       </div>
 
-      <!-- Stage direction -->
       <div id="beat-stage" class="hidden">
         <div class="beat-label">Stage Direction</div>
         <div class="beat-stage-text" id="beat-stage-text"></div>
         <div class="beat-advancing">advancing automatically…</div>
       </div>
 
-      <!-- Your line (active) -->
       <div id="beat-active" class="hidden">
         <div class="beat-label beat-label--yours">Your line</div>
         <div class="beat-char" id="beat-active-char"></div>
@@ -81,7 +90,6 @@
         <button class="btn btn-done" id="btn-done">Done</button>
       </div>
 
-      <!-- Waiting for someone else -->
       <div id="beat-waiting" class="hidden">
         <div class="beat-waiting-inner">
           <div class="beat-waiting-label">Waiting…</div>
@@ -91,11 +99,10 @@
         <button class="btn btn-outline btn-skip" id="btn-skip">Skip</button>
       </div>
 
-      <!-- Performance ended -->
       <div id="beat-ended" class="hidden">
         <div class="perf-ended">
           <div class="perf-ended-title">That's a wrap!</div>
-          <div class="perf-ended-sub" id="perf-ended-title"></div>
+          <div class="perf-ended-sub" id="perf-ended-sub"></div>
         </div>
         <button class="btn btn-outline" id="btn-restart" style="margin-top:1.5rem;">
           Back to Home
@@ -107,17 +114,17 @@
 
   <script src="/socket.io/socket.io.js"></script>
   <script>
-    const myCode = sessionStorage.getItem('tr-code');
     const myRole = sessionStorage.getItem('tr-role');
     const myName = sessionStorage.getItem('tr-name');
-
-    if (!myCode || myRole !== 'host' || !myName) window.location.href = 'index.html';
+    if (myRole !== 'host' || !myName) window.location.href = 'index.html';
 
     // ── State ──
     let script = null;
     let assignments = {};
     let castingComplete = false;
-    let players = []; // full player list including host
+    let players = [];
+    let selectedScriptIndex = null;
+    let socketReady = false;
     let roomCreated = false;
 
     // ── Socket ──
@@ -126,40 +133,109 @@
 
     socket.on('connect', () => {
       if (roomCreated) {
-        msgEl.textContent = 'Lost connection. Please create a new room.';
-        msgEl.classList.remove('hidden');
+        document.getElementById('msg').textContent = 'Lost connection. Please start over.';
+        document.getElementById('msg').classList.remove('hidden');
         setTimeout(() => { sessionStorage.clear(); window.location.href = 'index.html'; }, 2500);
         return;
       }
+      socketReady = true;
+      tryCreateRoom();
+    });
+
+    function tryCreateRoom() {
+      if (selectedScriptIndex === null || !socketReady || roomCreated) return;
       roomCreated = true;
-      socket.emit('create-room', { name: myName }, (res) => {
+      socket.emit('create-room', { name: myName, scriptIndex: selectedScriptIndex }, (res) => {
         if (!res || res.error || !res.code) {
-          msgEl.textContent = res?.error || 'Could not create room.';
-          msgEl.classList.remove('hidden');
+          roomCreated = false;
+          document.getElementById('msg-scripts').textContent = res?.error || 'Could not create room.';
+          document.getElementById('msg-scripts').classList.remove('hidden');
           return;
         }
         sessionStorage.setItem('tr-code', res.code);
         joinCodeEl.textContent = res.code;
+        lobbyScriptTitle.textContent = res.script.title;
         script = res.script;
         assignments = {};
         res.script.characters.forEach(c => { assignments[c.name] = null; });
         renderCharacterList();
+        viewScripts.classList.add('hidden');
+        viewLobby.classList.remove('hidden');
       });
-    });
+    }
+
+    // ── Script selection ──
+    document.getElementById('host-name-display').textContent = myName;
+
+    fetch('/api/scripts')
+      .then(r => r.json())
+      .then(scripts => {
+        const list = document.getElementById('script-list');
+        list.innerHTML = '';
+        scripts.forEach(s => {
+          const card = document.createElement('button');
+          card.className = 'script-card';
+
+          const titleRow = document.createElement('div');
+          titleRow.className = 'script-card-title';
+          titleRow.textContent = s.title;
+
+          const meta = document.createElement('div');
+          meta.className = 'script-card-meta';
+          const parts = [];
+          if (s.author) parts.push(s.author);
+          parts.push(`${s.characters.length} characters`);
+          parts.push(`${s.beatCount} beats`);
+          meta.textContent = parts.join(' · ');
+
+          if (s.description) {
+            const desc = document.createElement('div');
+            desc.className = 'script-card-desc';
+            desc.textContent = s.description;
+            card.appendChild(titleRow);
+            card.appendChild(meta);
+            card.appendChild(desc);
+          } else {
+            card.appendChild(titleRow);
+            card.appendChild(meta);
+          }
+
+          const chars = document.createElement('div');
+          chars.className = 'script-card-chars';
+          s.characters.forEach(c => {
+            const chip = document.createElement('span');
+            chip.className = 'script-char-chip';
+            chip.textContent = c.name;
+            chars.appendChild(chip);
+          });
+          card.appendChild(chars);
+
+          card.addEventListener('click', () => {
+            selectedScriptIndex = s.id;
+            tryCreateRoom();
+          });
+
+          list.appendChild(card);
+        });
+      })
+      .catch(() => {
+        document.getElementById('msg-scripts').textContent = 'Could not load scripts. Please refresh.';
+        document.getElementById('msg-scripts').classList.remove('hidden');
+      });
 
     // ── DOM refs ──
-    const joinCodeEl    = document.getElementById('join-code');
-    const playerListEl  = document.getElementById('player-list');
-    const playerCountEl = document.getElementById('player-count');
-    const charListEl    = document.getElementById('character-list');
-    const castStatusEl  = document.getElementById('cast-status');
-    const btnCopy       = document.getElementById('btn-copy');
-    const btnStart      = document.getElementById('btn-start');
-    const btnClose      = document.getElementById('btn-close');
-    const msgEl         = document.getElementById('msg');
-
+    const viewScripts    = document.getElementById('view-scripts');
     const viewLobby      = document.getElementById('view-lobby');
     const viewPerf       = document.getElementById('view-performance');
+    const joinCodeEl     = document.getElementById('join-code');
+    const lobbyScriptTitle = document.getElementById('lobby-script-title');
+    const playerListEl   = document.getElementById('player-list');
+    const playerCountEl  = document.getElementById('player-count');
+    const charListEl     = document.getElementById('character-list');
+    const castStatusEl   = document.getElementById('cast-status');
+    const btnCopy        = document.getElementById('btn-copy');
+    const btnStart       = document.getElementById('btn-start');
+    const btnClose       = document.getElementById('btn-close');
     const perfTitle      = document.getElementById('perf-title');
     const perfProg       = document.getElementById('perf-progress');
     const hostToolsPanel = document.getElementById('host-tools-panel');
@@ -174,14 +250,7 @@
     const btnHostTools   = document.getElementById('btn-host-tools');
     const btnRestart     = document.getElementById('btn-restart');
 
-    joinCodeEl.textContent = myCode;
-
     // ── Helpers ──
-    function allPlayerNames() {
-      // Returns all names in the room for use in assign dropdowns
-      return players.map(p => p.name);
-    }
-
     function buildAssignSelect(character, currentValue) {
       const sel = document.createElement('select');
       sel.className = 'assign-select';
@@ -190,11 +259,11 @@
       blank.textContent = '— unassigned —';
       if (!currentValue) blank.selected = true;
       sel.appendChild(blank);
-      allPlayerNames().forEach(name => {
+      players.forEach(p => {
         const opt = document.createElement('option');
-        opt.value = name;
-        opt.textContent = name === myName ? name + ' (you)' : name;
-        if (name === currentValue) opt.selected = true;
+        opt.value = p.name;
+        opt.textContent = p.name === myName ? p.name + ' (you)' : p.name;
+        if (p.name === currentValue) opt.selected = true;
         sel.appendChild(opt);
       });
       sel.addEventListener('change', () => {
@@ -207,7 +276,7 @@
     socket.on('player-list', (list) => {
       players = list;
       renderPlayerList();
-      renderCharacterList(); // rebuild dropdowns with new player names
+      renderCharacterList();
       renderHostPerfPanel();
     });
 
@@ -216,12 +285,10 @@
       players.forEach(p => {
         const li = document.createElement('li');
         li.className = 'player-item';
-
         const nameSpan = document.createElement('span');
         nameSpan.textContent = p.name + (p.isHost ? ' (you)' : '');
         if (p.isHost) nameSpan.style.fontWeight = '700';
         li.appendChild(nameSpan);
-
         if (!p.isHost) {
           const bootBtn = document.createElement('button');
           bootBtn.className = 'btn-boot';
@@ -234,7 +301,6 @@
           });
           li.appendChild(bootBtn);
         }
-
         playerListEl.appendChild(li);
       });
       const n = players.length;
@@ -265,28 +331,35 @@
         const li = document.createElement('li');
         li.className = 'char-card' + (isMe ? ' char-card--mine' : isTaken ? ' char-card--taken' : '');
 
-        // Left: info
         const info = document.createElement('div');
         info.className = 'char-info';
+
         const nameRow = document.createElement('div');
-        nameRow.style.display = 'flex';
-        nameRow.style.alignItems = 'center';
-        nameRow.style.gap = '0.4rem';
+        nameRow.className = 'char-name-row';
         const nameEl = document.createElement('span');
         nameEl.className = 'char-name';
         nameEl.textContent = char.name;
-        const countBadge = document.createElement('span');
-        countBadge.className = 'line-count';
-        countBadge.textContent = char.lineCount + (char.lineCount === 1 ? ' line' : ' lines');
         nameRow.appendChild(nameEl);
-        nameRow.appendChild(countBadge);
+        if (char.lineCount !== undefined) {
+          const badge = document.createElement('span');
+          badge.className = 'line-count';
+          badge.textContent = char.lineCount + (char.lineCount === 1 ? ' line' : ' lines');
+          nameRow.appendChild(badge);
+        }
+        if (char.difficulty) {
+          const diff = document.createElement('span');
+          diff.className = 'diff-badge diff-' + char.difficulty;
+          diff.textContent = char.difficulty;
+          nameRow.appendChild(diff);
+        }
+
         const descEl = document.createElement('div');
         descEl.className = 'char-desc';
         descEl.textContent = char.description;
+
         info.appendChild(nameRow);
         info.appendChild(descEl);
 
-        // Right: host controls (claim toggle + assign dropdown)
         const controls = document.createElement('div');
         controls.className = 'char-controls';
 
@@ -295,15 +368,11 @@
         claimBtn.textContent = isMe ? 'You' : (claimed || 'Claim');
         claimBtn.disabled = isTaken;
         if (!isTaken) {
-          claimBtn.addEventListener('click', () => {
-            socket.emit('claim-character', { character: char.name });
-          });
+          claimBtn.addEventListener('click', () => socket.emit('claim-character', { character: char.name }));
         }
 
-        const assignSel = buildAssignSelect(char.name, claimed);
-
         controls.appendChild(claimBtn);
-        controls.appendChild(assignSel);
+        controls.appendChild(buildAssignSelect(char.name, claimed));
 
         li.appendChild(info);
         li.appendChild(controls);
@@ -311,54 +380,46 @@
       });
     }
 
-    // ── Performance host panel ──
     function renderHostPerfPanel() {
       if (!script) return;
-
-      // Cast list
       hostCastList.innerHTML = '';
       script.characters.forEach(char => {
         const li = document.createElement('li');
         li.className = 'host-cast-item';
-
         const charName = document.createElement('span');
         charName.className = 'host-cast-char';
         charName.textContent = char.name;
-
-        const assignSel = buildAssignSelect(char.name, assignments[char.name]);
-        assignSel.className = 'assign-select assign-select--sm';
-
+        const sel = buildAssignSelect(char.name, assignments[char.name]);
+        sel.className = 'assign-select assign-select--sm';
         li.appendChild(charName);
-        li.appendChild(assignSel);
+        li.appendChild(sel);
         hostCastList.appendChild(li);
       });
 
-      // Player boot list (during performance)
       hostPlayerList.innerHTML = '';
-      players.filter(p => !p.isHost).forEach(p => {
+      const nonHostPlayers = players.filter(p => !p.isHost);
+      if (nonHostPlayers.length === 0) {
         const li = document.createElement('li');
-        li.className = 'host-cast-item';
-        const nameEl = document.createElement('span');
-        nameEl.textContent = p.name;
-        const bootBtn = document.createElement('button');
-        bootBtn.className = 'btn-boot';
-        bootBtn.textContent = '✕ Boot';
-        bootBtn.style.fontSize = '0.8rem';
-        bootBtn.style.padding = '0.3rem 0.6rem';
-        bootBtn.addEventListener('click', () => {
-          if (confirm(`Remove ${p.name}?`)) socket.emit('boot-player', { playerName: p.name });
-        });
-        li.appendChild(nameEl);
-        li.appendChild(bootBtn);
-        hostPlayerList.appendChild(li);
-      });
-
-      if (players.filter(p => !p.isHost).length === 0) {
-        const li = document.createElement('li');
-        li.style.color = 'var(--muted)';
-        li.style.fontSize = '0.85rem';
+        li.style.cssText = 'color:var(--muted);font-size:0.85rem;';
         li.textContent = 'No other players';
         hostPlayerList.appendChild(li);
+      } else {
+        nonHostPlayers.forEach(p => {
+          const li = document.createElement('li');
+          li.className = 'host-cast-item';
+          const nameEl = document.createElement('span');
+          nameEl.textContent = p.name;
+          const bootBtn = document.createElement('button');
+          bootBtn.className = 'btn-boot';
+          bootBtn.textContent = '✕ Boot';
+          bootBtn.style.cssText = 'font-size:0.8rem;padding:0.3rem 0.6rem;';
+          bootBtn.addEventListener('click', () => {
+            if (confirm(`Remove ${p.name}?`)) socket.emit('boot-player', { playerName: p.name });
+          });
+          li.appendChild(nameEl);
+          li.appendChild(bootBtn);
+          hostPlayerList.appendChild(li);
+        });
       }
     }
 
@@ -369,20 +430,20 @@
 
     // ── Lobby actions ──
     btnCopy.addEventListener('click', () => {
-      const currentCode = joinCodeEl.textContent;
-      navigator.clipboard.writeText(currentCode).then(() => {
+      const code = joinCodeEl.textContent;
+      navigator.clipboard.writeText(code).then(() => {
         btnCopy.textContent = 'Copied!';
         setTimeout(() => { btnCopy.textContent = 'Copy'; }, 2000);
       }).catch(() => {
-        msgEl.textContent = `Code: ${currentCode}`;
+        const msgEl = document.getElementById('msg');
+        msgEl.textContent = `Code: ${code}`;
         msgEl.className = 'msg msg-info';
         msgEl.classList.remove('hidden');
       });
     });
 
     btnStart.addEventListener('click', () => {
-      if (!castingComplete) return;
-      socket.emit('start-performance');
+      if (castingComplete) socket.emit('start-performance');
     });
 
     btnClose.addEventListener('click', () => {
@@ -412,9 +473,8 @@
       } else {
         document.getElementById('beat-waiting-char').textContent = beat.character;
         const sub = document.getElementById('beat-waiting-sub');
-        sub.textContent = activePlayer ? 'is speaking' : '— no one assigned. Use host controls to take over.';
+        sub.textContent = activePlayer ? 'is speaking' : '— no one assigned. Use ⚙ host controls to take over.';
         beatWaiting.classList.remove('hidden');
-        // Auto-open host tools if nobody is assigned
         if (!activePlayer) hostToolsPanel.classList.remove('hidden');
       }
     });
@@ -425,7 +485,7 @@
     socket.on('performance-ended', () => {
       [beatStage, beatActive, beatWaiting].forEach(el => el.classList.add('hidden'));
       hostToolsPanel.classList.add('hidden');
-      document.getElementById('perf-ended-title').textContent = perfTitle.textContent;
+      document.getElementById('perf-ended-sub').textContent = perfTitle.textContent;
       beatEnded.classList.remove('hidden');
     });
 

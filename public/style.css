@@ -458,6 +458,90 @@ label { display: block; font-size: 0.85rem; color: var(--muted); margin-bottom: 
 /* Casting top area */
 .casting-greeting { font-size: 1.3rem; font-weight: 800; }
 
+/* ── Script selection ── */
+.script-card {
+  display: block;
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.6rem;
+  text-align: left;
+  cursor: pointer;
+  color: var(--text);
+  transition: border-color 0.15s, background 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.script-card:hover, .script-card:focus {
+  border-color: var(--accent);
+  background: #1f1f00;
+  outline: none;
+}
+.script-card:active { transform: scale(0.98); }
+
+.script-card-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--accent);
+  margin-bottom: 0.2rem;
+}
+.script-card-meta {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+.script-card-desc {
+  font-size: 0.875rem;
+  color: var(--text);
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+}
+.script-card-chars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.script-char-chip {
+  font-size: 0.72rem;
+  background: #252525;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.15rem 0.5rem;
+  color: var(--muted);
+}
+
+/* ── Difficulty badge ── */
+.diff-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 8px;
+  padding: 0.1rem 0.4rem;
+  flex-shrink: 0;
+}
+.diff-easy   { background: #0d2b12; color: #6fcf7f; border: 1px solid #1e5c28; }
+.diff-medium { background: #2a2200; color: var(--accent); border: 1px solid #5a4800; }
+.diff-high   { background: #2b0f0f; color: #f08080; border: 1px solid #5c1e1e; }
+
+/* ── Costume ideas (player casting screen) ── */
+.char-costume {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.35rem;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+/* char-name-row replaces the old inline-style flex row */
+.char-name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
 /* Utility */
 .hidden { display: none !important; }
 .text-center { text-align: center; }
