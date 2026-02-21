@@ -5,6 +5,12 @@ const path = require('path');
 const scriptsDir = path.join(__dirname, 'scripts');
 const files = fs.readdirSync(scriptsDir).filter(f => f.endsWith('.json')).sort();
 
-module.exports = files.map(f =>
-  JSON.parse(fs.readFileSync(path.join(scriptsDir, f), 'utf8'))
-);
+const loaded = [];
+for (const f of files) {
+  try {
+    loaded.push(JSON.parse(fs.readFileSync(path.join(scriptsDir, f), 'utf8')));
+  } catch (e) {
+    console.error(`[scripts] Failed to load ${f}:`, e.message);
+  }
+}
+module.exports = loaded;
