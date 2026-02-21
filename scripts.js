@@ -1,49 +1,10 @@
-module.exports = [
-  {
-    title: 'Murder at Millbrook Manor',
-    characters: [
-      { name: 'Lady Millbrook', description: 'The imperious hostess with too many secrets' },
-      { name: 'Colonel Biscuit', description: 'A bumbling retired military man' },
-      { name: 'Prudence', description: 'The nervous young maid who knows everything' },
-      { name: 'Dr. Fennwick', description: 'A pompous physician with dubious credentials' },
-      { name: 'Vera', description: "Lady Millbrook's suspicious niece" },
-    ],
-    beats: [
-      { type: 'stage_direction', text: 'The dining room of Millbrook Manor. A half-eaten dinner sits on the table. The lights flicker.' },
-      { type: 'dialogue', character: 'Lady Millbrook', text: 'I must say, the soufflé was a triumph.' },
-      { type: 'dialogue', character: 'Lady Millbrook', text: 'Even if poor Gerald is no longer with us to appreciate it.' },
-      { type: 'dialogue', character: 'Colonel Biscuit', text: 'Dreadful business. Absolutely dreadful.' },
-      { type: 'dialogue', character: 'Colonel Biscuit', text: "I've seen men go down in the Khyber Pass, but never mid-soup course." },
-      { type: 'dialogue', character: 'Vera', text: "Auntie, shouldn't we call the police?" },
-      { type: 'dialogue', character: 'Lady Millbrook', text: 'And ruin dessert? Absolutely not.' },
-      { type: 'dialogue', character: 'Dr. Fennwick', text: 'As a medical man, I can confirm that Gerald is, in fact, deceased.' },
-      { type: 'dialogue', character: 'Dr. Fennwick', text: 'I base this on the fact that he has not moved in forty minutes.' },
-      { type: 'dialogue', character: 'Prudence', text: 'Begging your pardon, but I did see something peculiar before dinner.' },
-      { type: 'dialogue', character: 'Vera', text: 'Prudence! Speak up!' },
-      { type: 'dialogue', character: 'Prudence', text: "Someone was in the pantry, ma'am. Fiddling with the mushroom tray." },
-      { type: 'stage_direction', text: 'Everyone looks slowly at Lady Millbrook.' },
-      { type: 'dialogue', character: 'Lady Millbrook', text: 'I beg your pardon. I was simply arranging them artistically.' },
-      { type: 'dialogue', character: 'Colonel Biscuit', text: "I didn't eat the mushrooms. Suspicious of fungi since the Boer War." },
-      { type: 'dialogue', character: 'Dr. Fennwick', text: 'I ate the mushrooms. I feel perfectly fine.' },
-      { type: 'dialogue', character: 'Dr. Fennwick', text: 'Although I do have a slight ringing in my ears. Probably unrelated.' },
-      { type: 'dialogue', character: 'Vera', text: 'Uncle Gerald ate every last one. He said they were delicious.' },
-      { type: 'dialogue', character: 'Vera', text: "And then he said 'I feel rather odd' and keeled over." },
-      { type: 'dialogue', character: 'Prudence', text: "His last words were actually 'more gravy, please.'" },
-      { type: 'dialogue', character: 'Prudence', text: 'And then the odd feeling comment. I have them in the correct order.' },
-      { type: 'dialogue', character: 'Colonel Biscuit', text: 'Someone in this room is a murderer!' },
-      { type: 'stage_direction', text: 'Dramatic pause. The candles flicker.' },
-      { type: 'dialogue', character: 'Lady Millbrook', text: "Colonel, please. We don't use that word at the dinner table." },
-      { type: 'dialogue', character: 'Dr. Fennwick', text: 'What word do you prefer? The ringing is getting louder.' },
-      { type: 'dialogue', character: 'Vera', text: 'Auntie, you stand to inherit everything if Gerald is gone.' },
-      { type: 'dialogue', character: 'Lady Millbrook', text: 'What an unpleasant thing to bring up at the table.' },
-      { type: 'dialogue', character: 'Lady Millbrook', text: "We haven't even had the cheese course." },
-      { type: 'dialogue', character: 'Colonel Biscuit', text: 'Madam, I must insist we get to the bottom of this.' },
-      { type: 'dialogue', character: 'Prudence', text: 'There is no bottom, sir. I cleaned under the table this morning.' },
-      { type: 'dialogue', character: 'Vera', text: "That's not what he meant, Prudence." },
-      { type: 'dialogue', character: 'Dr. Fennwick', text: 'I should examine the body more carefully.' },
-      { type: 'stage_direction', text: 'Dr. Fennwick stands, sways slightly, and sits back down.' },
-      { type: 'dialogue', character: 'Dr. Fennwick', text: 'In a moment. I need to collect myself first.' },
-      { type: 'dialogue', character: 'Lady Millbrook', text: 'Well. Does anyone want more wine while we sort this out?' },
-    ],
-  },
-];
+const fs = require('fs');
+const path = require('path');
+
+// Load all JSON files from the scripts/ folder, sorted by filename
+const scriptsDir = path.join(__dirname, 'scripts');
+const files = fs.readdirSync(scriptsDir).filter(f => f.endsWith('.json')).sort();
+
+module.exports = files.map(f =>
+  JSON.parse(fs.readFileSync(path.join(scriptsDir, f), 'utf8'))
+);

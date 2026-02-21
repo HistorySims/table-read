@@ -172,23 +172,37 @@
         info.className = 'char-info';
 
         const nameRow = document.createElement('div');
-        nameRow.style.display = 'flex';
-        nameRow.style.alignItems = 'center';
-        nameRow.style.gap = '0.4rem';
+        nameRow.className = 'char-name-row';
         const nameEl = document.createElement('span');
         nameEl.className = 'char-name';
         nameEl.textContent = char.name;
-        const countBadge = document.createElement('span');
-        countBadge.className = 'line-count';
-        countBadge.textContent = char.lineCount + (char.lineCount === 1 ? ' line' : ' lines');
         nameRow.appendChild(nameEl);
-        nameRow.appendChild(countBadge);
+        if (char.lineCount !== undefined) {
+          const badge = document.createElement('span');
+          badge.className = 'line-count';
+          badge.textContent = char.lineCount + (char.lineCount === 1 ? ' line' : ' lines');
+          nameRow.appendChild(badge);
+        }
+        if (char.difficulty) {
+          const diff = document.createElement('span');
+          diff.className = 'diff-badge diff-' + char.difficulty;
+          diff.textContent = char.difficulty;
+          nameRow.appendChild(diff);
+        }
 
         const descEl = document.createElement('div');
         descEl.className = 'char-desc';
         descEl.textContent = char.description;
+
         info.appendChild(nameRow);
         info.appendChild(descEl);
+
+        if (char.costumeIdeas) {
+          const costume = document.createElement('div');
+          costume.className = 'char-costume';
+          costume.textContent = '🎭 ' + char.costumeIdeas;
+          info.appendChild(costume);
+        }
 
         const claim = document.createElement('button');
         claim.className = 'btn-claim' + (isMe ? ' btn-claim--mine' : isTaken ? ' btn-claim--taken' : '');
