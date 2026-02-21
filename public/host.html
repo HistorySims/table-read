@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Host – Table Read</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <h1>Table Read</h1>
+    </div>
+
+    <h2 class="text-center">Your Room</h2>
+
+    <div class="join-code" id="join-code">----</div>
+    <div class="join-code-label">Share this code with your players</div>
+
+    <div style="display:flex;gap:0.5rem;margin-bottom:1.5rem;">
+      <button class="btn btn-outline" id="btn-copy" style="flex:1;">Copy Code</button>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <h2>Players</h2>
+      <span class="player-count" id="player-count">0 joined</span>
+    </div>
+    <ul class="player-list" id="player-list"></ul>
+
+    <div class="waiting mt-2">
+      <div class="dot-pulse">
+        <span></span><span></span><span></span>
+      </div>
+      Waiting for players to join&hellip;
+    </div>
+
+    <div class="mt-2">
+      <button class="btn btn-danger" id="btn-close">Close Room</button>
+    </div>
+
+    <div id="msg" class="msg msg-error hidden"></div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const code = sessionStorage.getItem('tr-code');
+    const role = sessionStorage.getItem('tr-role');
+
+    // Guard: must arrive here as host with a code
+    if (!code || role !== 'host') {
+      window.location.href = 'index.html';
+    }
+
+    const socket = io();
+
+    const joinCodeEl = document.getElementById('join-code');
+    const playerListEl = document.getElementById('player-list');
+    const playerCountEl = document.getElementById('player-count');
+    const btnCopy = document.getElementById('btn-copy');
+    const btnClose = document.getElementById('btn-close');
+    const msgEl = document.getElementById('msg');
+
+    joinCodeEl.textContent = code;
+
+    // Re-create the room on socket connect (handles page refresh)
+    socket.on('connect', () => {
+      socket.emit('create-room', (res) => {
+        if (!res || !res.code) {
+          msgEl.textContent = 'Failed to reconnect to room.';
+          msgEl.className = 'msg msg-error';
+          return;
+        }
+        // Update code in case it changed on reconnect
+        sessionStorage.setItem('tr-code', res.code);
+        joinCodeEl.textContent = res.code;
+      });
+    });
+
+    socket.on('player-list', (names) => {
+      playerListEl.innerHTML = '';
+      names.forEach(name => {
+        const li = document.createElement('li');
+        li.textContent = name;
+        playerListEl.appendChild(li);
+      });
+      const n = names.length;
+      playerCountEl.textContent = `${n} ${n === 1 ? 'player' : 'players'} joined`;
+    });
+
+    btnCopy.addEventListener('click', () => {
+      const currentCode = joinCodeEl.textContent;
+      navigator.clipboard.writeText(currentCode).then(() => {
+        btnCopy.textContent = 'Copied!';
+        setTimeout(() => { btnCopy.textContent = 'Copy Code'; }, 2000);
+      }).catch(() => {
+        // Fallback for browsers without clipboard API
+        msgEl.textContent = `Code: ${currentCode}`;
+        msgEl.className = 'msg msg-info';
+      });
+    });
+
+    btnClose.addEventListener('click', () => {
+      sessionStorage.clear();
+      socket.disconnect();
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
