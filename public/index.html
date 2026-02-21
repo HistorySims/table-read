@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table Read</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <h1>Table Read</h1>
+      <p>Perform plays together, from anywhere.</p>
+    </div>
+
+    <div class="stack">
+      <button class="btn btn-primary" id="btn-host">Create a Room</button>
+
+      <div class="divider">or</div>
+
+      <div class="field">
+        <label for="code-input">Room Code</label>
+        <input
+          class="input input-code"
+          id="code-input"
+          type="text"
+          maxlength="4"
+          placeholder="ABCD"
+          autocomplete="off"
+          autocapitalize="characters"
+          spellcheck="false"
+        />
+      </div>
+      <div class="field">
+        <label for="name-input">Your Name</label>
+        <input
+          class="input"
+          id="name-input"
+          type="text"
+          maxlength="32"
+          placeholder="Enter your name"
+          autocomplete="off"
+        />
+      </div>
+      <button class="btn btn-outline" id="btn-join">Join Room</button>
+
+      <div id="msg" class="msg msg-error hidden"></div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    const btnHost = document.getElementById('btn-host');
+    const btnJoin = document.getElementById('btn-join');
+    const codeInput = document.getElementById('code-input');
+    const nameInput = document.getElementById('name-input');
+    const msgEl = document.getElementById('msg');
+
+    function showError(text) {
+      msgEl.textContent = text;
+      msgEl.className = 'msg msg-error';
+    }
+
+    // Force uppercase as the user types the room code
+    codeInput.addEventListener('input', () => {
+      codeInput.value = codeInput.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+    });
+
+    btnHost.addEventListener('click', () => {
+      btnHost.disabled = true;
+      socket.emit('create-room', ({ code }) => {
+        if (!code) {
+          showError('Could not create room. Please try again.');
+          btnHost.disabled = false;
+          return;
+        }
+        sessionStorage.setItem('tr-code', code);
+        sessionStorage.setItem('tr-role', 'host');
+        window.location.href = 'host.html';
+      });
+    });
+
+    btnJoin.addEventListener('click', () => {
+      const code = codeInput.value.trim().toUpperCase();
+      const name = nameInput.value.trim();
+
+      if (!code) { showError('Enter a room code.'); return; }
+      if (code.length < 4) { showError('Room codes are 4 characters.'); return; }
+      if (!name) { showError('Enter your name.'); return; }
+
+      btnJoin.disabled = true;
+      socket.emit('join-room', { code, name }, (res) => {
+        if (res.error) {
+          showError(res.error);
+          btnJoin.disabled = false;
+          return;
+        }
+        sessionStorage.setItem('tr-code', code);
+        sessionStorage.setItem('tr-role', 'player');
+        sessionStorage.setItem('tr-name', res.name);
+        window.location.href = 'player.html';
+      });
+    });
+
+    // Allow Enter key to submit join
+    [codeInput, nameInput].forEach(el => {
+      el.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') btnJoin.click();
+      });
+    });
+  </script>
+</body>
+</html>

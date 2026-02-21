@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lobby – Table Read</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <h1>Table Read</h1>
+    </div>
+
+    <h2 class="text-center" id="greeting">You're in!</h2>
+    <p class="muted text-center mt-1" id="room-label">Room: ----</p>
+
+    <div class="waiting mt-2">
+      <div class="dot-pulse">
+        <span></span><span></span><span></span>
+      </div>
+      Waiting for the host to start&hellip;
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:1.5rem;">
+      <h2>Players in Room</h2>
+      <span class="player-count" id="player-count">1 player</span>
+    </div>
+    <ul class="player-list" id="player-list"></ul>
+
+    <div class="mt-2">
+      <button class="btn btn-outline" id="btn-leave">Leave Room</button>
+    </div>
+
+    <div id="msg" class="msg msg-error hidden"></div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const code = sessionStorage.getItem('tr-code');
+    const role = sessionStorage.getItem('tr-role');
+    const name = sessionStorage.getItem('tr-name');
+
+    // Guard: must arrive here as a player with a code and name
+    if (!code || role !== 'player' || !name) {
+      window.location.href = 'index.html';
+    }
+
+    const socket = io();
+
+    const greetingEl = document.getElementById('greeting');
+    const roomLabelEl = document.getElementById('room-label');
+    const playerListEl = document.getElementById('player-list');
+    const playerCountEl = document.getElementById('player-count');
+    const btnLeave = document.getElementById('btn-leave');
+    const msgEl = document.getElementById('msg');
+
+    greetingEl.textContent = `Hey, ${name}!`;
+    roomLabelEl.textContent = `Room: ${code}`;
+
+    // Re-join the room on socket connect (handles page refresh / reconnect)
+    socket.on('connect', () => {
+      socket.emit('join-room', { code, name }, (res) => {
+        if (res.error) {
+          msgEl.textContent = res.error;
+          msgEl.className = 'msg msg-error';
+          msgEl.classList.remove('hidden');
+          setTimeout(() => {
+            sessionStorage.clear();
+            window.location.href = 'index.html';
+          }, 2500);
+        }
+      });
+    });
+
+    socket.on('player-list', (names) => {
+      playerListEl.innerHTML = '';
+      names.forEach(n => {
+        const li = document.createElement('li');
+        li.textContent = n;
+        if (n === name) li.style.fontWeight = '700';
+        playerListEl.appendChild(li);
+      });
+      const count = names.length;
+      playerCountEl.textContent = `${count} ${count === 1 ? 'player' : 'players'}`;
+    });
+
+    socket.on('host-left', () => {
+      msgEl.textContent = 'The host closed the room.';
+      msgEl.className = 'msg msg-error';
+      msgEl.classList.remove('hidden');
+      setTimeout(() => {
+        sessionStorage.clear();
+        window.location.href = 'index.html';
+      }, 2500);
+    });
+
+    btnLeave.addEventListener('click', () => {
+      sessionStorage.clear();
+      socket.disconnect();
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
