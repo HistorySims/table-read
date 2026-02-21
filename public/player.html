@@ -12,14 +12,13 @@
     <!-- ── CASTING VIEW ── -->
     <div id="view-casting">
       <div class="casting-top">
-        <div>
-          <div class="casting-greeting" id="casting-greeting"></div>
-          <div class="muted" id="casting-room"></div>
-        </div>
+        <div class="casting-greeting" id="casting-greeting"></div>
+        <div class="muted" id="casting-room"></div>
       </div>
 
       <div class="section-header" style="margin-top:1.25rem;">
         <h2>Choose Your Role</h2>
+        <span class="player-count">tap to claim</span>
       </div>
       <ul class="character-list" id="character-list"></ul>
 
@@ -92,9 +91,7 @@
     const myRole = sessionStorage.getItem('tr-role');
     const myName = sessionStorage.getItem('tr-name');
 
-    if (!myCode || myRole !== 'player' || !myName) {
-      window.location.href = 'index.html';
-    }
+    if (!myCode || myRole !== 'player' || !myName) window.location.href = 'index.html';
 
     // ── State ──
     let script = null;
@@ -102,8 +99,6 @@
 
     // ── Socket ──
     const socket = io();
-
-    // Application-level heartbeat
     setInterval(() => socket.emit('ping'), 25000);
 
     // ── DOM refs ──
@@ -143,15 +138,17 @@
       });
     });
 
-    socket.on('player-list', (players) => {
+    socket.on('player-list', (list) => {
       playerListEl.innerHTML = '';
-      players.forEach(p => {
+      list.forEach(p => {
         const li = document.createElement('li');
-        li.textContent = p.name + (p.name === myName ? ' (you)' : '') + (p.isHost ? ' ★' : '');
+        li.textContent = p.name
+          + (p.name === myName ? ' (you)' : '')
+          + (p.isHost ? ' ★' : '');
         if (p.name === myName) li.style.fontWeight = '700';
         playerListEl.appendChild(li);
       });
-      const n = players.length;
+      const n = list.length;
       playerCountEl.textContent = `${n} ${n === 1 ? 'person' : 'people'}`;
     });
 
@@ -173,18 +170,29 @@
 
         const info = document.createElement('div');
         info.className = 'char-info';
-        const nameEl = document.createElement('div');
+
+        const nameRow = document.createElement('div');
+        nameRow.style.display = 'flex';
+        nameRow.style.alignItems = 'center';
+        nameRow.style.gap = '0.4rem';
+        const nameEl = document.createElement('span');
         nameEl.className = 'char-name';
         nameEl.textContent = char.name;
+        const countBadge = document.createElement('span');
+        countBadge.className = 'line-count';
+        countBadge.textContent = char.lineCount + (char.lineCount === 1 ? ' line' : ' lines');
+        nameRow.appendChild(nameEl);
+        nameRow.appendChild(countBadge);
+
         const descEl = document.createElement('div');
         descEl.className = 'char-desc';
         descEl.textContent = char.description;
-        info.appendChild(nameEl);
+        info.appendChild(nameRow);
         info.appendChild(descEl);
 
         const claim = document.createElement('button');
         claim.className = 'btn-claim' + (isMe ? ' btn-claim--mine' : isTaken ? ' btn-claim--taken' : '');
-        claim.textContent = isMe ? 'You' : (claimed || 'Claim');
+        claim.textContent = isMe ? 'You ✓' : (claimed || 'Claim');
         claim.disabled = isTaken;
         if (!isTaken) {
           claim.addEventListener('click', () => {
@@ -204,6 +212,12 @@
       setTimeout(() => { sessionStorage.clear(); window.location.href = 'index.html'; }, 2500);
     });
 
+    socket.on('kicked', ({ reason }) => {
+      msgEl.textContent = reason || 'You were removed from the room.';
+      msgEl.classList.remove('hidden');
+      setTimeout(() => { sessionStorage.clear(); window.location.href = 'index.html'; }, 2500);
+    });
+
     btnLeave.addEventListener('click', () => {
       sessionStorage.clear();
       socket.disconnect();
@@ -219,7 +233,6 @@
 
     socket.on('beat', ({ index, total, beat, activePlayer }) => {
       perfProg.textContent = `${index + 1} / ${total}`;
-
       [beatStage, beatActive, beatWaiting].forEach(el => el.classList.add('hidden'));
 
       if (beat.type !== 'dialogue') {

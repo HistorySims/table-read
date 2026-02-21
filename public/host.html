@@ -19,15 +19,17 @@
         <button class="btn btn-outline btn-copy" id="btn-copy">Copy</button>
       </div>
 
+      <!-- Players with boot buttons -->
       <div class="section-header">
         <h2>Players</h2>
         <span class="player-count" id="player-count">0 joined</span>
       </div>
       <ul class="player-list" id="player-list"></ul>
 
+      <!-- Cast with assign controls -->
       <div class="section-header" style="margin-top:1.25rem;">
         <h2>Cast</h2>
-        <span class="player-count">tap to claim a role</span>
+        <span class="player-count">tap Claim or use assign ▾</span>
       </div>
       <ul class="character-list" id="character-list"></ul>
 
@@ -49,7 +51,19 @@
     <div id="view-performance" class="hidden">
       <div class="perf-header">
         <span class="perf-title" id="perf-title"></span>
-        <span class="perf-progress" id="perf-progress"></span>
+        <div style="display:flex;align-items:center;gap:0.5rem;">
+          <span class="perf-progress" id="perf-progress"></span>
+          <button class="btn-host-tools" id="btn-host-tools" title="Host controls">&#9881;</button>
+        </div>
+      </div>
+
+      <!-- Host cast management panel (toggle) -->
+      <div id="host-tools-panel" class="host-tools-panel hidden">
+        <div class="host-tools-title">Host Controls</div>
+        <div class="host-tools-section-label">Roles</div>
+        <ul class="host-cast-list" id="host-cast-list"></ul>
+        <div class="host-tools-section-label" style="margin-top:0.75rem;">Players</div>
+        <ul class="host-player-list" id="host-player-list-perf"></ul>
       </div>
 
       <!-- Stage direction -->
@@ -70,11 +84,10 @@
       <!-- Waiting for someone else -->
       <div id="beat-waiting" class="hidden">
         <div class="beat-waiting-inner">
-          <div class="beat-waiting-label">Waiting&hellip;</div>
+          <div class="beat-waiting-label">Waiting…</div>
           <div class="beat-waiting-char" id="beat-waiting-char"></div>
-          <div class="beat-waiting-sub">is speaking</div>
+          <div class="beat-waiting-sub" id="beat-waiting-sub">is speaking</div>
         </div>
-        <!-- Host can always skip a stuck scene -->
         <button class="btn btn-outline btn-skip" id="btn-skip">Skip</button>
       </div>
 
@@ -85,7 +98,7 @@
           <div class="perf-ended-sub" id="perf-ended-title"></div>
         </div>
         <button class="btn btn-outline" id="btn-restart" style="margin-top:1.5rem;">
-          Back to Lobby
+          Back to Home
         </button>
       </div>
     </div>
@@ -98,25 +111,21 @@
     const myRole = sessionStorage.getItem('tr-role');
     const myName = sessionStorage.getItem('tr-name');
 
-    if (!myCode || myRole !== 'host' || !myName) {
-      window.location.href = 'index.html';
-    }
+    if (!myCode || myRole !== 'host' || !myName) window.location.href = 'index.html';
 
     // ── State ──
     let script = null;
     let assignments = {};
     let castingComplete = false;
+    let players = []; // full player list including host
     let roomCreated = false;
 
     // ── Socket ──
     const socket = io();
-
-    // Application-level heartbeat
     setInterval(() => socket.emit('ping'), 25000);
 
     socket.on('connect', () => {
       if (roomCreated) {
-        // Reconnected after drop — room is gone server-side, go home
         msgEl.textContent = 'Lost connection. Please create a new room.';
         msgEl.classList.remove('hidden');
         setTimeout(() => { sessionStorage.clear(); window.location.href = 'index.html'; }, 2500);
@@ -129,9 +138,8 @@
           msgEl.classList.remove('hidden');
           return;
         }
-        const newCode = res.code;
-        sessionStorage.setItem('tr-code', newCode);
-        joinCodeEl.textContent = newCode;
+        sessionStorage.setItem('tr-code', res.code);
+        joinCodeEl.textContent = res.code;
         script = res.script;
         assignments = {};
         res.script.characters.forEach(c => { assignments[c.name] = null; });
@@ -140,46 +148,103 @@
     });
 
     // ── DOM refs ──
-    const joinCodeEl   = document.getElementById('join-code');
-    const playerListEl = document.getElementById('player-list');
-    const playerCountEl= document.getElementById('player-count');
-    const charListEl   = document.getElementById('character-list');
-    const castStatusEl = document.getElementById('cast-status');
-    const btnCopy      = document.getElementById('btn-copy');
-    const btnStart     = document.getElementById('btn-start');
-    const btnClose     = document.getElementById('btn-close');
-    const msgEl        = document.getElementById('msg');
+    const joinCodeEl    = document.getElementById('join-code');
+    const playerListEl  = document.getElementById('player-list');
+    const playerCountEl = document.getElementById('player-count');
+    const charListEl    = document.getElementById('character-list');
+    const castStatusEl  = document.getElementById('cast-status');
+    const btnCopy       = document.getElementById('btn-copy');
+    const btnStart      = document.getElementById('btn-start');
+    const btnClose      = document.getElementById('btn-close');
+    const msgEl         = document.getElementById('msg');
 
-    const viewLobby  = document.getElementById('view-lobby');
-    const viewPerf   = document.getElementById('view-performance');
-    const perfTitle  = document.getElementById('perf-title');
-    const perfProg   = document.getElementById('perf-progress');
-    const beatStage  = document.getElementById('beat-stage');
-    const beatActive = document.getElementById('beat-active');
-    const beatWaiting= document.getElementById('beat-waiting');
-    const beatEnded  = document.getElementById('beat-ended');
-    const btnDone    = document.getElementById('btn-done');
-    const btnSkip    = document.getElementById('btn-skip');
-    const btnRestart = document.getElementById('btn-restart');
+    const viewLobby      = document.getElementById('view-lobby');
+    const viewPerf       = document.getElementById('view-performance');
+    const perfTitle      = document.getElementById('perf-title');
+    const perfProg       = document.getElementById('perf-progress');
+    const hostToolsPanel = document.getElementById('host-tools-panel');
+    const hostCastList   = document.getElementById('host-cast-list');
+    const hostPlayerList = document.getElementById('host-player-list-perf');
+    const beatStage      = document.getElementById('beat-stage');
+    const beatActive     = document.getElementById('beat-active');
+    const beatWaiting    = document.getElementById('beat-waiting');
+    const beatEnded      = document.getElementById('beat-ended');
+    const btnDone        = document.getElementById('btn-done');
+    const btnSkip        = document.getElementById('btn-skip');
+    const btnHostTools   = document.getElementById('btn-host-tools');
+    const btnRestart     = document.getElementById('btn-restart');
 
     joinCodeEl.textContent = myCode;
 
+    // ── Helpers ──
+    function allPlayerNames() {
+      // Returns all names in the room for use in assign dropdowns
+      return players.map(p => p.name);
+    }
+
+    function buildAssignSelect(character, currentValue) {
+      const sel = document.createElement('select');
+      sel.className = 'assign-select';
+      const blank = document.createElement('option');
+      blank.value = '';
+      blank.textContent = '— unassigned —';
+      if (!currentValue) blank.selected = true;
+      sel.appendChild(blank);
+      allPlayerNames().forEach(name => {
+        const opt = document.createElement('option');
+        opt.value = name;
+        opt.textContent = name === myName ? name + ' (you)' : name;
+        if (name === currentValue) opt.selected = true;
+        sel.appendChild(opt);
+      });
+      sel.addEventListener('change', () => {
+        socket.emit('force-assign', { character, toPlayer: sel.value || null });
+      });
+      return sel;
+    }
+
     // ── Lobby events ──
-    socket.on('player-list', (players) => {
+    socket.on('player-list', (list) => {
+      players = list;
+      renderPlayerList();
+      renderCharacterList(); // rebuild dropdowns with new player names
+      renderHostPerfPanel();
+    });
+
+    function renderPlayerList() {
       playerListEl.innerHTML = '';
       players.forEach(p => {
         const li = document.createElement('li');
-        li.textContent = p.name + (p.isHost ? ' (you)' : '');
-        if (p.isHost) li.style.fontWeight = '700';
+        li.className = 'player-item';
+
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = p.name + (p.isHost ? ' (you)' : '');
+        if (p.isHost) nameSpan.style.fontWeight = '700';
+        li.appendChild(nameSpan);
+
+        if (!p.isHost) {
+          const bootBtn = document.createElement('button');
+          bootBtn.className = 'btn-boot';
+          bootBtn.textContent = '✕';
+          bootBtn.title = `Remove ${p.name}`;
+          bootBtn.addEventListener('click', () => {
+            if (confirm(`Remove ${p.name} from the room?`)) {
+              socket.emit('boot-player', { playerName: p.name });
+            }
+          });
+          li.appendChild(bootBtn);
+        }
+
         playerListEl.appendChild(li);
       });
       const n = players.length;
       playerCountEl.textContent = `${n} ${n === 1 ? 'person' : 'people'}`;
-    });
+    }
 
     socket.on('assignments', (data) => {
       assignments = data;
       renderCharacterList();
+      renderHostPerfPanel();
     });
 
     socket.on('casting-complete', (complete) => {
@@ -200,33 +265,109 @@
         const li = document.createElement('li');
         li.className = 'char-card' + (isMe ? ' char-card--mine' : isTaken ? ' char-card--taken' : '');
 
+        // Left: info
         const info = document.createElement('div');
         info.className = 'char-info';
-        const nameEl = document.createElement('div');
+        const nameRow = document.createElement('div');
+        nameRow.style.display = 'flex';
+        nameRow.style.alignItems = 'center';
+        nameRow.style.gap = '0.4rem';
+        const nameEl = document.createElement('span');
         nameEl.className = 'char-name';
         nameEl.textContent = char.name;
+        const countBadge = document.createElement('span');
+        countBadge.className = 'line-count';
+        countBadge.textContent = char.lineCount + (char.lineCount === 1 ? ' line' : ' lines');
+        nameRow.appendChild(nameEl);
+        nameRow.appendChild(countBadge);
         const descEl = document.createElement('div');
         descEl.className = 'char-desc';
         descEl.textContent = char.description;
-        info.appendChild(nameEl);
+        info.appendChild(nameRow);
         info.appendChild(descEl);
 
-        const claim = document.createElement('button');
-        claim.className = 'btn-claim' + (isMe ? ' btn-claim--mine' : isTaken ? ' btn-claim--taken' : '');
-        claim.textContent = isMe ? 'You' : (claimed || 'Claim');
-        claim.disabled = isTaken;
+        // Right: host controls (claim toggle + assign dropdown)
+        const controls = document.createElement('div');
+        controls.className = 'char-controls';
+
+        const claimBtn = document.createElement('button');
+        claimBtn.className = 'btn-claim' + (isMe ? ' btn-claim--mine' : isTaken ? ' btn-claim--taken' : '');
+        claimBtn.textContent = isMe ? 'You' : (claimed || 'Claim');
+        claimBtn.disabled = isTaken;
         if (!isTaken) {
-          claim.addEventListener('click', () => {
+          claimBtn.addEventListener('click', () => {
             socket.emit('claim-character', { character: char.name });
           });
         }
 
+        const assignSel = buildAssignSelect(char.name, claimed);
+
+        controls.appendChild(claimBtn);
+        controls.appendChild(assignSel);
+
         li.appendChild(info);
-        li.appendChild(claim);
+        li.appendChild(controls);
         charListEl.appendChild(li);
       });
     }
 
+    // ── Performance host panel ──
+    function renderHostPerfPanel() {
+      if (!script) return;
+
+      // Cast list
+      hostCastList.innerHTML = '';
+      script.characters.forEach(char => {
+        const li = document.createElement('li');
+        li.className = 'host-cast-item';
+
+        const charName = document.createElement('span');
+        charName.className = 'host-cast-char';
+        charName.textContent = char.name;
+
+        const assignSel = buildAssignSelect(char.name, assignments[char.name]);
+        assignSel.className = 'assign-select assign-select--sm';
+
+        li.appendChild(charName);
+        li.appendChild(assignSel);
+        hostCastList.appendChild(li);
+      });
+
+      // Player boot list (during performance)
+      hostPlayerList.innerHTML = '';
+      players.filter(p => !p.isHost).forEach(p => {
+        const li = document.createElement('li');
+        li.className = 'host-cast-item';
+        const nameEl = document.createElement('span');
+        nameEl.textContent = p.name;
+        const bootBtn = document.createElement('button');
+        bootBtn.className = 'btn-boot';
+        bootBtn.textContent = '✕ Boot';
+        bootBtn.style.fontSize = '0.8rem';
+        bootBtn.style.padding = '0.3rem 0.6rem';
+        bootBtn.addEventListener('click', () => {
+          if (confirm(`Remove ${p.name}?`)) socket.emit('boot-player', { playerName: p.name });
+        });
+        li.appendChild(nameEl);
+        li.appendChild(bootBtn);
+        hostPlayerList.appendChild(li);
+      });
+
+      if (players.filter(p => !p.isHost).length === 0) {
+        const li = document.createElement('li');
+        li.style.color = 'var(--muted)';
+        li.style.fontSize = '0.85rem';
+        li.textContent = 'No other players';
+        hostPlayerList.appendChild(li);
+      }
+    }
+
+    btnHostTools.addEventListener('click', () => {
+      renderHostPerfPanel();
+      hostToolsPanel.classList.toggle('hidden');
+    });
+
+    // ── Lobby actions ──
     btnCopy.addEventListener('click', () => {
       const currentCode = joinCodeEl.textContent;
       navigator.clipboard.writeText(currentCode).then(() => {
@@ -259,23 +400,22 @@
 
     socket.on('beat', ({ index, total, beat, activePlayer }) => {
       perfProg.textContent = `${index + 1} / ${total}`;
-
-      // Hide all beat panels
       [beatStage, beatActive, beatWaiting].forEach(el => el.classList.add('hidden'));
 
       if (beat.type !== 'dialogue') {
-        // Stage direction or narrator
         document.getElementById('beat-stage-text').textContent = beat.text;
         beatStage.classList.remove('hidden');
       } else if (activePlayer === myName) {
-        // My line
         document.getElementById('beat-active-char').textContent = beat.character;
         document.getElementById('beat-active-line').textContent = beat.text;
         beatActive.classList.remove('hidden');
       } else {
-        // Waiting
         document.getElementById('beat-waiting-char').textContent = beat.character;
+        const sub = document.getElementById('beat-waiting-sub');
+        sub.textContent = activePlayer ? 'is speaking' : '— no one assigned. Use host controls to take over.';
         beatWaiting.classList.remove('hidden');
+        // Auto-open host tools if nobody is assigned
+        if (!activePlayer) hostToolsPanel.classList.remove('hidden');
       }
     });
 
@@ -284,6 +424,7 @@
 
     socket.on('performance-ended', () => {
       [beatStage, beatActive, beatWaiting].forEach(el => el.classList.add('hidden'));
+      hostToolsPanel.classList.add('hidden');
       document.getElementById('perf-ended-title').textContent = perfTitle.textContent;
       beatEnded.classList.remove('hidden');
     });

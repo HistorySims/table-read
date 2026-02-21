@@ -13,6 +13,19 @@ const io = new Server(server, {
 
 const PORT = process.env.PORT || 3000;
 
+// Pre-compute line counts per character so clients can show them on the cast screen
+const preparedScripts = scripts.map((script) => {
+  const counts = {};
+  script.characters.forEach((c) => { counts[c.name] = 0; });
+  script.beats.forEach((b) => {
+    if (b.type === 'dialogue' && b.character in counts) counts[b.character]++;
+  });
+  return {
+    ...script,
+    characters: script.characters.map((c) => ({ ...c, lineCount: counts[c.name] })),
+  };
+});
+
 // { [code]: { hostId, hostName, players:[{id,name}], script, assignments:{char:name|null}, state, currentBeat } }
 const rooms = {};
 
@@ -94,6 +107,12 @@ function advanceBeat(code) {
   sendCurrentBeat(code);
 }
 
+// Find a player's socket in the room (returns socket or undefined)
+function findPlayerSocket(room, playerName) {
+  const player = room.players.find((p) => p.name === playerName);
+  return player ? io.sockets.sockets.get(player.id) : undefined;
+}
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 io.on('connection', (socket) => {
@@ -108,7 +127,7 @@ io.on('connection', (socket) => {
     if (!trimmedName) return callback({ error: 'Please enter your name.' });
 
     const code = makeUniqueCode();
-    const script = scripts[0];
+    const script = preparedScripts[0];
     const assignments = {};
     script.characters.forEach((c) => { assignments[c.name] = null; });
 
@@ -175,6 +194,69 @@ io.on('connection', (socket) => {
     // else: taken by someone else — ignore
 
     broadcastAssignments(code);
+  });
+
+  // Host force-assigns a character to any player (or clears it)
+  // Works in both lobby and performance states
+  socket.on('force-assign', ({ character, toPlayer }) => {
+    const { code, role } = socket.data;
+    if (!code || !rooms[code] || role !== 'host') return;
+    const room = rooms[code];
+    if (!(character in room.assignments)) return;
+
+    // toPlayer must be a real person in the room, or null to clear
+    if (toPlayer !== null) {
+      const isHost = toPlayer === room.hostName;
+      const isPlayer = room.players.some((p) => p.name === toPlayer);
+      if (!isHost && !isPlayer) return;
+    }
+
+    room.assignments[character] = toPlayer || null;
+    broadcastAssignments(code);
+
+    // If a performance is in progress, re-send the current beat so the newly
+    // assigned player immediately sees their cue (or loses it)
+    if (room.state === 'performance') sendCurrentBeat(code);
+  });
+
+  // Host boots a player from the room
+  socket.on('boot-player', ({ playerName }) => {
+    const { code, role } = socket.data;
+    if (!code || !rooms[code] || role !== 'host') return;
+    const room = rooms[code];
+
+    const target = room.players.find((p) => p.name === playerName);
+    if (!target) return;
+
+    // If in performance and the current beat belongs to this player's character,
+    // auto-reassign that character to the host so the scene doesn't deadlock
+    if (room.state === 'performance') {
+      const currentBeat = room.script.beats[room.currentBeat];
+      if (
+        currentBeat.type === 'dialogue' &&
+        room.assignments[currentBeat.character] === playerName
+      ) {
+        room.assignments[currentBeat.character] = room.hostName;
+      }
+    }
+
+    // Release all other characters they held
+    Object.keys(room.assignments).forEach((char) => {
+      if (room.assignments[char] === playerName) room.assignments[char] = null;
+    });
+
+    // Remove them from the player list
+    room.players = room.players.filter((p) => p.name !== playerName);
+
+    // Tell their socket they've been removed
+    const targetSocket = io.sockets.sockets.get(target.id);
+    if (targetSocket) targetSocket.emit('kicked', { reason: 'You were removed by the host.' });
+
+    broadcastPlayerList(code);
+    broadcastAssignments(code);
+    if (room.state === 'performance') sendCurrentBeat(code);
+
+    console.log(`${playerName} was booted from room ${code}`);
   });
 
   // Host starts the performance
