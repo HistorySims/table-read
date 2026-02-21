@@ -3,101 +3,248 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lobby – Table Read</title>
+  <title>Table Read</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="card">
-    <div class="logo">
-      <h1>Table Read</h1>
-    </div>
 
-    <h2 class="text-center" id="greeting">You're in!</h2>
-    <p class="muted text-center mt-1" id="room-label">Room: ----</p>
-
-    <div class="waiting mt-2">
-      <div class="dot-pulse">
-        <span></span><span></span><span></span>
+    <!-- ── CASTING VIEW ── -->
+    <div id="view-casting">
+      <div class="casting-top">
+        <div>
+          <div class="casting-greeting" id="casting-greeting"></div>
+          <div class="muted" id="casting-room"></div>
+        </div>
       </div>
-      Waiting for the host to start&hellip;
+
+      <div class="section-header" style="margin-top:1.25rem;">
+        <h2>Choose Your Role</h2>
+      </div>
+      <ul class="character-list" id="character-list"></ul>
+
+      <div class="section-header" style="margin-top:1.25rem;">
+        <h2>Players</h2>
+        <span class="player-count" id="player-count"></span>
+      </div>
+      <ul class="player-list" id="player-list"></ul>
+
+      <div class="waiting" style="margin-top:1.25rem;">
+        <div class="dot-pulse"><span></span><span></span><span></span></div>
+        Waiting for host to start&hellip;
+      </div>
+
+      <button class="btn btn-outline" id="btn-leave" style="margin-top:1rem;">
+        Leave Room
+      </button>
+
+      <div id="msg" class="msg msg-error hidden"></div>
     </div>
 
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:1.5rem;">
-      <h2>Players in Room</h2>
-      <span class="player-count" id="player-count">1 player</span>
-    </div>
-    <ul class="player-list" id="player-list"></ul>
+    <!-- ── PERFORMANCE VIEW ── -->
+    <div id="view-performance" class="hidden">
+      <div class="perf-header">
+        <span class="perf-title" id="perf-title"></span>
+        <span class="perf-progress" id="perf-progress"></span>
+      </div>
 
-    <div class="mt-2">
-      <button class="btn btn-outline" id="btn-leave">Leave Room</button>
+      <!-- Stage direction -->
+      <div id="beat-stage" class="hidden">
+        <div class="beat-label">Stage Direction</div>
+        <div class="beat-stage-text" id="beat-stage-text"></div>
+        <div class="beat-advancing">advancing automatically&hellip;</div>
+      </div>
+
+      <!-- Your line (active) -->
+      <div id="beat-active" class="hidden">
+        <div class="beat-label beat-label--yours">Your line</div>
+        <div class="beat-char" id="beat-active-char"></div>
+        <div class="beat-line" id="beat-active-line"></div>
+        <button class="btn btn-done" id="btn-done">Done</button>
+      </div>
+
+      <!-- Waiting for someone else -->
+      <div id="beat-waiting" class="hidden">
+        <div class="beat-waiting-inner">
+          <div class="beat-waiting-label">Waiting&hellip;</div>
+          <div class="beat-waiting-char" id="beat-waiting-char"></div>
+          <div class="beat-waiting-sub">is speaking</div>
+        </div>
+      </div>
+
+      <!-- Performance ended -->
+      <div id="beat-ended" class="hidden">
+        <div class="perf-ended">
+          <div class="perf-ended-title">That's a wrap!</div>
+          <div class="perf-ended-sub" id="perf-ended-title"></div>
+        </div>
+        <button class="btn btn-outline" id="btn-home" style="margin-top:1.5rem;">
+          Back to Home
+        </button>
+      </div>
     </div>
 
-    <div id="msg" class="msg msg-error hidden"></div>
   </div>
 
   <script src="/socket.io/socket.io.js"></script>
   <script>
-    const code = sessionStorage.getItem('tr-code');
-    const role = sessionStorage.getItem('tr-role');
-    const name = sessionStorage.getItem('tr-name');
+    const myCode = sessionStorage.getItem('tr-code');
+    const myRole = sessionStorage.getItem('tr-role');
+    const myName = sessionStorage.getItem('tr-name');
 
-    // Guard: must arrive here as a player with a code and name
-    if (!code || role !== 'player' || !name) {
+    if (!myCode || myRole !== 'player' || !myName) {
       window.location.href = 'index.html';
     }
 
+    // ── State ──
+    let script = null;
+    let assignments = {};
+
+    // ── Socket ──
     const socket = io();
 
-    const greetingEl = document.getElementById('greeting');
-    const roomLabelEl = document.getElementById('room-label');
-    const playerListEl = document.getElementById('player-list');
-    const playerCountEl = document.getElementById('player-count');
-    const btnLeave = document.getElementById('btn-leave');
-    const msgEl = document.getElementById('msg');
+    // Application-level heartbeat
+    setInterval(() => socket.emit('ping'), 25000);
 
-    greetingEl.textContent = `Hey, ${name}!`;
-    roomLabelEl.textContent = `Room: ${code}`;
+    // ── DOM refs ──
+    const castingGreeting = document.getElementById('casting-greeting');
+    const castingRoom     = document.getElementById('casting-room');
+    const charListEl      = document.getElementById('character-list');
+    const playerListEl    = document.getElementById('player-list');
+    const playerCountEl   = document.getElementById('player-count');
+    const btnLeave        = document.getElementById('btn-leave');
+    const msgEl           = document.getElementById('msg');
 
-    // Re-join the room on socket connect (handles page refresh / reconnect)
+    const viewCasting = document.getElementById('view-casting');
+    const viewPerf    = document.getElementById('view-performance');
+    const perfTitle   = document.getElementById('perf-title');
+    const perfProg    = document.getElementById('perf-progress');
+    const beatStage   = document.getElementById('beat-stage');
+    const beatActive  = document.getElementById('beat-active');
+    const beatWaiting = document.getElementById('beat-waiting');
+    const beatEnded   = document.getElementById('beat-ended');
+    const btnDone     = document.getElementById('btn-done');
+    const btnHome     = document.getElementById('btn-home');
+
+    castingGreeting.textContent = myName;
+    castingRoom.textContent = `Room ${myCode}`;
+
     socket.on('connect', () => {
-      socket.emit('join-room', { code, name }, (res) => {
+      socket.emit('join-room', { code: myCode, name: myName }, (res) => {
         if (res.error) {
           msgEl.textContent = res.error;
-          msgEl.className = 'msg msg-error';
           msgEl.classList.remove('hidden');
-          setTimeout(() => {
-            sessionStorage.clear();
-            window.location.href = 'index.html';
-          }, 2500);
+          setTimeout(() => { sessionStorage.clear(); window.location.href = 'index.html'; }, 2500);
+          return;
         }
+        script = res.script;
+        assignments = res.assignments;
+        renderCharacterList();
       });
     });
 
-    socket.on('player-list', (names) => {
+    socket.on('player-list', (players) => {
       playerListEl.innerHTML = '';
-      names.forEach(n => {
+      players.forEach(p => {
         const li = document.createElement('li');
-        li.textContent = n;
-        if (n === name) li.style.fontWeight = '700';
+        li.textContent = p.name + (p.name === myName ? ' (you)' : '') + (p.isHost ? ' ★' : '');
+        if (p.name === myName) li.style.fontWeight = '700';
         playerListEl.appendChild(li);
       });
-      const count = names.length;
-      playerCountEl.textContent = `${count} ${count === 1 ? 'player' : 'players'}`;
+      const n = players.length;
+      playerCountEl.textContent = `${n} ${n === 1 ? 'person' : 'people'}`;
     });
+
+    socket.on('assignments', (data) => {
+      assignments = data;
+      renderCharacterList();
+    });
+
+    function renderCharacterList() {
+      if (!script) return;
+      charListEl.innerHTML = '';
+      script.characters.forEach(char => {
+        const claimed = assignments[char.name];
+        const isMe = claimed === myName;
+        const isTaken = claimed && !isMe;
+
+        const li = document.createElement('li');
+        li.className = 'char-card' + (isMe ? ' char-card--mine' : isTaken ? ' char-card--taken' : '');
+
+        const info = document.createElement('div');
+        info.className = 'char-info';
+        const nameEl = document.createElement('div');
+        nameEl.className = 'char-name';
+        nameEl.textContent = char.name;
+        const descEl = document.createElement('div');
+        descEl.className = 'char-desc';
+        descEl.textContent = char.description;
+        info.appendChild(nameEl);
+        info.appendChild(descEl);
+
+        const claim = document.createElement('button');
+        claim.className = 'btn-claim' + (isMe ? ' btn-claim--mine' : isTaken ? ' btn-claim--taken' : '');
+        claim.textContent = isMe ? 'You' : (claimed || 'Claim');
+        claim.disabled = isTaken;
+        if (!isTaken) {
+          claim.addEventListener('click', () => {
+            socket.emit('claim-character', { character: char.name });
+          });
+        }
+
+        li.appendChild(info);
+        li.appendChild(claim);
+        charListEl.appendChild(li);
+      });
+    }
 
     socket.on('host-left', () => {
       msgEl.textContent = 'The host closed the room.';
-      msgEl.className = 'msg msg-error';
       msgEl.classList.remove('hidden');
-      setTimeout(() => {
-        sessionStorage.clear();
-        window.location.href = 'index.html';
-      }, 2500);
+      setTimeout(() => { sessionStorage.clear(); window.location.href = 'index.html'; }, 2500);
     });
 
     btnLeave.addEventListener('click', () => {
       sessionStorage.clear();
       socket.disconnect();
+      window.location.href = 'index.html';
+    });
+
+    // ── Performance events ──
+    socket.on('performance-started', ({ title }) => {
+      perfTitle.textContent = title;
+      viewCasting.classList.add('hidden');
+      viewPerf.classList.remove('hidden');
+    });
+
+    socket.on('beat', ({ index, total, beat, activePlayer }) => {
+      perfProg.textContent = `${index + 1} / ${total}`;
+
+      [beatStage, beatActive, beatWaiting].forEach(el => el.classList.add('hidden'));
+
+      if (beat.type !== 'dialogue') {
+        document.getElementById('beat-stage-text').textContent = beat.text;
+        beatStage.classList.remove('hidden');
+      } else if (activePlayer === myName) {
+        document.getElementById('beat-active-char').textContent = beat.character;
+        document.getElementById('beat-active-line').textContent = beat.text;
+        beatActive.classList.remove('hidden');
+      } else {
+        document.getElementById('beat-waiting-char').textContent = beat.character;
+        beatWaiting.classList.remove('hidden');
+      }
+    });
+
+    btnDone.addEventListener('click', () => socket.emit('beat-done'));
+
+    socket.on('performance-ended', () => {
+      [beatStage, beatActive, beatWaiting].forEach(el => el.classList.add('hidden'));
+      document.getElementById('perf-ended-title').textContent = perfTitle.textContent;
+      beatEnded.classList.remove('hidden');
+    });
+
+    btnHome.addEventListener('click', () => {
+      sessionStorage.clear();
       window.location.href = 'index.html';
     });
   </script>
