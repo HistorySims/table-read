@@ -1,1303 +1,1303 @@
 {
-“title”: “The Boor”,
-“author”: “Anton Chekhov”,
-“description”: “A Joke in One Act. A grieving widow refuses all visitors \u2014 until a loud, rude landowner barges in demanding she pay her dead husband’s debt. What starts as a furious argument ends somewhere nobody expected.”,
-“characters”: [
+"title": "The Boor",
+"author": "Anton Chekhov",
+"description": "A Joke in One Act. A grieving widow refuses all visitors \u2014 until a loud, rude landowner barges in demanding she pay her dead husband's debt. What starts as a furious argument ends somewhere nobody expected.",
+"characters": [
 {
-“name”: “Mrs. Popov”,
-“description”: “Helena Ivanovna Popov \u2014 a young widow who has locked herself away in mourning for her unfaithful dead husband. She’s dramatic, stubborn, and fierier than she realizes. Starts melancholy but builds to full-throttle fury. Think: someone who’s playing the grieving widow so hard she’s almost enjoying it \u2014 until she meets her match.”,
-“lines”: 84,
-“difficulty”: “high”,
-“costumeIdeas”: “All black everything \u2014 black shawl, dark dress or top. A handkerchief for dramatic dabbing of eyes. A photograph or picture frame as a prop. Hair pulled back severely.”
+"name": "Mrs. Popov",
+"description": "Helena Ivanovna Popov \u2014 a young widow who has locked herself away in mourning for her unfaithful dead husband. She's dramatic, stubborn, and fierier than she realizes. Starts melancholy but builds to full-throttle fury. Think: someone who's playing the grieving widow so hard she's almost enjoying it \u2014 until she meets her match.",
+"lines": 84,
+"difficulty": "high",
+"costumeIdeas": "All black everything \u2014 black shawl, dark dress or top. A handkerchief for dramatic dabbing of eyes. A photograph or picture frame as a prop. Hair pulled back severely."
 },
 {
-“name”: “Smirnov”,
-“description”: “Grigori Stepanovitch Smirnov \u2014 a retired lieutenant and country landowner who is loud, blunt, perpetually furious, and desperately broke. He barges in demanding money and refuses to leave. He hates women \u2014 until suddenly he doesn’t. Think: a bull in a china shop who accidentally falls in love with the china.”,
-“lines”: 113,
-“difficulty”: “high”,
-“costumeIdeas”: “Rumpled shirt, dusty jacket, messy hair. Boots if you have them. Look like you’ve been riding all day and sleeping in barns. Stomp a lot.”
+"name": "Smirnov",
+"description": "Grigori Stepanovitch Smirnov \u2014 a retired lieutenant and country landowner who is loud, blunt, perpetually furious, and desperately broke. He barges in demanding money and refuses to leave. He hates women \u2014 until suddenly he doesn't. Think: a bull in a china shop who accidentally falls in love with the china.",
+"lines": 113,
+"difficulty": "high",
+"costumeIdeas": "Rumpled shirt, dusty jacket, messy hair. Boots if you have them. Look like you've been riding all day and sleeping in barns. Stomp a lot."
 },
 {
-“name”: “Luka”,
-“description”: “Mrs. Popov’s elderly servant \u2014 loyal, long-suffering, and perpetually terrified. He spends the whole play trying to get everyone to calm down and failing completely. Think: a grandpa who just wants everyone to stop yelling.”,
-“lines”: 32,
-“difficulty”: “easy”,
-“costumeIdeas”: “Simple white shirt, vest or suspenders. A dish towel. Clutch your chest a lot and look worried. Shuffle when you walk.”
+"name": "Luka",
+"description": "Mrs. Popov's elderly servant \u2014 loyal, long-suffering, and perpetually terrified. He spends the whole play trying to get everyone to calm down and failing completely. Think: a grandpa who just wants everyone to stop yelling.",
+"lines": 32,
+"difficulty": "easy",
+"costumeIdeas": "Simple white shirt, vest or suspenders. A dish towel. Clutch your chest a lot and look worried. Shuffle when you walk."
 }
 ],
-“beats”: [
+"beats": [
 {
-“type”: “stage_direction”,
-“text”: “A well-furnished reception room in Mrs. Popov’s home. Mrs. Popov sits in deep mourning on a sofa, gazing steadfastly at a photograph. Luka stands nearby.”
+"type": "stage_direction",
+"text": "A well-furnished reception room in Mrs. Popov's home. Mrs. Popov sits in deep mourning on a sofa, gazing steadfastly at a photograph. Luka stands nearby."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “It isn’t right, ma’am. You’re wearing yourself out!”
+"type": "dialogue",
+"character": "Luka",
+"text": "It isn't right, ma'am. You're wearing yourself out!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “The maid and the cook have gone looking for berries; everything that breathes is enjoying life; even the cat knows how to be happy \u2014 slips about the courtyard and catches birds.”
+"type": "dialogue",
+"character": "Luka",
+"text": "The maid and the cook have gone looking for berries; everything that breathes is enjoying life; even the cat knows how to be happy \u2014 slips about the courtyard and catches birds."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “But you hide yourself here in the house as though you were in a cloister. Yes, truly, by actual reckoning you haven’t left this house for a whole year.”
+"type": "dialogue",
+"character": "Luka",
+"text": "But you hide yourself here in the house as though you were in a cloister. Yes, truly, by actual reckoning you haven't left this house for a whole year."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “And I shall never leave it \u2014 why should I? My life is over. He lies in his grave, and I have buried myself within these four walls. We are both dead.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "And I shall never leave it \u2014 why should I? My life is over. He lies in his grave, and I have buried myself within these four walls. We are both dead."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “There you are again! It’s too awful to listen to, so it is! Nikolai Michailovitch is dead; it was the will of the Lord, and the Lord has given him eternal peace.”
+"type": "dialogue",
+"character": "Luka",
+"text": "There you are again! It's too awful to listen to, so it is! Nikolai Michailovitch is dead; it was the will of the Lord, and the Lord has given him eternal peace."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “You have grieved over it and that ought to be enough. Now it’s time to stop. One can’t weep and wear mourning forever!”
+"type": "dialogue",
+"character": "Luka",
+"text": "You have grieved over it and that ought to be enough. Now it's time to stop. One can't weep and wear mourning forever!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “My wife died a few years ago. I grieved for her. I wept a whole month \u2014 and then it was over. Must one be forever singing lamentations? That would be more than your husband was worth!”
+"type": "dialogue",
+"character": "Luka",
+"text": "My wife died a few years ago. I grieved for her. I wept a whole month \u2014 and then it was over. Must one be forever singing lamentations? That would be more than your husband was worth!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “You have forgotten all your neighbors. You don’t go out and you receive no one. We live \u2014 you’ll pardon me \u2014 like the spiders, and the good light of day we never see.”
+"type": "dialogue",
+"character": "Luka",
+"text": "You have forgotten all your neighbors. You don't go out and you receive no one. We live \u2014 you'll pardon me \u2014 like the spiders, and the good light of day we never see."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “The whole neighborhood is full of gentlefolk. The regiment is stationed in Riblovo \u2014 officers \u2014 simply beautiful! One can’t see enough of them! Every Friday a ball, and military music every day.”
+"type": "dialogue",
+"character": "Luka",
+"text": "The whole neighborhood is full of gentlefolk. The regiment is stationed in Riblovo \u2014 officers \u2014 simply beautiful! One can't see enough of them! Every Friday a ball, and military music every day."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Oh, my dear, dear ma’am, young and pretty as you are, if you’d only let your spirits live! Beauty can’t last forever.”
+"type": "dialogue",
+"character": "Luka",
+"text": "Oh, my dear, dear ma'am, young and pretty as you are, if you'd only let your spirits live! Beauty can't last forever."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “When ten short years are over, you’ll be glad enough to go out a bit and meet the officers \u2014 and then it’ll be too late.”
+"type": "dialogue",
+"character": "Luka",
+"text": "When ten short years are over, you'll be glad enough to go out a bit and meet the officers \u2014 and then it'll be too late."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Please don’t speak of these things again. You know very well that since the death of Nikolai Michailovitch my life is absolutely nothing to me.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Please don't speak of these things again. You know very well that since the death of Nikolai Michailovitch my life is absolutely nothing to me."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You think I live, but it only seems so. Do you understand?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You think I live, but it only seems so. Do you understand?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Oh, that his departed soul may see how I love him! I know, it’s no secret to you; he was often unjust to me, cruel, and \u2014 he wasn’t faithful.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Oh, that his departed soul may see how I love him! I know, it's no secret to you; he was often unjust to me, cruel, and \u2014 he wasn't faithful."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “But I shall be faithful to the grave and prove to him how I can love. There, in the Beyond, he’ll find me the same as I was until his death.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "But I shall be faithful to the grave and prove to him how I can love. There, in the Beyond, he'll find me the same as I was until his death."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “What is the use of all these words, when you’d so much rather go walking in the garden or order Tobby or Welikan harnessed to the trap, and visit the neighbors?”
+"type": "dialogue",
+"character": "Luka",
+"text": "What is the use of all these words, when you'd so much rather go walking in the garden or order Tobby or Welikan harnessed to the trap, and visit the neighbors?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Oh!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Oh!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Madam, dear madam, what is it? In Heaven’s name!”
+"type": "dialogue",
+"character": "Luka",
+"text": "Madam, dear madam, what is it? In Heaven's name!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “He loved Tobby so! He always drove him to the Kortschagins or the Vlassovs. What a wonderful horseman he was!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "He loved Tobby so! He always drove him to the Kortschagins or the Vlassovs. What a wonderful horseman he was!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “How fine he looked when he pulled at the reins with all his might! Tobby, Tobby \u2014 give him an extra measure of oats today!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "How fine he looked when he pulled at the reins with all his might! Tobby, Tobby \u2014 give him an extra measure of oats today!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Yes, ma’am.”
+"type": "dialogue",
+"character": "Luka",
+"text": "Yes, ma'am."
 },
 {
-“type”: “stage_direction”,
-“text”: “A bell rings loudly.”
+"type": "stage_direction",
+"text": "A bell rings loudly."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “What’s that? I am at home to no one.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "What's that? I am at home to no one."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Yes, ma’am.”
+"type": "dialogue",
+"character": "Luka",
+"text": "Yes, ma'am."
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka goes out.”
+"type": "stage_direction",
+"text": "Luka goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You shall see, Nikolai, how I can love and forgive! My love will die only with me \u2014 when my poor heart stops beating.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You shall see, Nikolai, how I can love and forgive! My love will die only with me \u2014 when my poor heart stops beating."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “And aren’t you ashamed? I have been a good, true wife; I have imprisoned myself and I shall remain true until death, and you \u2014 you \u2014 you’re not ashamed of yourself, my dear monster!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "And aren't you ashamed? I have been a good, true wife; I have imprisoned myself and I shall remain true until death, and you \u2014 you \u2014 you're not ashamed of yourself, my dear monster!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You quarrelled with me, left me alone for weeks \u2014”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You quarrelled with me, left me alone for weeks \u2014"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka enters in great excitement.”
+"type": "stage_direction",
+"text": "Luka enters in great excitement."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Oh, ma’am, someone is asking for you, insists on seeing you \u2014”
+"type": "dialogue",
+"character": "Luka",
+"text": "Oh, ma'am, someone is asking for you, insists on seeing you \u2014"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You told him that since my husband’s death I receive no one?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You told him that since my husband's death I receive no one?"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “I said so, but he won’t listen; he says it is a pressing matter.”
+"type": "dialogue",
+"character": "Luka",
+"text": "I said so, but he won't listen; he says it is a pressing matter."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I receive no one!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I receive no one!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “I told him that, but he’s a wild man; he swore and pushed himself into the room; he’s in the dining room now.”
+"type": "dialogue",
+"character": "Luka",
+"text": "I told him that, but he's a wild man; he swore and pushed himself into the room; he's in the dining room now."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Good. Show him in. The impudent!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Good. Show him in. The impudent!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka goes out.”
+"type": "stage_direction",
+"text": "Luka goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “What a bore people are! What can they want with me? Why do they disturb my peace?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "What a bore people are! What can they want with me? Why do they disturb my peace?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Yes, it is clear I must enter a convent. Yes, a convent.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Yes, it is clear I must enter a convent. Yes, a convent."
 },
 {
-“type”: “stage_direction”,
-“text”: “Smirnov enters, followed by Luka.”
+"type": "stage_direction",
+"text": "Smirnov enters, followed by Luka."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Fool, you make too much noise! You’re an ass!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Fool, you make too much noise! You're an ass!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Madam, I have the honor to introduce myself: Lieutenant in the Artillery, retired, country gentleman, Grigori Stepanovitch Smirnov!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Madam, I have the honor to introduce myself: Lieutenant in the Artillery, retired, country gentleman, Grigori Stepanovitch Smirnov!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I’m compelled to bother you about an exceedingly important matter.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I'm compelled to bother you about an exceedingly important matter."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “What is it you wish?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "What is it you wish?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Your deceased husband, with whom I had the honor to be acquainted, left me two notes amounting to about twelve hundred roubles.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Your deceased husband, with whom I had the honor to be acquainted, left me two notes amounting to about twelve hundred roubles."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Inasmuch as I have to pay the interest tomorrow on a loan from the Agrarian Bank, I should like to request, madam, that you pay me the money today.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Inasmuch as I have to pay the interest tomorrow on a loan from the Agrarian Bank, I should like to request, madam, that you pay me the money today."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Twelve hundred \u2014 and for what was my husband indebted to you?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Twelve hundred \u2014 and for what was my husband indebted to you?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “He bought oats from me.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "He bought oats from me."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Don’t forget to give Tobby an extra measure of oats.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Don't forget to give Tobby an extra measure of oats."
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka goes out.”
+"type": "stage_direction",
+"text": "Luka goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “If Nikolai Michailovitch is indebted to you, I shall, of course, pay you, but I am sorry, I haven’t the money today.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "If Nikolai Michailovitch is indebted to you, I shall, of course, pay you, but I am sorry, I haven't the money today."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Tomorrow my manager will return from the city and I shall notify him to pay you what is due you, but until then I cannot satisfy your request.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Tomorrow my manager will return from the city and I shall notify him to pay you what is due you, but until then I cannot satisfy your request."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Furthermore, today is just seven months since the death of my husband, and I am not in the mood to discuss money matters.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Furthermore, today is just seven months since the death of my husband, and I am not in the mood to discuss money matters."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “And I am in the mood to fly up the chimney with my feet in the air if I can’t lay hands on that interest tomorrow. They’ll seize my estate!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "And I am in the mood to fly up the chimney with my feet in the air if I can't lay hands on that interest tomorrow. They'll seize my estate!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Day after tomorrow you will receive the money.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Day after tomorrow you will receive the money."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I don’t need the money day after tomorrow; I need it today.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I don't need the money day after tomorrow; I need it today."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I’m sorry I can’t pay you today.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I'm sorry I can't pay you today."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “And I can’t wait until day after tomorrow.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "And I can't wait until day after tomorrow."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “But what can I do if I haven’t it?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "But what can I do if I haven't it?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “So you can’t pay?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "So you can't pay?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I cannot.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I cannot."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Hm! Is that your last word?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Hm! Is that your last word?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “My last.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "My last."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Absolutely?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Absolutely?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Absolutely.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Absolutely."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Thank you. And they expect me to stand for all that.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Thank you. And they expect me to stand for all that."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “The toll-gatherer just now met me in the road and asked why I was always worrying. Why, in Heaven’s name, shouldn’t I worry? I need money, I feel the knife at my throat.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "The toll-gatherer just now met me in the road and asked why I was always worrying. Why, in Heaven's name, shouldn't I worry? I need money, I feel the knife at my throat."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Yesterday morning I left my house in the early dawn and called on all my debtors. If even one of them had paid his debt! I worked the skin off my fingers!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Yesterday morning I left my house in the early dawn and called on all my debtors. If even one of them had paid his debt! I worked the skin off my fingers!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “And now at last I come here, seventy versts from home, hope for a little money, and all you give me is moods! Why shouldn’t I worry?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "And now at last I come here, seventy versts from home, hope for a little money, and all you give me is moods! Why shouldn't I worry?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I thought I made it plain to you that my manager will return from town, and then you will get your money.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I thought I made it plain to you that my manager will return from town, and then you will get your money."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I did not come to see the manager; I came to see you. What the devil \u2014 pardon the language \u2014 do I care for your manager?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I did not come to see the manager; I came to see you. What the devil \u2014 pardon the language \u2014 do I care for your manager?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Really, sir, I am not used to such language or such manners. I shan’t listen to you any further.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Really, sir, I am not used to such language or such manners. I shan't listen to you any further."
 },
 {
-“type”: “stage_direction”,
-“text”: “Mrs. Popov goes out.”
+"type": "stage_direction",
+"text": "Mrs. Popov goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “What can one say to that? Moods! Seven months since her husband died! Do I have to pay the interest or not?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "What can one say to that? Moods! Seven months since her husband died! Do I have to pay the interest or not?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “The husband is dead and all that; the manager is \u2014 the devil with him! \u2014 travelling somewhere. Now, tell me, what am I to do?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "The husband is dead and all that; the manager is \u2014 the devil with him! \u2014 travelling somewhere. Now, tell me, what am I to do?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Shall I run away from my creditors in a balloon? Or knock my head against a stone wall?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Shall I run away from my creditors in a balloon? Or knock my head against a stone wall?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Not one of them will pay up! And all because I’ve spoiled them, because I’m an old whiner, dish-rag! I’m too tender-hearted with them.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Not one of them will pay up! And all because I've spoiled them, because I'm an old whiner, dish-rag! I'm too tender-hearted with them."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “But wait! I allow nobody to play tricks with me, the devil with ‘em all! I’ll stay here and not budge until she pays!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "But wait! I allow nobody to play tricks with me, the devil with 'em all! I'll stay here and not budge until she pays!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Brr! How angry I am, how terribly angry I am! Every tendon is trembling with anger, and I can hardly breathe! I’m even growing ill!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Brr! How angry I am, how terribly angry I am! Every tendon is trembling with anger, and I can hardly breathe! I'm even growing ill!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Servant!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Servant!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka enters.”
+"type": "stage_direction",
+"text": "Luka enters."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “What is it you wish?”
+"type": "dialogue",
+"character": "Luka",
+"text": "What is it you wish?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Bring me kvas or water!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Bring me kvas or water!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka goes out.”
+"type": "stage_direction",
+"text": "Luka goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Well, what can we do? She hasn’t it on hand? What sort of logic is that?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Well, what can we do? She hasn't it on hand? What sort of logic is that?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “A fellow stands with the knife at his throat, he needs money, he is on the point of hanging himself, and she won’t pay because she isn’t in the mood to discuss money matters. Women’s logic!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "A fellow stands with the knife at his throat, he needs money, he is on the point of hanging himself, and she won't pay because she isn't in the mood to discuss money matters. Women's logic!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “That’s why I never liked to talk to women, and why I dislike doing it now. I would rather sit on a powder barrel than talk with a woman.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "That's why I never liked to talk to women, and why I dislike doing it now. I would rather sit on a powder barrel than talk with a woman."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Brr! I’m getting cold as ice; this affair has made me so angry. I need only to see such a romantic creature from a distance to get so angry that I have cramps in my calves!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Brr! I'm getting cold as ice; this affair has made me so angry. I need only to see such a romantic creature from a distance to get so angry that I have cramps in my calves!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Enter Luka.”
+"type": "stage_direction",
+"text": "Enter Luka."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Madam is ill and is not receiving.”
+"type": "dialogue",
+"character": "Luka",
+"text": "Madam is ill and is not receiving."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “March!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "March!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka goes out.”
+"type": "stage_direction",
+"text": "Luka goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Ill and isn’t receiving! All right, it isn’t necessary. I won’t receive, either! I’ll sit here and stay until you bring that money.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Ill and isn't receiving! All right, it isn't necessary. I won't receive, either! I'll sit here and stay until you bring that money."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “If you’re ill a week, I’ll sit here a week. If you’re ill a year, I’ll sit here a year. As Heaven is my witness, I’ll get the money.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "If you're ill a week, I'll sit here a week. If you're ill a year, I'll sit here a year. As Heaven is my witness, I'll get the money."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “You don’t disturb me with your mourning \u2014 or with your dimples. We know these dimples!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "You don't disturb me with your mourning \u2014 or with your dimples. We know these dimples!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Smirnov calls out the window.”
+"type": "stage_direction",
+"text": "Smirnov calls out the window."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Simon, unharness! We aren’t going to leave right away. I am going to stay here. Tell them in the stable to give the horses some oats.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Simon, unharness! We aren't going to leave right away. I am going to stay here. Tell them in the stable to give the horses some oats."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “It’s awful. Unbearable heat, no money, didn’t sleep last night and now \u2014 mourning-dresses with moods. My head aches; perhaps I ought to have a drink.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "It's awful. Unbearable heat, no money, didn't sleep last night and now \u2014 mourning-dresses with moods. My head aches; perhaps I ought to have a drink."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Servant!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Servant!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “What do you wish?”
+"type": "dialogue",
+"character": "Luka",
+"text": "What do you wish?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Something to drink!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Something to drink!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka goes out. Smirnov sits down and looks at his clothes.”
+"type": "stage_direction",
+"text": "Luka goes out. Smirnov sits down and looks at his clothes."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Ugh, a fine figure! No use denying that. Dust, dirty boots, unwashed, uncombed, straw on my vest \u2014 the lady probably took me for a highwayman.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Ugh, a fine figure! No use denying that. Dust, dirty boots, unwashed, uncombed, straw on my vest \u2014 the lady probably took me for a highwayman."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “It was a little impolite to come into a reception room with such clothes. Oh, well, no harm done. I’m not here as a guest. I’m a creditor. And there is no special costume for creditors.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "It was a little impolite to come into a reception room with such clothes. Oh, well, no harm done. I'm not here as a guest. I'm a creditor. And there is no special costume for creditors."
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka enters with a glass.”
+"type": "stage_direction",
+"text": "Luka enters with a glass."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “You take great liberty, sir.”
+"type": "dialogue",
+"character": "Luka",
+"text": "You take great liberty, sir."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “What?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "What?"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “I \u2014 I \u2014 just \u2014”
+"type": "dialogue",
+"character": "Luka",
+"text": "I \u2014 I \u2014 just \u2014"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Whom are you talking to? Keep quiet.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Whom are you talking to? Keep quiet."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Nice mess! This fellow won’t leave!”
+"type": "dialogue",
+"character": "Luka",
+"text": "Nice mess! This fellow won't leave!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka goes out.”
+"type": "stage_direction",
+"text": "Luka goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Lord, how angry I am! Angry enough to throw mud at the whole world! I even feel ill! Servant!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Lord, how angry I am! Angry enough to throw mud at the whole world! I even feel ill! Servant!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Mrs. Popov comes in with downcast eyes.”
+"type": "stage_direction",
+"text": "Mrs. Popov comes in with downcast eyes."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Sir, in my solitude I have become unaccustomed to the human voice and I cannot stand the sound of loud talking. I beg you, please to cease disturbing my rest.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Sir, in my solitude I have become unaccustomed to the human voice and I cannot stand the sound of loud talking. I beg you, please to cease disturbing my rest."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Pay me my money and I’ll leave.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Pay me my money and I'll leave."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I told you once, plainly, in your native tongue, that I haven’t the money at hand; wait until day after tomorrow.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I told you once, plainly, in your native tongue, that I haven't the money at hand; wait until day after tomorrow."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “And I also had the honor of informing you in your native tongue that I need the money, not day after tomorrow, but today. If you don’t pay me today I shall have to hang myself tomorrow.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "And I also had the honor of informing you in your native tongue that I need the money, not day after tomorrow, but today. If you don't pay me today I shall have to hang myself tomorrow."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “But what can I do if I haven’t the money?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "But what can I do if I haven't the money?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “So you are not going to pay immediately? You’re not?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "So you are not going to pay immediately? You're not?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I cannot.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I cannot."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Then I’ll sit here until I get the money. You will pay day after tomorrow? Excellent! Here I stay until day after tomorrow.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Then I'll sit here until I get the money. You will pay day after tomorrow? Excellent! Here I stay until day after tomorrow."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I ask you, do I have to pay that interest tomorrow or not? Or do you think I’m joking?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I ask you, do I have to pay that interest tomorrow or not? Or do you think I'm joking?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Sir, I beg of you, don’t scream! This is not a stable.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Sir, I beg of you, don't scream! This is not a stable."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I’m not talking about stables, I’m asking you whether I have to pay that interest tomorrow or not?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I'm not talking about stables, I'm asking you whether I have to pay that interest tomorrow or not?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You have no idea how to treat a lady.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You have no idea how to treat a lady."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Oh, yes, I have.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Oh, yes, I have."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “No, you have not. You are an ill-bred, vulgar person! Respectable people don’t speak so to ladies.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "No, you have not. You are an ill-bred, vulgar person! Respectable people don't speak so to ladies."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “How remarkable! How do you want one to speak to you? In French, perhaps?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "How remarkable! How do you want one to speak to you? In French, perhaps?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Madame, je vous prie! Pardon me for having disturbed you. What beautiful weather we are having today! And how this mourning becomes you!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Madame, je vous prie! Pardon me for having disturbed you. What beautiful weather we are having today! And how this mourning becomes you!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Not at all funny! I think it vulgar!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Not at all funny! I think it vulgar!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Not at all funny \u2014 vulgar! I don’t understand how to behave in the company of ladies.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Not at all funny \u2014 vulgar! I don't understand how to behave in the company of ladies."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Madam, in the course of my life I have seen more women than you have sparrows. Three times have I fought duels for women, twelve I jilted and nine jilted me.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Madam, in the course of my life I have seen more women than you have sparrows. Three times have I fought duels for women, twelve I jilted and nine jilted me."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “There was a time when I played the fool, used honeyed language, bowed and scraped. I loved, suffered, sighed to the moon, melted in love’s torments.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "There was a time when I played the fool, used honeyed language, bowed and scraped. I loved, suffered, sighed to the moon, melted in love's torments."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I loved passionately, I loved to madness, loved in every key, chattered like a magpie on emancipation, sacrificed half my fortune in the tender passion, until now the devil knows I’ve had enough of it.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I loved passionately, I loved to madness, loved in every key, chattered like a magpie on emancipation, sacrificed half my fortune in the tender passion, until now the devil knows I've had enough of it."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Your obedient servant will let you lead him around by the nose no more. Enough!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Your obedient servant will let you lead him around by the nose no more. Enough!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Black eyes, passionate eyes, coral lips, dimples in cheeks, moonlight whispers, soft, modest sighs \u2014 for all that, madam, I wouldn’t pay a kopeck!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Black eyes, passionate eyes, coral lips, dimples in cheeks, moonlight whispers, soft, modest sighs \u2014 for all that, madam, I wouldn't pay a kopeck!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “From the tiniest to the greatest, they are conceited, hypocritical, chattering, odious, deceitful from top to toe; vain, petty, cruel with a maddening logic.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "From the tiniest to the greatest, they are conceited, hypocritical, chattering, odious, deceitful from top to toe; vain, petty, cruel with a maddening logic."
 },
 {
-“type”: “stage_direction”,
-“text”: “Smirnov strikes his forehead.”
+"type": "stage_direction",
+"text": "Smirnov strikes his forehead."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “In this respect, please excuse my frankness, but one sparrow is worth ten of the aforementioned petticoat-philosophers.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "In this respect, please excuse my frankness, but one sparrow is worth ten of the aforementioned petticoat-philosophers."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “When one sees one of the romantic creatures before him he imagines he is looking at some holy being \u2014 but if one looks into the soul \u2014 it’s nothing but a common crocodile.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "When one sees one of the romantic creatures before him he imagines he is looking at some holy being \u2014 but if one looks into the soul \u2014 it's nothing but a common crocodile."
 },
 {
-“type”: “stage_direction”,
-“text”: “Smirnov seizes the armchair and breaks it in two.”
+"type": "stage_direction",
+"text": "Smirnov seizes the armchair and breaks it in two."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “But the worst of all is that this crocodile imagines it is a masterpiece of creation, and that it has a monopoly on all the tender passions.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "But the worst of all is that this crocodile imagines it is a masterpiece of creation, and that it has a monopoly on all the tender passions."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Tell me on your honor, have you ever in your life seen a woman who was really true and faithful? Never! Only the old and the deformed are true and faithful.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Tell me on your honor, have you ever in your life seen a woman who was really true and faithful? Never! Only the old and the deformed are true and faithful."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “But allow me to ask, who is true and faithful in love? The man, perhaps?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "But allow me to ask, who is true and faithful in love? The man, perhaps?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Yes, indeed! The man!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Yes, indeed! The man!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “The man! The man true and faithful in love! Well, that is something new!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "The man! The man true and faithful in love! Well, that is something new!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “How can you make such a statement? Men true and faithful! So long as we have gone thus far, I may as well say that of all the men I have known, my husband was the best.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "How can you make such a statement? Men true and faithful! So long as we have gone thus far, I may as well say that of all the men I have known, my husband was the best."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I loved him passionately with all my soul, as only a young, sensible woman may love; I gave him my youth, my happiness, my fortune, my life. I worshipped him like a heathen.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I loved him passionately with all my soul, as only a young, sensible woman may love; I gave him my youth, my happiness, my fortune, my life. I worshipped him like a heathen."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “And what happened? This best of men betrayed me in every possible way. After his death I found his desk filled with love-letters.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "And what happened? This best of men betrayed me in every possible way. After his death I found his desk filled with love-letters."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “While he was alive he left me alone for months \u2014 it is horrible even to think about it \u2014 he made love to other women in my very presence, he wasted my money and made fun of my feelings.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "While he was alive he left me alone for months \u2014 it is horrible even to think about it \u2014 he made love to other women in my very presence, he wasted my money and made fun of my feelings."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “And in spite of everything I trusted him and was true to him. And more than that: he is dead and I am still true to him.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "And in spite of everything I trusted him and was true to him. And more than that: he is dead and I am still true to him."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I have buried myself within these four walls and I shall wear this mourning to my grave.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I have buried myself within these four walls and I shall wear this mourning to my grave."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Mourning! What on earth do you take me for? As if I didn’t know why you wore this black domino and why you buried yourself within these four walls. Such a secret! So romantic!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Mourning! What on earth do you take me for? As if I didn't know why you wore this black domino and why you buried yourself within these four walls. Such a secret! So romantic!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Some knight will pass the castle, gaze up at the windows, and think to himself: ‘Here dwells the mysterious Tamara who, for love of her husband, has buried herself within four walls.’ Oh, I understand the art!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Some knight will pass the castle, gaze up at the windows, and think to himself: 'Here dwells the mysterious Tamara who, for love of her husband, has buried herself within four walls.' Oh, I understand the art!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “What? What do you mean by saying such things to me?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "What? What do you mean by saying such things to me?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “You have buried yourself alive, but meanwhile you have not forgotten to powder your nose!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "You have buried yourself alive, but meanwhile you have not forgotten to powder your nose!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “How dare you speak so?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "How dare you speak so?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Don’t scream at me, please; I’m not the manager. Allow me to call things by their right names. I am not a woman, and I am accustomed to speak out what I think. So please don’t scream.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Don't scream at me, please; I'm not the manager. Allow me to call things by their right names. I am not a woman, and I am accustomed to speak out what I think. So please don't scream."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I’m not screaming. It is you who are screaming. Please leave me, I beg you.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I'm not screaming. It is you who are screaming. Please leave me, I beg you."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Pay me my money, and I’ll leave.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Pay me my money, and I'll leave."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I won’t give you the money.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I won't give you the money."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “You won’t? You won’t give me my money?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "You won't? You won't give me my money?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I don’t care what you do. You won’t get a kopeck! Leave me!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I don't care what you do. You won't get a kopeck! Leave me!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “As I haven’t had the pleasure of being either your husband or your fianc\u00e9, please don’t make a scene. I can’t stand it.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "As I haven't had the pleasure of being either your husband or your fianc\u00e9, please don't make a scene. I can't stand it."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You are going to sit down?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You are going to sit down?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I already have.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I already have."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Kindly leave the house!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Kindly leave the house!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Give me the money.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Give me the money."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I don’t care to speak with impudent men. Leave! You aren’t going?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I don't care to speak with impudent men. Leave! You aren't going?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “No.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "No."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “No?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "No?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “No.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "No."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Very well.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Very well."
 },
 {
-“type”: “stage_direction”,
-“text”: “She rings the bell. Enter Luka.”
+"type": "stage_direction",
+"text": "She rings the bell. Enter Luka."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Luka, show the gentleman out.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Luka, show the gentleman out."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Sir, why don’t you leave when you are ordered? What do you want?”
+"type": "dialogue",
+"character": "Luka",
+"text": "Sir, why don't you leave when you are ordered? What do you want?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Whom do you think you are talking to? I’ll grind you to powder.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Whom do you think you are talking to? I'll grind you to powder."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Good Lord! Oh, I’m ill; I can’t breathe!”
+"type": "dialogue",
+"character": "Luka",
+"text": "Good Lord! Oh, I'm ill; I can't breathe!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka drops into a chair.”
+"type": "stage_direction",
+"text": "Luka drops into a chair."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Where is Dascha? Dascha! Pelageja! Dascha!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Where is Dascha? Dascha! Pelageja! Dascha!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “They’re all gone! I’m ill! Water!”
+"type": "dialogue",
+"character": "Luka",
+"text": "They're all gone! I'm ill! Water!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Leave! Get out!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Leave! Get out!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Kindly be a little more polite!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Kindly be a little more polite!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You are vulgar! You’re a boor! A monster!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You are vulgar! You're a boor! A monster!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “What did you say?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "What did you say?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I said you were a boor, a monster!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I said you were a boor, a monster!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Permit me to ask what right you have to insult me?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Permit me to ask what right you have to insult me?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “What of it? Do you think I am afraid of you?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "What of it? Do you think I am afraid of you?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “And you think that because you are a romantic creature you can insult me without being punished? I challenge you!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "And you think that because you are a romantic creature you can insult me without being punished? I challenge you!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Merciful Heaven! Water!”
+"type": "dialogue",
+"character": "Luka",
+"text": "Merciful Heaven! Water!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “We’ll have a duel!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "We'll have a duel!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Do you think because you have big fists and a steer’s neck I am afraid of you?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Do you think because you have big fists and a steer's neck I am afraid of you?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I allow no one to insult me, and I make no exception because you are a woman, one of the ‘weaker sex!’”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I allow no one to insult me, and I make no exception because you are a woman, one of the 'weaker sex!'"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Boor, boor, boor!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Boor, boor, boor!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “It is high time to do away with the old superstition that it is only the man who is forced to give satisfaction. If there is equity at all let there be equity in all things. There’s a limit!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "It is high time to do away with the old superstition that it is only the man who is forced to give satisfaction. If there is equity at all let there be equity in all things. There's a limit!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You wish to fight a duel? Very well.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You wish to fight a duel? Very well."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Immediately.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Immediately."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Immediately. My husband had pistols. I’ll bring them. Oh, what a pleasure it will be to put a bullet in your impudent head. The devil take you!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Immediately. My husband had pistols. I'll bring them. Oh, what a pleasure it will be to put a bullet in your impudent head. The devil take you!"
 },
 {
-“type”: “stage_direction”,
-“text”: “She hurries out.”
+"type": "stage_direction",
+"text": "She hurries out."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I’ll shoot her down! I’m no fledgling, no sentimental young puppy. For me there is no weaker sex!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I'll shoot her down! I'm no fledgling, no sentimental young puppy. For me there is no weaker sex!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Oh, sir. Have mercy on me, an old man, and go away. You have frightened me to death already, and now you want to fight a duel.”
+"type": "dialogue",
+"character": "Luka",
+"text": "Oh, sir. Have mercy on me, an old man, and go away. You have frightened me to death already, and now you want to fight a duel."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “A duel. That’s equity, emancipation. That way the sexes are made equal. I’ll shoot her down as a matter of principle.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "A duel. That's equity, emancipation. That way the sexes are made equal. I'll shoot her down as a matter of principle."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “What can a person say to such a woman? ‘The devil take you. I’ll put a bullet in your impudent head.’ What can one say to that?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "What can a person say to such a woman? 'The devil take you. I'll put a bullet in your impudent head.' What can one say to that?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “She was angry, her eyes blazed, she accepted the challenge. On my honor, it’s the first time in my life that I ever saw such a woman.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "She was angry, her eyes blazed, she accepted the challenge. On my honor, it's the first time in my life that I ever saw such a woman."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Oh, sir. Go away. Go away!”
+"type": "dialogue",
+"character": "Luka",
+"text": "Oh, sir. Go away. Go away!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “That is a woman. I can understand her. A real woman. No shilly-shallying, but fire, powder, and noise! It would be a pity to shoot a woman like that.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "That is a woman. I can understand her. A real woman. No shilly-shallying, but fire, powder, and noise! It would be a pity to shoot a woman like that."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Oh, sir, go away.”
+"type": "dialogue",
+"character": "Luka",
+"text": "Oh, sir, go away."
 },
 {
-“type”: “stage_direction”,
-“text”: “Enter Mrs. Popov with pistols.”
+"type": "stage_direction",
+"text": "Enter Mrs. Popov with pistols."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Here are the pistols. But before we have our duel, please show me how to shoot. I have never had a pistol in my hand before!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Here are the pistols. But before we have our duel, please show me how to shoot. I have never had a pistol in my hand before!"
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “God be merciful and have pity upon us! I’ll go and get the gardener and the coachman. Why has this horror come to us?”
+"type": "dialogue",
+"character": "Luka",
+"text": "God be merciful and have pity upon us! I'll go and get the gardener and the coachman. Why has this horror come to us?"
 },
 {
-“type”: “stage_direction”,
-“text”: “Luka goes out.”
+"type": "stage_direction",
+"text": "Luka goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “You see, there are different kinds. There are special duelling pistols, with cap and ball. But these are revolvers, Smith and Wesson, with ejectors; fine pistols! A pair like that cost at least ninety roubles.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "You see, there are different kinds. There are special duelling pistols, with cap and ball. But these are revolvers, Smith and Wesson, with ejectors; fine pistols! A pair like that cost at least ninety roubles."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “This is the way to hold a revolver.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "This is the way to hold a revolver."
 },
 {
-“type”: “stage_direction”,
-“text”: “Aside.”
+"type": "stage_direction",
+"text": "Aside."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Those eyes, those eyes! A real woman!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Those eyes, those eyes! A real woman!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Like this?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Like this?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Yes, that way. Then you pull the hammer back \u2014 so \u2014 then you aim \u2014 put your head back a little. Just stretch your arm out, please. So \u2014 then press your finger on the thing like that, and that is all.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Yes, that way. Then you pull the hammer back \u2014 so \u2014 then you aim \u2014 put your head back a little. Just stretch your arm out, please. So \u2014 then press your finger on the thing like that, and that is all."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “The chief thing is this: don’t get excited, don’t hurry your aim, and take care that your hand doesn’t tremble.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "The chief thing is this: don't get excited, don't hurry your aim, and take care that your hand doesn't tremble."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “It isn’t well to shoot inside; let’s go into the garden.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "It isn't well to shoot inside; let's go into the garden."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Yes. I’ll tell you now, I am going to shoot into the air.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Yes. I'll tell you now, I am going to shoot into the air."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “That is too much! Why?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "That is too much! Why?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Because \u2014 because. That’s my business.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Because \u2014 because. That's my business."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You are afraid. Yes. No, no, my dear sir, no flinching! Please follow me. I won’t rest until I’ve made a hole in that head I hate so much. Are you afraid?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You are afraid. Yes. No, no, my dear sir, no flinching! Please follow me. I won't rest until I've made a hole in that head I hate so much. Are you afraid?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Yes, I’m afraid.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Yes, I'm afraid."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You are lying. Why won’t you fight?”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You are lying. Why won't you fight?"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Because \u2014 because \u2014 I like you.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Because \u2014 because \u2014 I like you."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “You like me! He dares to say he likes me! Go.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "You like me! He dares to say he likes me! Go."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Listen! Are you still angry? I was mad as the devil, but please understand me \u2014 how can I express myself?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Listen! Are you still angry? I was mad as the devil, but please understand me \u2014 how can I express myself?"
 },
 {
-“type”: “stage_direction”,
-“text”: “Smirnov grasps the back of a chair, which breaks.”
+"type": "stage_direction",
+"text": "Smirnov grasps the back of a chair, which breaks."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “The devil knows what breakable furniture you have! I like you! Do you understand? I \u2014 I’m almost in love!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "The devil knows what breakable furniture you have! I like you! Do you understand? I \u2014 I'm almost in love!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Leave! I hate you.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Leave! I hate you."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Lord! What a woman! I never in my life met one like her. I’m lost, ruined! I’ve been caught like a mouse in a trap.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Lord! What a woman! I never in my life met one like her. I'm lost, ruined! I've been caught like a mouse in a trap."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Go, or I’ll shoot.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Go, or I'll shoot."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Shoot! You have no idea what happiness it would be to die in sight of those beautiful eyes, to die from the revolver in this little velvet hand! I’m mad!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Shoot! You have no idea what happiness it would be to die in sight of those beautiful eyes, to die from the revolver in this little velvet hand! I'm mad!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Consider it and decide immediately, for if I go now, we shall never see each other again. Decide!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Consider it and decide immediately, for if I go now, we shall never see each other again. Decide!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Speak \u2014 I am a noble, a respectable man, have an income of ten thousand, can shoot a coin thrown into the air. I own some fine horses. Will you be my wife?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Speak \u2014 I am a noble, a respectable man, have an income of ten thousand, can shoot a coin thrown into the air. I own some fine horses. Will you be my wife?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “I’ll shoot!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "I'll shoot!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “My mind is not clear \u2014 I can’t understand. Servant \u2014 water!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "My mind is not clear \u2014 I can't understand. Servant \u2014 water!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I have fallen in love like any young man. I love you! I love you as I have never loved before.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I have fallen in love like any young man. I love you! I love you as I have never loved before."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Twelve women I jilted, nine jilted me, but not one of them all have I loved as I love you. I am conquered, lost; I lie at your feet like a fool and beg for your hand.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Twelve women I jilted, nine jilted me, but not one of them all have I loved as I love you. I am conquered, lost; I lie at your feet like a fool and beg for your hand."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Shame and disgrace! For five years I haven’t been in love; I thanked the Lord for it, and now I am caught, like a carriage tongue in another carriage.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Shame and disgrace! For five years I haven't been in love; I thanked the Lord for it, and now I am caught, like a carriage tongue in another carriage."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I beg for your hand! Yes or no? Will you? \u2014 Good!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I beg for your hand! Yes or no? Will you? \u2014 Good!"
 },
 {
-“type”: “stage_direction”,
-“text”: “Smirnov gets up and goes quickly to the door.”
+"type": "stage_direction",
+"text": "Smirnov gets up and goes quickly to the door."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Wait a minute!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Wait a minute!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Well?”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Well?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Nothing. You may go. But \u2014 wait a moment. No, go on, go on. I hate you!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Nothing. You may go. But \u2014 wait a moment. No, go on, go on. I hate you!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “But \u2014 no; don’t go. Oh, if you knew how angry I was, how angry!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "But \u2014 no; don't go. Oh, if you knew how angry I was, how angry!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “My finger is swollen from this thing. What are you standing there for? Get out!”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "My finger is swollen from this thing. What are you standing there for? Get out!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “Farewell!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "Farewell!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Yes, go! Why are you going? Wait \u2014 no, go!! Oh, how angry I am! Don’t come too near, don’t come too near \u2014 er \u2014 come no nearer.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Yes, go! Why are you going? Wait \u2014 no, go!! Oh, how angry I am! Don't come too near, don't come too near \u2014 er \u2014 come no nearer."
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “How angry I am with myself! Fall in love like a schoolboy, throw myself on my knees. I’ve got a chill!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "How angry I am with myself! Fall in love like a schoolboy, throw myself on my knees. I've got a chill!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I love you. This is fine \u2014 all I needed was to fall in love. Tomorrow I have to pay my interest, the hay harvest has begun, and then you appear!”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I love you. This is fine \u2014 all I needed was to fall in love. Tomorrow I have to pay my interest, the hay harvest has begun, and then you appear!"
 },
 {
-“type”: “dialogue”,
-“character”: “Smirnov”,
-“text”: “I can never forgive myself.”
+"type": "dialogue",
+"character": "Smirnov",
+"text": "I can never forgive myself."
 },
 {
-“type”: “stage_direction”,
-“text”: “He takes her in his arms.”
+"type": "stage_direction",
+"text": "He takes her in his arms."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Go away! Take your hands off me! I hate you \u2014 you \u2014 this is \u2014”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Go away! Take your hands off me! I hate you \u2014 you \u2014 this is \u2014"
 },
 {
-“type”: “stage_direction”,
-“text”: “A long kiss.”
+"type": "stage_direction",
+"text": "A long kiss."
 },
 {
-“type”: “stage_direction”,
-“text”: “Enter Luka with an axe, the gardener with a rake, the coachman with a pitchfork, and workmen with poles.”
+"type": "stage_direction",
+"text": "Enter Luka with an axe, the gardener with a rake, the coachman with a pitchfork, and workmen with poles."
 },
 {
-“type”: “dialogue”,
-“character”: “Luka”,
-“text”: “Merciful heavens!”
+"type": "dialogue",
+"character": "Luka",
+"text": "Merciful heavens!"
 },
 {
-“type”: “stage_direction”,
-“text”: “A long pause.”
+"type": "stage_direction",
+"text": "A long pause."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. Popov”,
-“text”: “Tell them in the stable that Tobby isn’t to have any oats.”
+"type": "dialogue",
+"character": "Mrs. Popov",
+"text": "Tell them in the stable that Tobby isn't to have any oats."
 },
 {
-“type”: “stage_direction”,
-“text”: “CURTAIN.”
+"type": "stage_direction",
+"text": "CURTAIN."
 }
 ]
 }
