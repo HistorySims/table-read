@@ -80,7 +80,7 @@
       <div id="beat-stage" class="hidden">
         <div class="beat-label">Stage Direction</div>
         <div class="beat-stage-text" id="beat-stage-text"></div>
-        <div class="beat-advancing">advancing automatically…</div>
+        <button class="btn btn-done" id="btn-stage-next">Next</button>
       </div>
 
       <div id="beat-active" class="hidden">
@@ -481,6 +481,7 @@
 
     btnDone.addEventListener('click', () => socket.emit('beat-done'));
     btnSkip.addEventListener('click', () => socket.emit('beat-done'));
+    document.getElementById('btn-stage-next').addEventListener('click', () => socket.emit('beat-done'));
 
     socket.on('performance-ended', () => {
       [beatStage, beatActive, beatWaiting].forEach(el => el.classList.add('hidden'));
