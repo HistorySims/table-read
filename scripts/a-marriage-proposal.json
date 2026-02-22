@@ -1,0 +1,935 @@
+{
+“title”: “A Marriage Proposal”,
+“author”: “Anton Chekhov”,
+“description”: “A Joke in One Act. Ivan Lomov arrives at his neighbor’s house in his best clothes to propose marriage to the neighbor’s daughter, Natalia. Before he can get the words out, they fall into a screaming argument about who owns a strip of meadowland called Oxen Meadows. The father throws him out. Then they call him back. Then they argue about whose hunting dog is better. Lomov has a heart attack. They accept the proposal. Nobody is happy.”,
+“characters”: [
+{
+“name”: “Lomov”,
+“description”: “Ivan Vassilevitch Lomov – a nervous, hypochondriac landowner in his mid-thirties who has come to propose marriage. He is wearing his best evening coat and white gloves, which everyone comments on. He is convinced he is dying of every disease simultaneously. His heart palpitates, his side twitches, his leg goes numb, and his eye jumps – but only when he’s anxious, which is always. He cannot stop arguing even when it is literally killing him. Think: a man who has rehearsed a beautiful proposal speech and instead spends thirty minutes screaming about meadows.”,
+“lines”: 69,
+“difficulty”: “high”,
+“costumeIdeas”: “The fanciest outfit you own – suit jacket, tie, white gloves if possible. Look overdressed and uncomfortable. Clutch your chest frequently. Mop your brow. Carry a glass of water that you never get to drink.”
+},
+{
+“name”: “Natalia”,
+“description”: “Natalia Stepanovna – Tschubukov’s daughter, twenty-five, unmarried, and not about to let anyone say that Oxen Meadows belongs to the Lomovs. She is practical, sharp-tongued, and competitive. She enters the scene not knowing Lomov has come to propose, and by the time she finds out, she’s already deep in an argument she refuses to lose. When she learns he was going to propose, she instantly bursts into tears and demands they bring him back. Then immediately starts arguing again. Think: someone who would rather win an argument than get married, but ideally wants both.”,
+“lines”: 63,
+“difficulty”: “high”,
+“costumeIdeas”: “A practical house dress or apron – she’s been sorting peas when Lomov arrives. Hair up. She is not dressed for a proposal, which is part of the comedy. Look domestic and annoyed.”
+},
+{
+“name”: “Tschubukov”,
+“description”: “Stepan Stepanovitch Tschubukov – Natalia’s father, a wealthy landowner who is delighted when he realizes Lomov has come to propose to his daughter. His delight lasts approximately ninety seconds before the meadow argument begins, at which point he starts screaming louder than anyone. He is the one who throws Lomov out, then immediately tells Natalia to go get him back. He is loud, blustery, and exhausted by the end. Think: a father who wants to marry off his daughter so badly he’ll accept a proposal from a man who is currently unconscious.”,
+“lines”: 41,
+“difficulty”: “medium”,
+“costumeIdeas”: “Country gentleman – waistcoat, rolled sleeves, maybe a smoking jacket or dressing gown. He’s at home and comfortable. Look like a man who was having a nice quiet evening until everything went wrong.”
+}
+],
+“beats”: [
+{
+“type”: “stage_direction”,
+“text”: “The reception room in Tschubukov’s house. Tschubukov is discovered alone.”
+},
+{
+“type”: “stage_direction”,
+“text”: “Lomov enters, wearing a formal evening coat and white gloves. He is visibly nervous.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “By all that’s holy! My dear fellow! Ivan Vassilevitch! I’m so glad to see you! This is indeed a surprise! How are you?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Thank you. And how are you, if I may ask?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “We just get along somehow, my angel, thanks to your prayers, and so on. Please sit down. You know, you shouldn’t neglect your neighbors, my dear boy. My dear fellow, why are you so formal in your dress? Evening coat, gloves, and so on! Are you going somewhere, my treasure?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “No, I’ve come only to see you, my dear Stepan Stepanovitch.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Then why are you in evening clothes, my precious? As if you were paying a New Year’s call!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Well, you see, the fact is – [Takes his arm.] I’ve come to you, my dear Stepan Stepanovitch, to trouble you with a request. I have had the privilege of turning to you for help more than once, and you’ve always, so to speak – but I must ask your pardon, I’m getting excited. I’ll drink some water first, if you’ll be so kind.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “[Aside.] He’s come to borrow money! I won’t give him any! [Aloud.] What is it, my beauty?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “You see, my dear Stepanitch – I mean, Stepan Dearovitch – I mean, I’m terribly nervous, as you can see. In a word, you are the only one who can help me, though of course I don’t deserve it, and – and I have no right to count on your assistance.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Oh, don’t go round and round it, darling! Out with it! Well?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “At once. This minute. The fact is, I’ve come to ask the hand of your daughter, Natalia Stepanovna, in marriage.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “[Overjoyed.] My darling! Ivan Vassilevitch! Say it again – I didn’t quite hear you!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “I have the honor to ask –”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “My darling! I’m so happy! And so on. Yes, indeed, and all that sort of thing. [Embraces and kisses Lomov.] I’ve been hoping for it for a long time. It’s been my constant wish. [Sheds a tear.] I’ve always loved you, my angel, as if you were my own son. May God give you both His blessing and His grace and – I’ve always wished for it. But why am I standing here like an idiot? I’m thunderstruck with joy, completely thunderstruck! Oh, with all my heart! I’ll go and call Natalia.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “[Deeply moved.] Dear Stepan Stepanovitch, do you think she’ll accept?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “A handsome fellow like you – how could she refuse? She’s like a lovesick cat, and so on. I’ll be right back!”
+},
+{
+“type”: “stage_direction”,
+“text”: “Tschubukov exits. Lomov is alone.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “It’s cold. I’m trembling all over, as if I were going in for an examination. The main thing is to make up my mind. If I think about it too long, hesitate, talk too much, hold out for an ideal woman or for true love, I’ll never get married.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Brr! It’s cold! Natalia Stepanovna is an excellent housekeeper, not bad-looking, well-educated – what more do I need? But I’m so nervous my ears are buzzing. [Drinks water.] And it’s impossible for me not to marry.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “In the first place, I’m already thirty-five – a critical age, so to speak. In the second place, I need a well-ordered life. I have a heart condition, continual palpitations, I’m excitable and always getting terribly upset. My lips tremble and there’s a twitch in my right eyelid.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “But the worst thing is the way I sleep. No sooner do I get into bed and begin to doze off when something stabs me in my left side – stab! And it goes right through my shoulder and my head. I jump up like a lunatic, walk about for a bit, and lie down again – but the moment I start to fall asleep, there’s another stab in my side! And this goes on twenty times over.”
+},
+{
+“type”: “stage_direction”,
+“text”: “Natalia enters.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Oh, it’s you! Papa said to go in – there’s a merchant come to buy something. Good afternoon, Ivan Vassilevitch.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Good afternoon, my dear Natalia Stepanovna.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Excuse my apron and not being dressed. We’re shelling peas for drying. Why haven’t you been to see us for so long? Sit down.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Thank you. [Sits down.] I’ve been meaning to come, but – you see, the fact is – [Nervously.] It’s a bit warm in here, isn’t it?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “No, it’s not warm at all. Why are you in evening clothes? Are you going to a ball?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “No, I – you see, my dear Natalia Stepanovna – the fact is, I’ve made up my mind to ask you to hear me out. Naturally, you’ll be surprised and perhaps even angry, but I – [Aside.] It’s terribly cold!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “What is it? [Pause.] Well?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “I’ll try to be brief. You are aware, my dear Natalia Stepanovna, that I have had the honor of being your neighbor for a long time. My late aunt and her husband, from whom, as you know, I inherited my estate, always had the greatest respect for your father and your late mother. The Lomov family and the Tschubukov family have always been on the friendliest terms, practically related.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “And besides, as you know, my land is right next to yours. You may recall that my Oxen Meadows border on your birch woods.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Excuse me for interrupting you. You said ‘my Oxen Meadows.’ Are they yours?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Yes, mine.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “What are you talking about? Oxen Meadows are ours, not yours!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “No, mine, my dear Natalia Stepanovna.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “That’s news to me. How do you make them yours?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “How? I’m speaking of the Oxen Meadows that lie between your birch woods and my Burnt Marsh.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Yes, exactly. They’re ours.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “No, you’re mistaken, my dear Natalia Stepanovna. They’re mine.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Come now, Ivan Vassilevitch! How long have they been yours?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “How long? As far as I can remember, they’ve always been ours.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Well, really, that’s going a bit far!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “You can see it from the documents, my dear Natalia Stepanovna. It’s true that at one time Oxen Meadows were in dispute, but now everybody knows they’re mine. There’s nothing to argue about. You see, my aunt’s grandmother gave those meadows to your father’s grandfather’s peasants rent-free for an indefinite period in return for their baking bricks for her. The peasants used the meadows rent-free for forty years and got used to thinking of them as their own. But when the settlement came after the emancipation –”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “That’s not true at all! Both my grandfather and my great-grandfather considered that their land extended to Burnt Marsh – which means Oxen Meadows were ours. What’s there to argue about? I don’t understand. This is really irritating!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “I can show you the documents, Natalia Stepanovna!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “No, you’re simply joking, or trying to tease me. What a surprise! We’ve owned the land for nearly three hundred years and all of a sudden we’re told it isn’t ours! Ivan Vassilevitch, I can hardly believe my own ears.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “I don’t care about the meadows – they’re only five acres, worth maybe three hundred rubles – but the injustice of it! Say what you will, I can’t stand injustice!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Hear me out, I implore you! Your father’s grandfather’s peasants, as I’ve already told you, baked bricks for my aunt’s grandmother. My aunt’s grandmother, wishing to do them a good turn –”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Grandfather! Grandmother! Aunt! I don’t know anything about that. Oxen Meadows are ours, and that’s that.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “They’re mine!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “They’re ours! You can argue for two days, you can put on fifteen evening coats, but they’re ours, ours, ours! I don’t want what’s yours and I don’t intend to give up what’s mine!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “I don’t need the meadows, Natalia Stepanovna, but it’s a matter of principle. If you want, I’ll give them to you.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “I could give them to you, because they’re mine! This is very strange, Ivan Vassilevitch! We’ve always considered you a good neighbor and friend – last year we lent you our threshing machine, and because of that we had to put off our own threshing until November – and now you treat us like gypsies! Giving me my own land! Excuse me, but that is not neighborly! In my opinion, it’s downright impudent!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Then you mean to say that I’m a land-grabber? Madame, never in my life have I grabbed anybody’s land, and I won’t allow anyone to accuse me of it! [Goes to the table and drinks water.] Oxen Meadows are mine!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “That’s not true! They’re ours!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Mine!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “That’s not true! I’ll prove it! I’ll send my mowers there this very day!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “What?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “My mowers will be there today!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “You dare! You wouldn’t dare!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “[Shouting.] Oxen Meadows are ours, and I won’t give them up! I won’t! I won’t!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “We’ll see about that! I’ll prove it in court!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “In court! You can sue if you like! I know you – you’re just waiting for a chance to go to court! You petty, mean-spirited person! Your whole family was like that! The whole lot of them!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Please don’t insult my family! The Lomovs have always been honorable people, and not one of them has ever been on trial for embezzling, like your uncle!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Every last one of the Lomovs was crazy! Every one!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Your grandfather was a drunkard, and your youngest aunt – Nastasia Mikhailovna – ran away with an architect!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “And your mother was a hunchback! [Clutches at her heart.] Oh, my side! My head! Heavens! Water! A doctor!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Your father was a gambler and a glutton!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “And your aunt was a gossip like no other!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “My left foot has gone to sleep! You’re an intriguer! Oh, my heart! And it’s an open secret that before the elections you – there are spots in front of my eyes! Where’s my hat?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “It’s low! It’s mean! It’s despicable!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Where’s my hat? My heart! Where am I going? Where’s the door? Oh! I think I’m dying! My foot’s gone numb!”
+},
+{
+“type”: “stage_direction”,
+“text”: “He stumbles toward the door.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “And don’t you dare set foot in this house again! Take your lawsuit where you please!”
+},
+{
+“type”: “stage_direction”,
+“text”: “Lomov staggers out. Tschubukov enters.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “What’s the matter? What’s all the shouting about?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Papa, tell me honestly: on whose side is the right? Do Oxen Meadows belong to us or to Lomov?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “My darling, the meadows are ours.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Of course they’re ours! That’s what I told him! But he has the nerve to claim they’re his!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Our meadows? Impossible! What do you mean? On what grounds?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “He says his aunt’s grandmother gave them to the peasants. Can you imagine?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “The man is mad! I’ll show him! I’ll skin him alive!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “And he kept saying they were his, his, his! Can you believe the impudence?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “But my darling, what did he come here for? And why was he wearing his evening clothes?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “I don’t know. I think he came to propose to me or something.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “To propose! To you?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Yes. At least that’s what Papa – I mean, that’s what you implied when you sent him in.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “[Clasping his head.] Oh, heavens! He came to propose and you argued with him about Oxen Meadows!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “But how was I to know? I didn’t know!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “There you go in your apron! And now he’ll never come back! You’ve driven him away!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “[Bursting into tears.] Bring him back! Bring him back! Oh, bring him back!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Bring him back? He’s gone! He’s already out the gate!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “[Wailing.] Bring him back! Bring him back! I’m going to faint! [Throws herself into a chair.] Bring him back!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Good Lord! What is it? What’s the matter with you? [Clutches his head.] What a life! I’ll shoot myself! I’ll hang myself! They’ve worn me out!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “I’m dying! Bring him back!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Right away! Don’t howl! [Runs out.]”
+},
+{
+“type”: “stage_direction”,
+“text”: “Natalia is alone, wailing.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “What have we done? Bring him back! Bring him back!”
+},
+{
+“type”: “stage_direction”,
+“text”: “Tschubukov drags Lomov back in by the arm.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Here he is! Confound him! Ugh! Talk to her yourself – I can’t!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “[Staggering in.] My heart is palpitating something awful. My foot has gone to sleep. There’s a pain in my side –”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “[Through tears.] Oxen Meadows are yours, Ivan Vassilevitch. I was wrong. They’re yours.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “What?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Take them. They’re yours. Do sit down. [They sit.] We were wrong.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “It was a matter of principle. I don’t care about the meadows, but I do care about the principle.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Of course, of course, the principle. Let’s talk about something else.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Especially as I can prove it. My aunt’s grandmother gave the use of the meadows –”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “That’s enough! Enough about the meadows! [Pause.] Tell me – do you go hunting, Ivan Vassilevitch?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Yes, I go hunting sometimes, my dear Natalia Stepanovna. You know, by the way, I forgot to tell you – I have a dog, Guess. He went lame the other day. But he’s a wonderful dog.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Is that so? Is he a good dog?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Magnificent! I paid a hundred and twenty-five rubles for him.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “That’s too much, Ivan Vassilevitch. Papa paid eighty-five for our Squeezer, and Squeezer is a far better dog than your Guess.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Squeezer better than Guess? What an idea! [Laughs.] Squeezer better than Guess!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Of course he’s better! It’s true Squeezer is still young – he’s only a year old – but for points and cleverness, even Volchanetsky hasn’t got a better dog.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Excuse me, Natalia Stepanovna, but you forget that Squeezer has a short lower jaw, and a dog with a short lower jaw can never grip properly.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Short lower jaw? That’s the first I’ve heard of it!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “I assure you, his lower jaw is shorter than his upper.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Have you measured it?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “I have. He’s good for coursing, I’ll grant you that, but when it comes to gripping, he can barely hold on.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “In the first place, our Squeezer is a purebred dog, the son of Harness and Chisel, while nobody even knows where your piebald Guess came from. And in the second place, he’s old and as ugly as a worn-out nag!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “He is old, but I wouldn’t take five Squeezers for him! Guess is a real dog, and Squeezer – well, it’s ridiculous to argue. Every hunter has dogs like your Squeezer by the dozen. Twenty-five rubles would be a lot for him.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Some demon of contradiction has gotten into you today, Ivan Vassilevitch. First you pretend that Oxen Meadows are yours, now you say that Guess is better than Squeezer. I don’t like it when a person doesn’t say what he really means. You know perfectly well that Squeezer is a hundred times better than your – your stupid Guess! Why do you say the opposite?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “I can see, Natalia Stepanovna, that you think I’m either blind or a fool. Don’t you understand that your Squeezer has a short lower jaw?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “It’s not true!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “It is!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “[Shouting.] It’s not true!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Why are you shouting, madame?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Why are you talking nonsense? It’s revolting! It’s time your Guess was shot, and you’re comparing him with Squeezer!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Excuse me, I can’t continue this argument. My heart is palpitating!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “I’ve noticed that the hunters who argue the most always know the least.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Madame, please be quiet – my heart is bursting! [Shouts.] Be quiet!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “I won’t be quiet until you admit that Squeezer is a hundred times better than your Guess!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “A hundred times worse! I hope Squeezer drops dead! Oh, my temples! My eyes! My shoulder!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “And your idiotic Guess doesn’t need to drop dead – he’s half dead already!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “[Weeping.] Be quiet! My heart is about to burst!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “I won’t be quiet!”
+},
+{
+“type”: “stage_direction”,
+“text”: “Tschubukov enters.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Now what’s happened?”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Papa, tell us honestly – on your honor – which dog is better, our Squeezer or his Guess?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Stepan Stepanovitch, I implore you – just tell me one thing: does your Squeezer have a short lower jaw or not? Yes or no?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “And what if he does? As if it mattered! Squeezer is still the best dog in the neighborhood, and so on.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “But isn’t my Guess better? Tell the truth!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Don’t get excited, my precious. Your Guess, it’s true, has his good points. He’s purebred, firm on his feet, well-sprung, and so on. But the dog has two defects if you want to know: he’s old and he’s short in the muzzle.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Excuse me, I have palpitations. Let’s look at the facts. If you’ll recall, at the hunt on Maruskin’s field, my Guess ran neck and neck with the Count’s dog, while your Squeezer was a whole mile behind!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “He was behind because the Count’s huntsman hit him with his whip!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “And with good reason! All the other dogs were after the fox, and Squeezer was chasing a sheep!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “That’s not true! My dear boy, I have a terrible temper, and the fact is, let’s please stop arguing. He was whipped because everybody’s jealous of everybody else’s dogs. Yes! They’re all full of spite! And you, sir, are no exception! The moment you notice that someone’s dog is better than your Guess, you immediately start something. I remember everything!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “And I remember too!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “[Mocking.] And I remember too! What do you remember?”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “My heart! My foot’s gone to sleep! I can’t –”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “[Shouting.] My heart! What kind of hunter are you? You should be lying on the stove in the kitchen squashing cockroaches, not riding to hounds! My heart!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “You’re a hunter? You only go hunting to get in with the Count! My heart! You’re an intriguer!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “What? Me – an intriguer? [Shouts.] Be quiet!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Intriguer!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Boy! Puppy! Walking drugstore!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Old rat! Hypocrite!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Be quiet or I’ll shoot you like a partridge! You windbag!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Everybody knows that – oh, my heart! – your late wife used to beat you!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “[Gasping.] My heart! My shoulder has come off! My head! I see stars! I’m dying!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Nice sportsman! You don’t even know how to sit on a horse!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “My heart! And he calls himself a sportsman! [To Natalia.] And you – be quiet for once in your life!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Oh, my heart! My foot – my side – I’m dying! [Falls into an armchair.] A doctor! [Faints.]”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Boy! Milksop! Windbag! I’m sick! [Drinks water.] Sick!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “A sportsman! And he can’t even sit on a horse! [To Tschubukov.] Papa! What’s the matter with him? Papa! Look – papa! [Shrieking.] Ivan Vassilevitch! He’s dead!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “What? Who’s dead? [Looks at Lomov.] He really has fainted! Water! A doctor! [Holds glass to Lomov’s lips.] Drink this! No, he’s not drinking. He must be dead, and so on. What a life! Why didn’t I shoot myself long ago? Why haven’t I cut my throat? What am I waiting for? Give me a knife! A pistol!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “[Stirring.] Stars! Spots! Mist! Where am I?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Get married! Quick! She says yes! [Joins their hands.] She says yes, and so on. I bless you, and so on. Only leave me in peace!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “[Getting up.] What? Who?”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “She’s willing! Well? Kiss each other and – go to the devil!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “[Blushing.] He’s alive! Yes – I’m willing!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “Kiss each other!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “What? Who? [Kisses Natalia.] I’m very happy. Enchanted, so to speak. [Drinks water.] What – what was all that about? Oh, yes. My heart – stars – I’m happy. Natalia Stepanovna – [Kisses her hand.] My foot’s gone to sleep.”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “I – I’m happy too.”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “What a load off my shoulders! Ugh!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “But – all the same – you must admit now that Guess is worse than Squeezer.”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Better!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Worse!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “There we go again! What a way to start married life! Shut up, both of you!”
+},
+{
+“type”: “dialogue”,
+“character”: “Lomov”,
+“text”: “Better!”
+},
+{
+“type”: “dialogue”,
+“character”: “Natalia”,
+“text”: “Worse! Worse! Worse!”
+},
+{
+“type”: “dialogue”,
+“character”: “Tschubukov”,
+“text”: “[Trying to shout them down.] Champagne! Champagne! Champagne!”
+},
+{
+“type”: “stage_direction”,
+“text”: “CURTAIN”
+}
+]
+}
