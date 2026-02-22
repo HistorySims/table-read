@@ -79,15 +79,7 @@ function sendCurrentBeat(code) {
     activePlayer,
   });
 
-  // Auto-advance non-dialogue beats after 4 seconds
-  if (beat.type !== 'dialogue') {
-    const beatIndex = room.currentBeat;
-    setTimeout(() => {
-      if (rooms[code] && rooms[code].currentBeat === beatIndex && rooms[code].state === 'performance') {
-        advanceBeat(code);
-      }
-    }, 4000);
-  }
+  // Stage directions wait for the host to click Next
 }
 
 function advanceBeat(code) {
@@ -271,10 +263,14 @@ io.on('connection', (socket) => {
     if (room.state !== 'performance') return;
 
     const beat = room.script.beats[room.currentBeat];
-    if (beat.type !== 'dialogue') return;
 
-    const activePlayer = room.assignments[beat.character];
-    if (name !== activePlayer && role !== 'host') return;
+    if (beat.type !== 'dialogue') {
+      // Only the host can advance stage directions
+      if (role !== 'host') return;
+    } else {
+      const activePlayer = room.assignments[beat.character];
+      if (name !== activePlayer && role !== 'host') return;
+    }
 
     advanceBeat(code);
   });
