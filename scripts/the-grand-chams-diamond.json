@@ -1,0 +1,2496 @@
+{
+  "title": "The Grand Cham's Diamond",
+  "author": "Allan Monkhouse",
+  "description": "",
+  "characters": [
+    {
+      "name": "Mrs Perkins",
+      "description": "",
+      "lines": 175,
+      "difficulty": "high",
+      "costumeIdeas": ""
+    },
+    {
+      "name": "Mr Perkins",
+      "description": "",
+      "lines": 127,
+      "difficulty": "medium",
+      "costumeIdeas": ""
+    },
+    {
+      "name": "Miss Perkins",
+      "description": "",
+      "lines": 94,
+      "difficulty": "medium",
+      "costumeIdeas": ""
+    },
+    {
+      "name": "A Man in Black",
+      "description": "",
+      "lines": 36,
+      "difficulty": "easy",
+      "costumeIdeas": ""
+    },
+    {
+      "name": "Albert Watkins",
+      "description": "",
+      "lines": 32,
+      "difficulty": "easy",
+      "costumeIdeas": ""
+    }
+  ],
+  "beats": [
+    {
+      "type": "stage_direction",
+      "text": "A sitting-room in a small house in a London suburb. The window is in the wall to the left of the spectator and the door in the right half of the back wall. The furniture is ordinary. On the chimneypiece, to the right of the spectator, is a clock. The room is lit by electric light. It is some time after the evening meal. Mr Perkins is reading a newspaper. Mrs Perkins is darning a sock, and Miss Perkins is engaged upon a jigsaw puzzle."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What I mean t’ say is that it’s not much fun for us."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "All right, Ma."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "(_Engaged on her puzzle._) Bother!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "It makes a long evenin’ of it. Same every night. We ’ave our tea and then we just set down till it’s time to go to bed. It’s not fair."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Same for all of us."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "That it’s not."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Why isn’t it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Do y’ or do y’ not go out o’ this ’ouse every mornin’ and spend the day out?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’d be a poor job for you if I didn’t."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I don’t say anythin’ about that. I don’t interfere."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Ow could y’ interfere?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Bother!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Don’t interrup’ like that when me and your pa’s talkin’, Polly."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "My name isn’t Polly."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "What is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "It’s Marie."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Well, I’m blowed!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "An’ why shouldn’t she ’ave a bit of a change? She’s tired of bein’ Polly."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I do think we might have a little more change."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Don’t you start."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "We might have gone out to the pictures to-night, as Mother said."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Your young man might ’ave come and found you out."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "You know he’s engaged in the evenings."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Yes, and what at?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Never mind!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I do think, Polly, that he ought to be a bit more open with you. What"
+    },
+    {
+      "type": "stage_direction",
+      "text": "does_ he do?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Ay; what does Albert Watkins do?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Never you mind!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’E’s never told ’er."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I ’ope it’s nothin’ to be ashamed of."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "P’raps I know more than you think."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’As ’e said?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "It’s confidential."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Oh! I know that tale."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Well, Polly’s got ’er young man and you’ve got your business an’ out all day seein’ people. What ’ave I got?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Well, what should y’ ’ave? What does any woman ’ave? I dunno what you’re botherin’ about. Y’ ’ad a week at Margate this year."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Derisively_.) ’Ome from ’ome!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "A good woman ought to like ’er ’ome."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I never said I didn’t like it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Well----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’Ome’s a place to come back to."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Mother’s romantic. That’s what she is."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What _is_ that, Polly? It’s a word I never rightly----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Romantic! At ’er age!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "You know what it is, do y’?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’s penny dreadfuls and the pictures and gassin’ about love and the deep blue sea."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Well, y’ might do worse."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Whatever’s come over ’er?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I’ve always thought I should like to travel."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "(_At her puzzle._) I think there’s a bit missing."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Eh? A bit missin’? That’s the way with me; there’s always bin a bit missin’."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I dunno why y’re startin’ like this now. Y’ve ’ad all these years to settle down in. What’s come over yer?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Eh! Don’t ask me. I think ’er Albert’s comin’ about ’as unsettled me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Albert!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Well, I see ’im an’ you and I think what might ’a’ been."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "What’s that?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Well, I was young onct."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "But y’re not now."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "You’ve no call to throw it in m’ teeth."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Teeth indeed!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Don’t be insultin’, Mr Perkins."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I wasn’t bein’."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Yes, y’ was."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I don’t see why Albert should unsettle you."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "If I was you I’d want to know ’ow ’e spends ’is evenings."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "It’s no business of yours, Ma."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’ll be some bus’ness of mine. I think it’s about time Albert spoke to me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Spoke to you?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Placed ’is position an’ prospects before me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Well, I believe he’s a confidential agent."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "A what!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "What sort of a’ agent?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "It’s confidential--or financial p’raps."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "He’s kiddin’ yer."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Do they work at night?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I’ve always understood that Rothschilds and people like that did this business at parties--on the quiet."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Bosh!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, very well, Pa."
+    },
+    {
+      "type": "stage_direction",
+      "text": "Miss Perkins settles to her puzzle. Mrs Perkins darns stolidly. Mr Perkins returns to the paper. A short pause."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Well, it’s too late for the movies now."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Ah! That’s it."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She finds the missing bit."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What’s in the paper, Pa?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "There’s a Cabinet crisis."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Isn’t there anythin’ interestin’?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Ere’s a child stole a shillin’ an’ swallowed it t’ escape detection."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Poor thing!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Ere! Is this more in your line? Great Jewel Robbery! The Grand Cham’s Diamond missing."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Eh! What’s that?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Who is the Grand Cham?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’E’s--one o’ them Eastern potentates. ’E’s been stayin’ at the Majestic Hotel. The dimond was taken out of the settin’ and a walnut substituted."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "A walnut! It must be a whopper."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Why did they substitute a walnut?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "You must substitute somethin’."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Why?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I don’t know. They always do. The brightest treasure of the East. Not the slightest trace. Supposed Asiatic gang. Sherlock Holmes and Father Brown have been summoned and a telegram despatched to Mossier Lecock."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_With satisfaction._) Well, that’s somethin’ like."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "What’s it worth?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Eh! I dunno. Thousands, thousands. They say it makes the Koh-i-noor take a back seat."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Reelly?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "What ’ud you do, old lady, if I brought it ’ome for y’r birthday?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Well, I’d wear it, I s’pose."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "You’d never dare, Ma."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I would that."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "But thieves’d always be after it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What ’d these thieves do with it when they’ve got it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I s’pose they chop it up and sell it in bits."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What a shame!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I dessay they’re off to South America."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Why?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "No extrydition."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What’s that? D’ y’ mean last ’dition extra?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "No, Ma. It means that thieves can’t be turned out."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Why not?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’s like it used to be with slaves here. Once the South American flag’s waved over ’em, they’re all right."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "It isn’t all one country there, Pa."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Well, I reckon they’re much of a muchness."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "An’ could you sell it there?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Yes, they’re great people for jewl’ry."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Polly, you’re doin’ nothin’. Y’ might as well be mendin’ that blind."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, bother!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "It looks bad hangin’ down like that."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "(_Going towards the window._) People’ll see in."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "There’s not many passin’ at this time o’ night."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "It makes it so public. (_She takes the blind from the lower part of the window and begins to mend it._) Where’s the white thread, Ma?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Here y’ are. Now, make a job of it."
+    },
+    {
+      "type": "stage_direction",
+      "text": "Mr Perkins has returned to his paper, his daughter is more or less intent on her work, Mrs Perkins darns and yawns. Mr Perkins snores gently."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Might as well all be asleep."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Listen, Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Somebody runnin’. Seem in an ’urry."
+    },
+    {
+      "type": "stage_direction",
+      "text": "Something crashes through the window and falls with broken glass upon the floor."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Good gracious!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Mercy on us!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "(_Waking up_.) Fire! Where is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Nonsense, Pa! It’s them boys. Out arter ’em."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "What! Where?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "No. Don’t go. Don’t leave us. It can’t be boys."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "(_Seeing the broken window._) This is very careless, Polly."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "It wasn’t me. It’s a stone, I think."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "They’re far enough now. Where is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I’m all of a tremble."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "You ought to ’ave run right out, Pa, and you might ’ave caught ’em. I never did see such a thing."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’s an outrage, this is. Did y’ see anybody?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "We ’eard somebody runnin’."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I thought I ’eard somebody passing after that. Quietly like. Runnin’ very light."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Nonsense, Polly. Better put that blind up now."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "You put it up."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Do as I tell you."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I don’t like."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’Ere, ’ere. Give it me."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She puts it up and peers out into the street."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Come away, Ma."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Where’s the stone?"
+    },
+    {
+      "type": "stage_direction",
+      "text": "They all look about the floor."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Here it is. Here’s something. (_She picks it up._) Why! it’s a lump of glass."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Let’s look!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Let me see."
+    },
+    {
+      "type": "stage_direction",
+      "text": "They crowd round."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I say!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "What is it? What is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Give it me, Polly."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She grabs it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Hold it up to the light."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Why! What can it be?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Relinquishing it to her husband._) Nonsense! Nonsense!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "She goes back to her chair and begins to fumble with her darning. She is greatly agitated."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’s a rum thing, this is."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Eh! Isn’t it beautiful?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It might be a----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Diamond?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Nonsense!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Rushing forward._) Hide it!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "She seizes the diamond and looks about the room."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Why! What d’ y’ mean, Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "It’s it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "(_Feebly._) What’s it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "You know."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "What--what--what rubbish! The idea!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Looking at it in her palm._) It’s the Grand Cham’s dimond."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Then it’s dangerous."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Never mind that."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "What shall we do?"
+    },
+    {
+      "type": "stage_direction",
+      "text": "She begins to whimper."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Stop that, Polly."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "P’raps we’d better look out for a policeman."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "No."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "If it is it we’re not safe."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I don’t care."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "But what d’ y’ want to do?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Here! Let’s put it inside the clock. (_She opens the back of the clock and crams it in._) Now!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "What are y’ up to, Ma?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I wish you’d throw it out in the street again."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "No, no."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "But what _are_ y’ up to?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "It’s come to us, this ’as. We’ll stick to it if we can."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "But----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "They may not find the ’ouse again. They’re all alike in this street."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "There’s the broken window."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Let’s ’ave the bits of glass out. Then it won’t be noticed."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She peers out into the street. Then she begins to pluck the fragments of broken glass from the window. She winces and licks her finger."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "You’ve cut yourself now."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Never mind that. Polly, pick all the bits off the floor. Don’t leave a trace."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She licks her finger. Polly obeys."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Now, what’s all this about?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "(_On the floor._) I dunno what’s come over ’er."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’Ere, Polly, look alive. ’Ave y’ got ’em all?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "All I can find."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Drat it! A bit’s fallen outside. Go out and pick it up, Pa. No; p’raps better not."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Look here! What’s y’r game?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Give here! (_She takes all the fragments together and puts them under the sofa cushion. She looks round the room, listens at the window and returns to her darning_.) If anyone comes, mind we know nothin’ about it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It depends ’oo comes, doesn’t it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "No."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It might be the police."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Never mind the police."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Why! What d’ y’ mean? What _do_ y’ mean?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "It’s the chanct of a lifetime. We’ll take it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Look ’ere----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "It’s come to us. It might a’ bin the answer to a prayer."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Was it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Not exactly, but I’ve been thinkin’ a lot."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "More likely the devil."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "There’s no such thing. Y’re talkin’ nonsense."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "No devil. Then is there God?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "There may be. ’E may ’av sent it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’s awful talk, this."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Why! What could you do with it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Chop it up and sell it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Where?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "In South America."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Good ’eavens!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Ma, how can you?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Ave y’ took leave of y’r senses?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Yes, if y’ like."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Well, I’ve ’eard tell as women aren’t honest like men and now I know it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’Ow do I know you’re honest?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I’ve never took a thing in my life. I’ve a record, ’aven’t I?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I dessay. I dunno. I won’t give it up. I won’t. I won’t. So there!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Ow can y’ ’elp it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I’ve sat there darnin’ and mendin’, waitin’ and dozin’ till I’m tired. I’ve never ’ad a go at anythin’. The chanct ’as come."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I did think you were honest, Ma."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Honest! It’s ours."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Ow can it be?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’Oo’s is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Why! That Grand Cham’s."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "An’ ’ow did ’e get it? ’E’s a tyrant. ’E stole it off some nigger. Now it’s come to me. It’s mine. It’s mine as much as anyone’s. It’s come like a miracle."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "But you can’t keep it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Y’r ma amazes me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "First thing in the mornin’ y’ll get a list o’ them ships sailin’ for South America."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, Ma! Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "She’s off ’er chump."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I’ll go alone if y’ like."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’s dangerous. It’s dangerous. There may be a revolver levelled at y’ now."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I don’t care."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I never knew she was like this."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "South America? Where?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Y’ shall ’ave jewels and dresses no end, Polly."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Don’t, Ma."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "South America! Like that chap Jabez Balfour."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "He was brought back, wasn’t he?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "I object to be put along of ’im, any’ow."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "We’d manage better than that. Riches! Livin’ at ease. Motors an’ champagne. We’ve never ’ad a chanct!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It can’t be done. It’s all nonsense. An’ it’s ’orrible to think of."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Oh! It’s a beautiful thing. I couldn’t bear to break it up. We’ll keep it. We’ll look at it now and then. Every Sunday."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Sunday!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I could go on settin’ ’ere if I knew it was there all the time. I think I could be ’appy."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "You’d never be safe."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Safe! I’ve bin too safe."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Oh, missis! Oh, missis!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "It’s strange nobody’s come."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Nobody’s comin’. It’s a gift."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It may not be--what y’ think."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Fiercely._) It is."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Then they’ll be after us. Police--or worse."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Let ’em come."
+    },
+    {
+      "type": "stage_direction",
+      "text": "There is a ring at the door-bell. They all stand tense."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Now, there."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, dear!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "You’ll not say a word. You’ll do as I tell you. Mind that. We know nothing."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "There’s the window."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Leave that to me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Oh! But, I say----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Thomas Perkins, you’ll rue it to your dyin’ day if----"
+    },
+    {
+      "type": "stage_direction",
+      "text": "The ring again."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Who’s goin’?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I am. Remember!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "She goes out."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "What are we to do, Pa?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Eh! I’m beat."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Shall we throw it out of the window?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "No, no. Best not. Humour her a bit. It may be nothin’."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Outside._) No, you don’t. ’Ere. I tell yer----"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Excuse me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Pa, ’ere’s a man forcin’ ’is way----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, dear!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Dash it all! I say!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "Mrs Perkins and a dark Stranger, dressed in black, enter together. She is resisting his advance, but he presses on ruthlessly. As he enters she gives way and changes her tactics."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Well, I must say! Pushin’ a lady about like that! What bis’ness ’ave y’ ’ere?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "I’ve told you, madam."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "A fine tale! Y’r boy an’ ’is glass marble! Where is ’e? I tell yer we know nothin’ about it. Do we, Pa?"
+    },
+    {
+      "type": "stage_direction",
+      "text": "Behind the Stranger, with a terrific frown, she shakes her fist at him."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "(_Feebly blustering_.) Now what’s all this?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Shut up!"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "I’m sorry to intrude, sir, but I’ve lost something in your room."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What nonsense! ’Ow could yer?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "As I have told this lady, my little boy----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Where is ’e?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_To Mr Perkins_.) His favourite glass marble. He pretended to throw it. It slipped from his hand and, I am sorry to say, went through your window. I apologise and shall be glad to pay. Please give me the--marble at once. Where is it? I’ve no time to lose."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Where’s the boy?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "He’s just round the corner."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "D’ y’ expect us to believe that tale?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_With a flash of menace._) You’d better. (_To Mr Perkins_.) Now, sir!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’s a bit thick, y’ know; I mean thin."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "It will have to do. No trifling. Come!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "He is looking about the room, having cursorily glanced at the floor. He strides to the window and pulls down the blind."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "None o’ y’r liberties here. Get out!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Ere, y’ know! _(Aside to Mrs Perkins_.) Ma, I don’t like it."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "The devil! Where’s the glass?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What glass?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "The pane’s gone. You see! I knew this was the house."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "That’s easy explained."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, Ma! Tell him and----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Of course I’ll tell ’im. (_She menaces Miss Perkins surreptitiously_.) It’s my daughter’s newfangled ideas of ventilation. She would ’ave it so. It’s been that way a fortnight. No--let’s see--to-day’s Tuesday. Nigh on a month."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Damnation! Where is it? Where’s the diamond?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_With a shriek of exultation._) The diamond!"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Yes, let me tell you then. Your lives are in danger. You’ve got the Grand Cham’s diamond."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Ow did it get ’ere?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "The thief was pursued. He threw it in."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "(_Querulously._) Why did ’e throw it in ’ere?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Don’t be a fool."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "An’ ’oo are you?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "I am--the Grand Cham’s representative."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Prove it."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Enough of this."
+    },
+    {
+      "type": "stage_direction",
+      "text": "He draws a revolver. Miss Perkins shrieks. Mr Perkins recoils and edges away. Mrs Perkins stands firm."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Ma! Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_Rapping the butt of the revolver on the table._) Where is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I’ll tell yer."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "At once."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I’ve swallered it."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_Greatly discomposed._) What!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "It went down as easy as a oyster."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Swallowed it! You’re joking!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "No. I got the idea out of the evenin’ paper. Where is it, Pa? ’Ere. “Child swallows Shillin’. Curious Case.”"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_To the others_.) Is this true?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, I don’t know."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Y’ see, I was asleep."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Asleep!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Wasn’t I, Mother?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’E’d sleep through anythin’."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "D’ you mean to say----? Where is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I’ve just told yer."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "On your oath----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Oath! D’ y’ doubt the word of a lady?"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Then--d’ you feel it--I mean--whereabouts is it now?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I don’t think that’s a question a gentleman ’d ask."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Kites of hell! You’ll have to be cut open."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Nay, I won’t."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_To himself._) Cremation? Would it melt the diamond?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I won’t be cremated. There! Y’ ’ve to get the deceased’s consent. I’m goin’ to be buried when my time comes."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_Pacing about in agitation while Mrs Perkins controls the others by nods and winks._) What’s to be done? An emetic?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "You’d better go ’ome an’ say it’s lost."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Unhappy woman! Do you understand that your life is a trifle, a pawn in the game?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Pawn! Yes, an’ y’ can’t get it out without the ticket."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "It’s impossible. It can’t be. (_He turns on the others._) The truth! Did she swallow it? If she did, she dies."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, no, no. She didn’t."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "You silly!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Ma, Ma, what can we do?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Y can ’old y’r tongues. Y’re no ’elp at all."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "What folly this is! What can you do with it? That diamond means death to you. Death! Destruction! You haven’t a chance of keeping it. You’re mad. Your lives now are not worth a minute’s purchase."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Give it up, Ma. I’ll tell you where it is. It’s----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_In a terrible voice._) Stop!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "What can you do, Ma? Chuck it! Chuck it!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’E don’t bluff me. ’E’s in a great ’urry. I believe ’e’s the thief."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Thousand devils! We’re wasting time. (_He looks at the clock and then plucks out his watch._) Your clock’s slow. It’s stopped. It was that time when I came in."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Tell him. Tell him."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Oh, chuck it!"
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_Perceiving that he is getting “warm.”_) What stopped the clock?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "(_Hysterically._) Give it ’im."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Polly, I’m ashamed of yer."
+    },
+    {
+      "type": "stage_direction",
+      "text": "A face appears at the window, but they do not see it."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "Is it there?"
+    },
+    {
+      "type": "stage_direction",
+      "text": "He makes for the clock, and Mrs Perkins throws herself in front."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "No, it’s not; and y’ shan’t meddle with my furniture."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_Pointing the revolver at her_.) Move aside!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Move aside yerself."
+    },
+    {
+      "type": "dialogue",
+      "character": "A Man in Black",
+      "text": "(_He hesitates, then turns the revolver on Miss Perkins._) Is it there? Quick!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "Miss Perkins shrieks, a hand with a revolver in it is thrust through the empty pane, the revolver is fired, the Stranger drops his, stamps, curses, and wrings his hands. A man opens the window-sash and springs into the room."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Albert!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What! It’s Albert."
+    },
+    {
+      "type": "stage_direction",
+      "text": "The Stranger rushes to the switch and turns off the light. Darkness, shouting, and confusion. The light is turned on. The furniture is disarranged, the Stranger and the clock have gone, the others are distributed about the room, Mrs Perkins sitting in the chair she first occupied."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Who’s got it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "He’s gone."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh! Albert!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Where’s the diamond?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It was in the clock."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "The clock? Where is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh! Albert!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’E’s taken it. ’E’s got the clock."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Nay, ’e ’asn’t."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She produces the clock from under her petticoats."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Well, I’m blowed!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, Ma!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "What is it? Have you got it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "I’ve got it right enough."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She carries the clock to the chimneypiece, opens it, and takes out the diamond."
+    },
+    {
+      "type": "stage_direction",
+      "text": "Will that gentleman come back?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "No, he won’t."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "How d’ y’ know?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "I know."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Polly, just put that blind back, will yer? I don’t like bein’ too public."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh! I daren’t."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Now, ma’am, give it to me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Eh?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Let’s have it. Quick."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Where d’ you come in, Albert?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Come on. This’ll be the making o’ me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "O’ me too, I ’ope. But ’adn’t we all better be movin’?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Where to, Ma?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Out at the back door. Pack a few things in a bag."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "What are y’ up to? Whad’ y’r mean?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Now, Albert, there’s no time to make explanations. We’re all in at this, aren’t we?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Well--in a way. But look here----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "South America’s the place, isn’t it? D’ y’ know anythin’ o’ the sailin’s! Or ’ad we better cross to France? Better take the midnight train somewhere."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Has she gone dotty?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Y’re all asleep. Come on, Polly. A few things in a bag. Now, Pa. Better put this light out p’raps. Is the front door shut? Look at the time-table, Pa."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She is making for the door when Albert intercepts her."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Give me the diamond. I dunno what y’re talkin’ about."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Nay, I stick to this."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "You can’t! What nonsense! Give it here! This job’s the making o’ me. Let’s have it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Nay, it’s mine an’ I’ll stick to it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Yours!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Yes. Dimonds like this belongs to them as can get ’em. Nobody’s honest with things like this. I got it an’ y’ shall all share. But it’s mine. It’s mine. Eh! It’s a beauty. I’d stick to this if all the p’lice in London was after me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Y’d do what?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Ay, an’ Scotland Yard too."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Bah! _I_’m Scotland Yard."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "What!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh! Albert!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Didn’t y’ know? Didn’t y’ guess? Didn’t y’ understand? What did y’ take me for?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "D’y mean to say----?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "I mean t’ say it’s ’igh time I was on my way back with this dimond. The gang’s all rounded up by this time."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "The gang?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "That feller was one of ’em, then? Where is he?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "He was copped when he left ’ere. Y’ didn’t know y’r ’ouse was surrounded."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "But ’ow did the dimond come ’ere? ’Oo threw it in?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "I did."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "You!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "You did!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "I did that."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Why?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "Becos they were after me. I was a dead man if I stuck to it then. I threw it in ’ere to gain time and knowin’ the ’ouse."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Well, I never!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "They’re a desp’rate lot."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "It’s all most unusual. Never since I’ve been an ’ouse’older ’ave I----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Oh, Albert! You might ’ave told me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "I ’ad my reasons."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Y’re a detective, then?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "I am that. So let’s ’ave it. I tell yer I must be off."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Holding up the diamond, but away from him._) Look at it, Albert!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "I see it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Can y’ be honest? Look at it!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "She’s off ’er chump."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "She doesn’t reelly mean it. I’ve borne a ’igh character all my life."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Passionately._) It’s _my_ dimond."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I’m ashamed of my ma."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "My employers ’as always put the utmost confidence in me."
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "What’s she up to? Now ma’am, you’ll just ’and that over or----"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Or?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "(_He produces a whistle._) I wouldn’t ’andle yer myself."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "That’s it, is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "That’s it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Then let it go the way it came."
+    },
+    {
+      "type": "stage_direction",
+      "text": "She throws it through the window."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "’Old on. There’s another pane gone!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Albert Watkins",
+      "text": "O ’ell!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "He rushes out."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "You’ll ruin us, Ma."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_Dusting one hand against the other._) A good shuttance."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "(_At the window._) Oh! I hope he’ll find it. There he is, and a policeman’s with him. They’ve got it, I think. Yes. Albert, Albert! I wish he’d look up. They’re seeing if it’s damaged. There! He’s waved his hand."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "(_She has settled into her chair_.) Well, we’ve ’ad quite a busy evenin’."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I don’t know what Albert’ll think of you."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’E’s not going to marry me, thank ’eaven."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "D’ y’ want t’ know what _I_ think of yer?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Go on! Y’ve no ’magernation."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "I never thought to be ashamed of my own mother."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "Wantin’ in the very el’ments of morality. I wonder ’ow Sossiety ’d get on if they was all like you."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Polly, put up that blind. It’s a bit chilly with them broken panes."
+    },
+    {
+      "type": "dialogue",
+      "character": "Miss Perkins",
+      "text": "Most unladylike as well."
+    },
+    {
+      "type": "stage_direction",
+      "text": "They settle down into their chairs again. Mrs Perkins takes up her darning and Mr Perkins the paper. After putting up the blind Miss Perkins returns to her puzzle."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "’Ow much did y’ say it was worth, Pa?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr Perkins",
+      "text": "(_Gruffly._) Never mind."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs Perkins",
+      "text": "Well, I ’ad my bit o’ fun for onct. CURTAIN Transcriber’s Note This transcription is based on the 1924 edition published by Gowans & Gray in London and Glasgow. Scanned images of a copy made available by the Bodleian Library are posted by Google: https://books.google.com/books?id=B2MVAAAAQAAJ The following changes were made to the printed text: --The formatting of stage directions following lines—that is, those that begin with an opening square bracket—has been standardized. --Pg 34: _As he enters she gives way and changes her tactics_—Added a period to the end of the sentence. --Pg 37: Prove it—Added a period to the end of the line."
+    }
+  ]
+}
