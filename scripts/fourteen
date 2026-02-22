@@ -1,0 +1,588 @@
+{
+  "id": "fourteen-alice-gerstenberg-1920",
+  "title": "Fourteen",
+  "author": "Alice Gerstenberg",
+  "description": "A high-society dinner party is set for exactly fourteen—until a blizzard and a cascade of last-minute cancellations threaten disaster. Mrs. Pringle, her daughter Elaine, and Dunham scramble to preserve appearances (and the seating chart) as the guest count keeps shifting.",
+  "roleMode": "split",
+  "roleModes": {
+    "single": [
+      "Mrs. Horace Pringle",
+      "Elaine",
+      "Dunham"
+    ],
+    "split": [
+      "Mrs. Horace Pringle",
+      "Elaine",
+      "Dunham-Butler",
+      "Dunham-Maid"
+    ]
+  },
+  "characters": [
+    {
+      "name": "Mrs. Horace Pringle",
+      "description": "A woman of fashion.",
+      "lines": 46,
+      "difficulty": "high",
+      "costumeIdeas": ""
+    },
+    {
+      "name": "Elaine",
+      "description": "Her debutante daughter.",
+      "lines": 35,
+      "difficulty": "medium",
+      "costumeIdeas": ""
+    },
+    {
+      "name": "Dunham",
+      "description": "The butler or maid.",
+      "lines": 19,
+      "difficulty": "easy",
+      "costumeIdeas": ""
+    },
+    {
+      "name": "Dunham-Butler",
+      "description": "Split-role option for Dunham.",
+      "lines": 10,
+      "difficulty": "easy",
+      "costumeIdeas": "",
+      "baseRole": "Dunham"
+    },
+    {
+      "name": "Dunham-Maid",
+      "description": "Split-role option for Dunham.",
+      "lines": 9,
+      "difficulty": "easy",
+      "costumeIdeas": "",
+      "baseRole": "Dunham"
+    }
+  ],
+  "beats": [
+    {
+      "type": "stage_direction",
+      "text": "SCENE: The dining-room of a New York residence. A long table running from left to right, with a chair at each end and six chairs on each side, is set elaborately for fourteen. DUNHAM, the butler, is hovering over the table to give it a few finishing touches as MRS. PRINGLE comes in. She is a woman of fashion, handsome, and wears a very lovely evening gown. She is rather excitable in temperament but withal capable and executive, vivacious and humorously charming. She enters in haste carrying a corsage bouquet of flowers and the empty box of paper from which she has unwrapped them."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Dunham, I've just had word from Mr. Harper that he was called away to the bedside of a friend who is very ill. He sent me these flowers — it's a good thing he did. I don't approve of young men refusing dinner invitations at the very last minute."
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "(**Relieving her.**) I'll take the box and paper, Mrs. Pringle."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Looking at the table anxiously and then at her watch.**) It's too bad — after you've set it all so beautifully — and it's getting so late — some one might be coming any moment. How's cook?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "Cook's in a temper, as always, madam."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "I'm glad to hear it. She's like an actress — the better the temper, the better the performance. As long as she serves us a good dinner I don't care how much she swears. The rest of you can just keep out of her way. Where's Gustave?(**1**) (**5**) 1. Vivacious (*adjective*): attractively lively and animated 1"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "I'm sorry to have to say it, madam, but there's such an awful blizzard out he's sweeping off the sidewalk."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Oh! Dear me, yes! I should have ordered an awning!2But who expected a storm like this. (**She glances out of the window. ELAINE, a young debutantein evening gown comes running in with a bunch of place-cards.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Here are the place-cards, mother, and the diagram. Shall I put them around?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Yes, dear. Elaine, I'm going up to look after your father. He's so helpless about his ties. (**She starts to leave the room.**) Remove one plate, Dunham."
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "Remove one plate, madam? Oh! Madam! It is a certainty! You wouldn't sit down with thirteen."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Drawing back.**) Thirteen! Why, you're right — thirteen! We can never sit down with thirteen. That's all due to Mr. Harper's negligence.4Sick friend, nothing! He's just one of those careless men who never answer their invitations in time. His flowers, indeed, to make me forgive him — now look at the trouble he's put me to — thirteen! I wonder whom I could get to come in the last minute. Quick — Elaine — help me think. (**She rushes to the telephone and looks madly through her list of acquaintances.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "There's always Uncle George."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "He never opens his head!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "Mr. Morgan, madam, he always tells a joke or two."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Why, yes, Dunham — that's clever of you! Hello Central — Lakeview 5971 — at once, please — Elaine dear, your hair's much too tight — pull it out — pull it out — come here. (**In telephone.**) Mr. Morgan's Well, this is Mrs. Pringle speaking — from across the street. Yes. When Mr. Morgan comes in, please tell him to call me up right away. I want him to dine with us — in about ten minutes — you expect him? (**She pull's ELAINE'S hair out to make it look fluffier. ELAINE makes faces of pain, but her mother pays no attention.**) Have him call me right away. (**She hands up the receiver.**) Now if he shouldn't get it — then what'll I do?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Well, mother, Idon't have to be at the table. It's your party, anyway. Everybody's married and older than I am."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Pointing to the table diagram in ELAINE'S hand.**) Didn't I put you next to Oliver Farnsworth? Millions! He's worth millions!(**10**) (**15**) (**20**) 2. a roof-like shelter of canvas that extends over a doorway 3. an upper-class young woman making her first official appearance in society 4. Negligence (*noun*): failure to take proper care in doing something 2"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Well, he won't be giving me any."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Can't he marry you? Aren't you going to try to make a good match for yourself? I fling every eligible man I can at your head. Can't you finish the rest yourself?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "It's no use, mother, your trying to marry me off to anyone as important as he is. He frightens me to death. I lose my tongue. I'm as afraid of him as I'd be afraid of the Prince of Wales!5"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "The Prince of Wales! Oh! What wouldn't I give to have the Prince of Wales in my house! New York has lost its heart to him. I was just telling Mr. Farnsworth yesterday that I'd give anything to have the Prince here. I would establish my social position for life! And I've such a reputation for being a wonderful hostess. (**The telephone rings.**) Dear me! — the phone — Hello — Mrs. Sedgwick — Yes — this is Mrs. Pringle — What? No — Oh! Caught in a snow drift — can't get another car? (**She puts her hand over the telephone and speaks delightedly to ELAINE.**) Good! The widow can't come — that leaves us twelve — remove two plates, Dunham. (**DUNHAM removes two plates. and ELAINE changes the table-cards. MRS. PRINGLE continues into the telephone.**) Oh! That's a shame! I'm heartbroken. Oh! My dear, how can we get along without you! But have you really tried? Oh, I'm reduced to tears. Good-bye, dear. (**She hangs up the receiver, and takes it down again.**) Well, I'm glad she dropped out — Central — give me Lakeview 5971 — Dunham, with two less, you can save two cocktails and at least four glasses of champagne. (**Into the telephone.**) Has Mr. Morgan come in yet? Well, don't give him the message I telephoned before about crossing the street to Mrs. Pringle's for dinner. It's too late — you understand? (**She hangs up the receiver.**) Well, anyway, I've invited Clem, returned my indebtedness and saved my champagne besides —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "The liquor is getting low, madam — what with prohibitionand entertaining so much —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "(**In dismay.**) But, mother, if you only have twelve people, Father can't sit at the head of the table."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "But he has to sit at the head. It looks too undignifiedwhen the man of the house is pushed to the side —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "There's no other way. There must be a woman at each end —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Distraught.8**)How absurd! I always forget. Of course twelve is an impossible number — (**She goes around the table looking at the place cards.**) I don't want to put any of these women at the head — there's Mrs. Darby — such a cat — I wouldn't give her the honor and Mrs. — (**The telephone rings.**) Answer it, Dunham."
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "Hello — Mrs. Pringle's residence — a message? Yes, sir — What, sir? — Mr. Darby — the doctor says your baby has the chicken-pox —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Chicken-pox! Elaine!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Mother!(**25**) (**30**) 5. The Prince of Wales is the title granted to the heir to the throne of the United Kingdom. The Prince of Wales becomes King when the King or Queen of England leaves the throne. 6. the time from 1920 to 1933 when it was illegal to make or sell alcohol in the United States 7. Undignified (*adjective*): appearing foolish 8. Distraught (*adjective*): deeply upset and agitated 3"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "Yes, sir. (**He hangs up the receiver.**) Mr. Darby sends his apologies — but owing to the transmutability of the disease, Mr. and Mrs. Darby feel obliged to regret and also their house-guests, Mr. and Mrs. Fleetwood—"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "That's four out."
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Then you're only eight! Quick, the plates, Dunham — (**She begins to remove chairs and gathers up silver and plates feverishly.9MRS. PRINGLE getting more and more distraught, helps. With so much unaccustomed help, DUNHAM gets confused and goes through many unnecessary motions; removes plates, breaks them, drops silver, aimlessly trying to hurry, his fingers all thumbs.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Don't we know someone to invite the last minute —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "The Hatwoods —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "They don't serve drinks when they entertain — I can't afford to invite them to drink mine —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "The Greens —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "She's not interesting enough."
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Mr. Conley —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "He never makes a dinner call, even after all the times I have invited him."
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Hester Longley —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Notat the same table with you and Oliver Farnsworth. She's far too pretty, too clever —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Where's our book? (**She runs her finger down the address book.**) The Tuppers?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "The Tuppers! Good Heavens, Elaine, six in the family."
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "That would get us back to fourteen; then father could sit at the head of the table."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Well, try them. I'll rush and tell your father to hold up the drawing room — (**Exit left.**)(**35**) (**40**) (**45**) 9. Feverish (*adjective*): feeling or showing extreme excitement or energy 4"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "(**At the telephone.**) Ridgeway 9325 — This is Elaine Pringle — What Tupper am I speaking to? Oh, Ella, hello! — I hope you haven't finished your dinner — We had a party arranged here and the last moment everybody's been dropping out — the blizzard — Can't you flock your family around the corner and eat with us? Mother and I thought we knew you well enough to call you like this at the seventh hour. You would? Oh! fine! (**To DUNHAM.**) Six more plates, Dunham. (**In the telephone.**) What? — Oh — well — but — (**She hesitates, stutters, looks distressed, muffles the telephone.**) Dunham, get Mother quick. (**In the telephone as DUNHAM hurries out of the room.**) Yes — yes — of course (**not enthusiastically**) , love it — why certainly — yes, my dear — all right. (**She hangs up the receiver and puts her hand to her head with an ejaculation of dismay.**) Great Caesar, now what have I done?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Rushes in followed by DUNHAM.**) What's the matter — Elaine — what is —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Now I've done it! I've just done it — but I couldn't get out of it — I just couldn't — you weren't here — I always lose my head and bunglethings —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "But what — don't keep us waiting like this — what is it?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "I invited Ella and the family and she accepted and then she said they had two house-guests — and would it be all right and of course I said it would and now we're — sixteen!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "(**In dismay.**) Sixteen! But, madam, the table's not that long!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Elaine! That's just like you — no tact11— no worldly wisdom — if I'd been at the phone I'd have politely said that my table —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "But you weren't at the phone — you ought to attend to such messages yourself — you know I always lose my head —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "But the dishes, madam — and we only have fourteen squabs12—"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "I won't eat any —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "But I must not be disgraced — we'll have to make the best of it — and insert another board — (**DUNHAM goes out. MRS. PRINGLE and ELAINE hurriedly remove part of the cloth.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "But mother, I needn't sit at the table."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Pointing to the chair authoritatively.**) You're going to sit right next to Oliver Farnsworth! Now I don't wish to hear another word about it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "But can't we squeeze them in without all the work of adding another board? If I move the plates and chairs closer —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Have you forgotten that Mr. Tupper weighs something like two hundred and fifty pounds? And Mrs. Conley has no waist line? It can't be done! —(**50**) (**55**) (**60**) 10. carry out a task clumsily 11. Tact (*noun*): skill and sensitivity in dealing with others or with difficult issues 12. the flesh of a young pigeon, served as a main course 5"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "(**Entering with table board.**) Cook is in a rage, madam — she says she has only prepared for fourteen."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "I can't help it — she'll have to prepare for sixteen . Tell her to open cans of soup and vegetables and —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "But the ice-cream forms and the gelatine molds —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "I'll pretend I don't like them."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "And I'll pretend I'm on a diet —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "But I really wouldn't have to be at the table."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Be still! (**She starts as the telephone rings.**) The telephone! (**Her hand to her head.**) Now what? Don't answer it! It's driving me mad — (**She goes herself as ELAINE and DUNHAM do not go.**) Hello — yes — This is Mrs. Pringle — Oh! yes — Jessica! — what! — the blizzard — your cold — too dangerous! (**She waves to DUNHAM not to put the board inthe table. DUNHAM, ELAINE and MRS. PRINGLE are delighted and relieved but MRS. PRINGLE pretends otherwise over the telephone.**) Oh! Jessica — you poor dear — yes, your husband's right, it would be foolhardy — put on a mustard plaster — hot toddy — go to bed — so sorry! (**She hangs up the receiver.**) There — that's wonderful — now we are just fourteen —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "But the cards are all wrong. Only six are coming who were invited originally. You'll have to make another diagram. How do you want them seated?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Give it to me. (**She remains at the telephone table where there isa pad and a pencil and makes a new diagram.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Here are some fresh cards. (**She tears up the old cards, then goes back to help DUNHAM, who is having a maddening time with the table.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "What a mess! I spent hours over that diagram! So much depends upon having guests seated harmoniously!13There's the front door-bell, Dunham — I told Annie to answer it for you — but go, peek into the drawing-room and tell me who it is — (**As DUNHAM goes out, the telephone rings. MRS. PRINGLE eyes it suspiciously.**) You murderous instrument! What have you to say? Now what? Hello! Who! Mr. Farnsworth! Mr. Oliver Farnsworth? No — you're his secretary ? He's what ?Instructed you to make his excuses! He had to leave for Boston at once on very important business — Oh! (**She hangs up the receiver without completing the conversation and hits the telephone in a temper, then rises and paces back and forth in a rage.**) How dare he! How dare he! The last moment like this! No regard for a hostess's feelings! No regard for the efforts she goes to provide an evening's enjoyment! And such a good dinner I planned — and he promised he would come — business! I don't believe it! He didn't want to exert himself — was afraid of freezing in the blizzard — as if he didn't have half a dozen limousines to carry him to the door — selfishness — downright rudeness — and worth millions — just a match for you, Elaine — and I was bound you should meet him and sit next to him at the table (**she tears up his card**) , and now I don't know when I can give you a chance like that again! I'm perfectly furious — I'll never speak to him again! I won't be treated that way —(**65**) (**70**) (**75**) 13. Harmonious (*adjective*): marked by agreement in feeling, attitude, or action 6"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "(**Timidly.14**)Perhaps he really did have business and was called away —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Not hearing her.**) And I one of the most important hostesses in this city — people clamoring to receive my invitations — all my affairs are a success. I insist that they shall be — I can't bear a failure — I won't have a failure — he was my most important guest — he's such a man's man — so important financially — every other man considers it an honor to meet him — and now not coming! I'm furious! Furious! — it's all this d------- blizzard!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Now I willhave to stay away from the table. His not coming makes us thirteen again."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**In a temper.**) Go to bed — go up to the nursery! I'll send you milk and crackers!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "But, mother, it's not myfault that he had business out of town."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Yes, it is! If you'd perk up a bit and not be so timid and make something of yourself, he would hear about your attractions from other men and be curious to meet you himself — Oh! What a family I have! No one to help me with my ambitions!15Go to bed! I certainly won't sit down to thirteen — go to bed — get out of my sight — (**DUNHAM enters from left.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "It was Mr. Morgan, madam —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Mr. Morgan! But I telephoned his maid to tell him notto come."
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "He couldn't have received the second message, madam, for I heard him explaining to Mr. Pringle how happy he was to receive your telephone invitation."
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "That makes you thirteen again — unless you don't want me to go to bed—"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Of course I don't want you to go to bed. We're back to where we started — fourteen, Dunham."
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "I'll get the cocktails ready, madam. Annie told me there were several motors making their way through the snow. It's late now and cook's swearing about the dinner getting too dry — (**The telephone rings. ELAINE jumps.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "I won't answer it.(**80**) (**85**) 14. Timid (*adjective*): showing a lack of courage or confidence 15. Ambition (*noun*): a strong desire to do or to achieve something 7"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "I should say not — hello — what is it? (**Sharply.**) Yes — yes? Mrs. Tupper! Yes! Mrs. Tupper! But now you must come — we're prepared for you — yes — for eight of you — Your daughter told my daughter about your house-guests and we are delighted to have them — but now we're setfor you — but every plate is set — but your daughter was quite right — it wasn't an imposition at all — but you must come now — of course my daughter had authority to invite the guests of — Oh — eight isn't at all a big number — there is room — the table is all set — but I beg of you — but my dear, you are not imposing — Oh! but how foolish of you to take that stand! Why my dear, my dear — (**She hangs up the receiver.**) Now, what do you think of that? Mrs. Tupper is perfectly furious at Ella for telling you about the house-guests, and says Ella has no tact; that nothing would induce her to bring eight when we invited six — so she's leaving Ella and Henry at home — only six are coming. Remove two plates, Dunham — we're twelve after all —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "But if you leave it twelve, father can't sit at the end—"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Exhausted, harassed, angry, tempestuous.16**)I shall go mad! I'll never entertain again — never — never — people ought to know whether they're coming or not—but they accept and regret and regret and accept — they drive me wild. (**DUNHAM goes out.**) This is my last dinner party — my very last— a fiasco — an utter fiasco! A haphazardcrowd — hurried together — when I had planned everything so beautifully — now how shall I seat them — how shall I seat them? If I put Mr. Tupper here and Mrs. Conley there then Mrs. Tupper has to sit next to her husband and if I want Mr. Morgan there — Oh! It's impossible — I might as well put their names in a hat and draw them out at random — never again! I'm through! Through with society — with parties — with friends — I wipe my slate clean — they'll miss my entertainments — they'll wish they had been more considerate — after this, I'm going to live for myself! I'm going to be selfish and hard — and unsociable — and drink my liquor myself instead of offering it gratisto the whole town!—I'm through —Through with men like Oliver Farnsworth! — I don't care how rich they are! How influential they are — how important they are! They're nothing without courtesy and consideration — business — off on train — nonsense — didn't want to come — didn't want to meet a sweet, pretty girl —didn't want to marry her — well, he's not good enough for you!—don't you marry him! Don't you dare marry him! I won't let you marry him! Do you hear? If you tried to elopeor anything like that, I'd break it off — yes, I would — Oliver Farnsworth will never get recognition from me! — He is beneath my notice! I hate Oliver Farnsworth! (**DUNHAM enters with a note on a silver plate.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "A note from Mr. Farnsworth, madam —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "A note from Mr. Farnsworth! (**She takes and opens it.**)"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "Yes, madam, there are two strange gentlemen in the lower hall. They presented this letter. He said he was the secretary. All the other guests are upstairs in the drawing-room, madam, I counted twelve in all, including you and Mr. Pringle and Miss Elaine. But the two gentlemen downstairs, madam, are waiting for your answer — the one gentlemen's face looked very familiar, madam, but I just can't place him — although I'm sure I've seen his face somewhere —(**90**) (**95**) 16. characterized by strong and conflicting emotions 17. Haphazard (*adjective*): lacking any obvious principles of organization 18. without charge 19. to run away secretly in order to get married 8 \"Fourteen\" by Alice Gerstenberg (*1920*) is in the public domain."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**She has been reading the note and is almost fainting with surprise and joy.**) Seen his face — somewhere — Oh, my goodness! Elaine — It's the Prince of Wales!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Maid",
+      "characterFallback": "Dunham",
+      "text": "The secretary said you cut off the telephone or central disconnected you. He was about to tell you that Mr. Farnsworth knew that the blizzard had prevented His Highness from keeping an engagement way up town—"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "The Prince of Wales sitting in my lower hall — waiting for me to ask him to dinner —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "Then we'll be thirteen again —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Dunham-Butler",
+      "characterFallback": "Dunham",
+      "text": "There's the secretary, Miss, he is his bodyguard —"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "(**Rising to the occasion.**) Certainly, the secretary, Elaine. We shall be fourteen at dinner — Serve the cocktails, Dunham — the guests may sit anywhere they choose. I shall bring the Prince in with me!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "(**Following.**) But mother, wasn't it nice of Oliver Farnsworth to send a Prince in his place?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Didn't I always say that Oliver Farnsworth was the most considerate of men?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Elaine",
+      "text": "I think I shall like Mr. Farnsworth."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mrs. Horace Pringle",
+      "text": "Silly child! It is too late now to like Mr. Farnsworth. It's time now to like the Prince. (**Starting out.**) I always manage somehow to be the most successful of hostesses! Thank God for the blizzard!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "CURTAIN."
+    }
+  ]
+}
