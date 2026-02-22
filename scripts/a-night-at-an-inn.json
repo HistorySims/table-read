@@ -1,1383 +1,1383 @@
 {
-“title”: “A Night at an Inn”,
-“author”: “Lord Dunsany”,
-“description”: “Four thieves hide in a remote inn after stealing the ruby eye of a hideous idol from a temple in India. Three priests have followed them across the world to reclaim it. The Toff, a disgraced gentleman, has a plan to deal with the priests. But he has not foreseen everything. A horror play with a slow-building dread and one of the most terrifying endings in one-act theater.”,
-“characters”: [
+"title": "A Night at an Inn",
+"author": "Lord Dunsany",
+"description": "Four thieves hide in a remote inn after stealing the ruby eye of a hideous idol from a temple in India. Three priests have followed them across the world to reclaim it. The Toff, a disgraced gentleman, has a plan to deal with the priests. But he has not foreseen everything. A horror play with a slow-building dread and one of the most terrifying endings in one-act theater.",
+"characters": [
 {
-“name”: “The Toff”,
-“description”: “A. E. Scott-Fortescue – a dilapidated gentleman, educated, clever, and utterly confident. He reads his sporting paper while everyone panics. He masterminded the ruby theft and every plan since. He has never lost a game of cards. He has foreseen everything. Almost. Think: the smartest man in the room, until the room changes.”,
-“lines”: 76,
-“difficulty”: “high”,
-“costumeIdeas”: “Something slightly shabby but once-fine – a worn blazer, a loose tie. Read a newspaper. Speak with calm authority. Never raise your voice until the very end.”
+"name": "The Toff",
+"description": "A. E. Scott-Fortescue – a dilapidated gentleman, educated, clever, and utterly confident. He reads his sporting paper while everyone panics. He masterminded the ruby theft and every plan since. He has never lost a game of cards. He has foreseen everything. Almost. Think: the smartest man in the room, until the room changes.",
+"lines": 76,
+"difficulty": "high",
+"costumeIdeas": "Something slightly shabby but once-fine – a worn blazer, a loose tie. Read a newspaper. Speak with calm authority. Never raise your voice until the very end."
 },
 {
-“name”: “Bill”,
-“description”: “William Jones – a merchant sailor, brave and loyal to the Toff. He does the dirty work without flinching. He’s the muscle of the group and the one who actually kills the priests. Think: a tough, practical man who follows orders because he knows the Toff is smarter than him.”,
-“lines”: 67,
-“difficulty”: “medium”,
-“costumeIdeas”: “Rough working clothes. Roll up your sleeves. Speak gruffly. You’re the one who gets things done.”
+"name": "Bill",
+"description": "William Jones – a merchant sailor, brave and loyal to the Toff. He does the dirty work without flinching. He's the muscle of the group and the one who actually kills the priests. Think: a tough, practical man who follows orders because he knows the Toff is smarter than him.",
+"lines": 67,
+"difficulty": "medium",
+"costumeIdeas": "Rough working clothes. Roll up your sleeves. Speak gruffly. You're the one who gets things done."
 },
 {
-“name”: “Albert”,
-“description”: “Albert Thomas – a merchant sailor who thinks he’s cleverer than he is. He gave the priests the slip in Hull, or so he believes. He’s the one who stole the ruby from the idol’s head. Practical and a bit cocky, until the end. Think: a man who boasts about his cunning and then discovers what real cunning looks like.”,
-“lines”: 47,
-“difficulty”: “medium”,
-“costumeIdeas”: “Sailor clothes. Be proud of yourself early on. Your final line – calling out to Toffy as you walk to your death – should break hearts.”
+"name": "Albert",
+"description": "Albert Thomas – a merchant sailor who thinks he's cleverer than he is. He gave the priests the slip in Hull, or so he believes. He's the one who stole the ruby from the idol's head. Practical and a bit cocky, until the end. Think: a man who boasts about his cunning and then discovers what real cunning looks like.",
+"lines": 47,
+"difficulty": "medium",
+"costumeIdeas": "Sailor clothes. Be proud of yourself early on. Your final line – calling out to Toffy as you walk to your death – should break hearts."
 },
 {
-“name”: “Sniggers”,
-“description”: “Jacob Smith – a merchant sailor, nervous and jumpy. He doesn’t like this place. He’s the first to see the horror and the first to crack. He tries to give back his share of the ruby. He weeps. Think: the one who knows something is wrong before anyone else, and no one listens.”,
-“lines”: 57,
-“difficulty”: “medium”,
-“costumeIdeas”: “Look uneasy from the start. Glance at windows. When you come back from the garden, you should look like you’ve seen something that broke your mind.”
+"name": "Sniggers",
+"description": "Jacob Smith – a merchant sailor, nervous and jumpy. He doesn't like this place. He's the first to see the horror and the first to crack. He tries to give back his share of the ruby. He weeps. Think: the one who knows something is wrong before anyone else, and no one listens.",
+"lines": 57,
+"difficulty": "medium",
+"costumeIdeas": "Look uneasy from the start. Glance at windows. When you come back from the garden, you should look like you've seen something that broke your mind."
 },
 {
-“name”: “The Voice”,
-“description”: “The voice of Klesh – the idol, calling each thief by his full legal name to come outside and die. Offstage. Calm. Formal. Inhuman. Three lines, each one worse than the last. Think: something ancient and patient reading names from a list.”,
-“lines”: 4,
-“difficulty”: “easy”,
-“costumeIdeas”: “You don’t need a costume – you’re offstage, or facing away from the group. Speak slowly, with an outlandish accent. Be terrifyingly polite.”
+"name": "The Voice",
+"description": "The voice of Klesh – the idol, calling each thief by his full legal name to come outside and die. Offstage. Calm. Formal. Inhuman. Three lines, each one worse than the last. Think: something ancient and patient reading names from a list.",
+"lines": 4,
+"difficulty": "easy",
+"costumeIdeas": "You don't need a costume – you're offstage, or facing away from the group. Speak slowly, with an outlandish accent. Be terrifyingly polite."
 }
 ],
-“beats”: [
+"beats": [
 {
-“type”: “stage_direction”,
-“text”: “A room in an inn on a lonely moor. Sniggers and Bill are talking. The Toff is reading a sporting paper and taking no notice. Albert sits a little apart.”
+"type": "stage_direction",
+"text": "A room in an inn on a lonely moor. Sniggers and Bill are talking. The Toff is reading a sporting paper and taking no notice. Albert sits a little apart."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “What’s his idea, I wonder?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "What's his idea, I wonder?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “I don’t know.”
+"type": "dialogue",
+"character": "Bill",
+"text": "I don't know."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “And how much longer will he keep us here?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "And how much longer will he keep us here?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “We’ve been here three days.”
+"type": "dialogue",
+"character": "Bill",
+"text": "We've been here three days."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “And ‘aven’t seen a soul.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "And 'aven't seen a soul."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “And a pretty penny it cost us when he rented the pub.”
+"type": "dialogue",
+"character": "Bill",
+"text": "And a pretty penny it cost us when he rented the pub."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “‘Ow long did ‘e rent the pub for?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "'Ow long did 'e rent the pub for?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “You never know with him.”
+"type": "dialogue",
+"character": "Bill",
+"text": "You never know with him."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “It’s lonely enough.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "It's lonely enough."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “‘Ow long did you rent the pub for, Toffy?”
+"type": "dialogue",
+"character": "Bill",
+"text": "'Ow long did you rent the pub for, Toffy?"
 },
 {
-“type”: “stage_direction”,
-“text”: “The Toff continues to read his sporting paper. He takes no notice.”
+"type": "stage_direction",
+"text": "The Toff continues to read his sporting paper. He takes no notice."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “‘E’s such a toff.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "'E's such a toff."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Yet ‘e’s clever, no mistake.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Yet 'e's clever, no mistake."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Those clever ones are the beggars to make a muddle. Their plans are clever enough, but they don’t work, and then they make a mess of things much worse than you or me.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Those clever ones are the beggars to make a muddle. Their plans are clever enough, but they don't work, and then they make a mess of things much worse than you or me."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Ah!”
+"type": "dialogue",
+"character": "Bill",
+"text": "Ah!"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I don’t like this place.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I don't like this place."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Why not?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Why not?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I don’t like the looks of it.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I don't like the looks of it."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “He’s keeping us here because here those niggers can’t find us. The three heathen priests what was looking for us so. But we want to go and sell our ruby soon.”
+"type": "dialogue",
+"character": "Bill",
+"text": "He's keeping us here because here those niggers can't find us. The three heathen priests what was looking for us so. But we want to go and sell our ruby soon."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “There’s no sense in it.”
+"type": "dialogue",
+"character": "Albert",
+"text": "There's no sense in it."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Why not, Albert?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Why not, Albert?"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Because I gave those black devils the slip in Hull.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Because I gave those black devils the slip in Hull."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “You give ‘em the slip, Albert?”
+"type": "dialogue",
+"character": "Bill",
+"text": "You give 'em the slip, Albert?"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “The slip, all three of them. The fellows with the gold spots on their foreheads. I had the ruby then and I give them the slip in Hull.”
+"type": "dialogue",
+"character": "Albert",
+"text": "The slip, all three of them. The fellows with the gold spots on their foreheads. I had the ruby then and I give them the slip in Hull."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “How did you do it, Albert?”
+"type": "dialogue",
+"character": "Bill",
+"text": "How did you do it, Albert?"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “I had the ruby and they were following me. . . .”
+"type": "dialogue",
+"character": "Albert",
+"text": "I had the ruby and they were following me. . . ."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Who told them you had the ruby? You didn’t show it.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Who told them you had the ruby? You didn't show it."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “No. . . . But they kind of know.”
+"type": "dialogue",
+"character": "Albert",
+"text": "No. . . . But they kind of know."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “They kind of know, Albert?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "They kind of know, Albert?"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Yes, they know if you’ve got it. Well, they sort of mouched after me, and I tells a policeman and he says, O, they were only three poor niggers and they wouldn’t hurt me. Ugh! When I thought of what they did in Malta to poor old Jim.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Yes, they know if you've got it. Well, they sort of mouched after me, and I tells a policeman and he says, O, they were only three poor niggers and they wouldn't hurt me. Ugh! When I thought of what they did in Malta to poor old Jim."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Yes, and to George in Bombay before we started.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Yes, and to George in Bombay before we started."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Ugh!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Ugh!"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Why didn’t you give ‘em in charge?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Why didn't you give 'em in charge?"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “What about the ruby, Bill?”
+"type": "dialogue",
+"character": "Albert",
+"text": "What about the ruby, Bill?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Ah!”
+"type": "dialogue",
+"character": "Bill",
+"text": "Ah!"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Well, I did better than that. I walks up and down through Hull. I walks slow enough. And then I turns a corner and I runs. I never sees a corner but I turns it. But sometimes I let a corner pass just to fool them. I twists about like a hare. Then I sits down and waits. No priests.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Well, I did better than that. I walks up and down through Hull. I walks slow enough. And then I turns a corner and I runs. I never sees a corner but I turns it. But sometimes I let a corner pass just to fool them. I twists about like a hare. Then I sits down and waits. No priests."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “What?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "What?"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “No heathen black devils with gold spots on their face. I give ‘em the slip.”
+"type": "dialogue",
+"character": "Albert",
+"text": "No heathen black devils with gold spots on their face. I give 'em the slip."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Well done, Albert!”
+"type": "dialogue",
+"character": "Bill",
+"text": "Well done, Albert!"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Why didn’t you tell us?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Why didn't you tell us?"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “‘Cause ‘e won’t let you speak. ‘E’s got ‘is plans and ‘e thinks we’re silly folk. Things must be done ‘is way. And all the time I’ve give ‘em the slip. Might ‘ave ‘ad one o’ them crooked knives in him before now but for me who give ‘em the slip in Hull.”
+"type": "dialogue",
+"character": "Albert",
+"text": "'Cause 'e won't let you speak. 'E's got 'is plans and 'e thinks we're silly folk. Things must be done 'is way. And all the time I've give 'em the slip. Might 'ave 'ad one o' them crooked knives in him before now but for me who give 'em the slip in Hull."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Well done, Albert! Do you hear that, Toffy? Albert has give ‘em the slip.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Well done, Albert! Do you hear that, Toffy? Albert has give 'em the slip."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Yes, I hear.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Yes, I hear."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Well, what do you say to that?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Well, what do you say to that?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “O. . . . Well done, Albert!”
+"type": "dialogue",
+"character": "The Toff",
+"text": "O. . . . Well done, Albert!"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “And what a’ you going to do?”
+"type": "dialogue",
+"character": "Albert",
+"text": "And what a' you going to do?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Going to wait.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Going to wait."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Don’t seem to know what ‘e’s waiting for.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Don't seem to know what 'e's waiting for."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “It’s a nasty place.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "It's a nasty place."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “It’s getting silly, Bill. Our money’s gone and we want to sell the ruby. Let’s get on to a town.”
+"type": "dialogue",
+"character": "Albert",
+"text": "It's getting silly, Bill. Our money's gone and we want to sell the ruby. Let's get on to a town."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “But ‘e won’t come.”
+"type": "dialogue",
+"character": "Bill",
+"text": "But 'e won't come."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Then we’ll leave him.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Then we'll leave him."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “We’ll be all right if we keep away from Hull.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "We'll be all right if we keep away from Hull."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “We’ll go to London.”
+"type": "dialogue",
+"character": "Albert",
+"text": "We'll go to London."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “But ‘e must ‘ave ‘is share.”
+"type": "dialogue",
+"character": "Bill",
+"text": "But 'e must 'ave 'is share."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “All right. Only let’s go. We’re going, do you hear? Give us the ruby.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "All right. Only let's go. We're going, do you hear? Give us the ruby."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Certainly.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Certainly."
 },
 {
-“type”: “stage_direction”,
-“text”: “He gives them a ruby from his waistcoat pocket. It is the size of a small hen’s egg. He goes on reading his paper.”
+"type": "stage_direction",
+"text": "He gives them a ruby from his waistcoat pocket. It is the size of a small hen's egg. He goes on reading his paper."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Come on, Sniggers.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Come on, Sniggers."
 },
 {
-“type”: “stage_direction”,
-“text”: “Albert and Sniggers exit.”
+"type": "stage_direction",
+"text": "Albert and Sniggers exit."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Good-by, old man. We’ll give you your fair share, but there’s nothing to do here – no girls, no halls, and we must sell the ruby.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Good-by, old man. We'll give you your fair share, but there's nothing to do here – no girls, no halls, and we must sell the ruby."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “I’m not a fool, Bill.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "I'm not a fool, Bill."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “No, no, of course not. Of course you ain’t, and you’ve helped us a lot. Good-by. You’ll say good-by?”
+"type": "dialogue",
+"character": "Bill",
+"text": "No, no, of course not. Of course you ain't, and you've helped us a lot. Good-by. You'll say good-by?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Oh, yes. Good-by.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Oh, yes. Good-by."
 },
 {
-“type”: “stage_direction”,
-“text”: “The Toff puts a revolver on the table and goes on reading. Bill exits. After a moment the three men come rushing back in, frightened.”
+"type": "stage_direction",
+"text": "The Toff puts a revolver on the table and goes on reading. Bill exits. After a moment the three men come rushing back in, frightened."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “We’ve come back, Toffy.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "We've come back, Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “So you have.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "So you have."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Toffy. . . . How did they get here?”
+"type": "dialogue",
+"character": "Albert",
+"text": "Toffy. . . . How did they get here?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “They walked, of course.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "They walked, of course."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “But it’s eighty miles.”
+"type": "dialogue",
+"character": "Albert",
+"text": "But it's eighty miles."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Did you know they were here, Toffy?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Did you know they were here, Toffy?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Expected them about now.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Expected them about now."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Eighty miles!”
+"type": "dialogue",
+"character": "Albert",
+"text": "Eighty miles!"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Toffy, old man . . . what are we to do?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Toffy, old man . . . what are we to do?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Ask Albert.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Ask Albert."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “If they can do things like this, there’s no one can save us but you, Toffy. . . . I always knew you were a clever one. We won’t be fools any more. We’ll obey you, Toffy.”
+"type": "dialogue",
+"character": "Bill",
+"text": "If they can do things like this, there's no one can save us but you, Toffy. . . . I always knew you were a clever one. We won't be fools any more. We'll obey you, Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “You’re brave enough and strong enough. There isn’t many that would steal a ruby eye out of an idol’s head, and such an idol as that was to look at, and on such a night. You’re brave enough, Bill. But you’re all three of you fools. Jim would have none of my plans, and where’s Jim? And George. What did they do to him?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "You're brave enough and strong enough. There isn't many that would steal a ruby eye out of an idol's head, and such an idol as that was to look at, and on such a night. You're brave enough, Bill. But you're all three of you fools. Jim would have none of my plans, and where's Jim? And George. What did they do to him?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Don’t, Toffy!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Don't, Toffy!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Well, then, your strength is no use to you. You want cleverness; or they’ll have you the way they had George and Jim.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Well, then, your strength is no use to you. You want cleverness; or they'll have you the way they had George and Jim."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Ugh!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Ugh!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Those black priests would follow you round the world in circles. Year after year, till they got the idol’s eye. And if we died with it, they’d follow our grand-children. That fool thinks he can escape from men like that by running round three streets in the town of Hull.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Those black priests would follow you round the world in circles. Year after year, till they got the idol's eye. And if we died with it, they'd follow our grand-children. That fool thinks he can escape from men like that by running round three streets in the town of Hull."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “God’s truth, you ‘aven’t escaped them, because they’re ‘ere.”
+"type": "dialogue",
+"character": "Albert",
+"text": "God's truth, you 'aven't escaped them, because they're 'ere."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “So I supposed.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "So I supposed."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “You supposed!”
+"type": "dialogue",
+"character": "Albert",
+"text": "You supposed!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Yes, I believe there’s no announcement in the Society papers. But I took this country seat especially to receive them. There’s plenty of room if you dig, it is pleasantly situated, and, what is more important, it is in a very quiet neighborhood. So I am at home to them this afternoon.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Yes, I believe there's no announcement in the Society papers. But I took this country seat especially to receive them. There's plenty of room if you dig, it is pleasantly situated, and, what is more important, it is in a very quiet neighborhood. So I am at home to them this afternoon."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Well, you’re a deep one.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Well, you're a deep one."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “And remember, you’ve only my wits between you and death, and don’t put your futile plans against those of an educated gentleman.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "And remember, you've only my wits between you and death, and don't put your futile plans against those of an educated gentleman."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “If you’re a gentleman, why don’t you go about among gentlemen instead of the likes of us?”
+"type": "dialogue",
+"character": "Albert",
+"text": "If you're a gentleman, why don't you go about among gentlemen instead of the likes of us?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Because I was too clever for them as I am too clever for you.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Because I was too clever for them as I am too clever for you."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Too clever for them?”
+"type": "dialogue",
+"character": "Albert",
+"text": "Too clever for them?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “I never lost a game of cards in my life.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "I never lost a game of cards in my life."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “You never lost a game!”
+"type": "dialogue",
+"character": "Bill",
+"text": "You never lost a game!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Not when there was money in it.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Not when there was money in it."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Well, well!”
+"type": "dialogue",
+"character": "Bill",
+"text": "Well, well!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Have a game of poker?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Have a game of poker?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “No, thanks.”
+"type": "dialogue",
+"character": "Bill",
+"text": "No, thanks."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Then do as you’re told.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Then do as you're told."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “All right, Toffy.”
+"type": "dialogue",
+"character": "Bill",
+"text": "All right, Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I saw something just then. Hadn’t we better draw the curtains?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I saw something just then. Hadn't we better draw the curtains?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “No.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "No."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “What?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "What?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Don’t draw the curtains.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Don't draw the curtains."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “O, all right.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "O, all right."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “But, Toffy, they can see us. One doesn’t let the enemy do that. I don’t see why. . . .”
+"type": "dialogue",
+"character": "Bill",
+"text": "But, Toffy, they can see us. One doesn't let the enemy do that. I don't see why. . . ."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “No, of course you don’t.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "No, of course you don't."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “O, all right, Toffy.”
+"type": "dialogue",
+"character": "Bill",
+"text": "O, all right, Toffy."
 },
 {
-“type”: “stage_direction”,
-“text”: “All begin to pull out revolvers.”
+"type": "stage_direction",
+"text": "All begin to pull out revolvers."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “No revolvers, please.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "No revolvers, please."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Why not?”
+"type": "dialogue",
+"character": "Albert",
+"text": "Why not?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Because I don’t want any noise at my party. We might get guests that hadn’t been invited. Knives are a different matter.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Because I don't want any noise at my party. We might get guests that hadn't been invited. Knives are a different matter."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “I think they’re coming, Toffy.”
+"type": "dialogue",
+"character": "Bill",
+"text": "I think they're coming, Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Not yet.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Not yet."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “When will they come?”
+"type": "dialogue",
+"character": "Albert",
+"text": "When will they come?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “When I am quite ready to receive them. Not before.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "When I am quite ready to receive them. Not before."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I should like to get this over.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I should like to get this over."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Should you? Then we’ll have them now.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Should you? Then we'll have them now."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Now?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Now?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Yes. Listen to me. You shall do as you see me do. You will all pretend to go out. I’ll show you how. I’ve got the ruby. When they see me alone they will come for their idol’s eye.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Yes. Listen to me. You shall do as you see me do. You will all pretend to go out. I'll show you how. I've got the ruby. When they see me alone they will come for their idol's eye."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “How can they tell like this which of us has it?”
+"type": "dialogue",
+"character": "Bill",
+"text": "How can they tell like this which of us has it?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “I confess I don’t know, but they seem to.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "I confess I don't know, but they seem to."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “What will you do when they come in?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "What will you do when they come in?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “I shall do nothing.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "I shall do nothing."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “What?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "What?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “They will creep up behind me. Then, my friends, Sniggers and Bill and Albert, who gave them the slip, will do what they can.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "They will creep up behind me. Then, my friends, Sniggers and Bill and Albert, who gave them the slip, will do what they can."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “All right, Toffy. Trust us.”
+"type": "dialogue",
+"character": "Bill",
+"text": "All right, Toffy. Trust us."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “If you’re a little slow, you will see enacted the cheerful spectacle that accompanied the demise of Jim.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "If you're a little slow, you will see enacted the cheerful spectacle that accompanied the demise of Jim."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Don’t, Toffy. We’ll be there, all right.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Don't, Toffy. We'll be there, all right."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Very well. Now watch me.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Very well. Now watch me."
 },
 {
-“type”: “stage_direction”,
-“text”: “The Toff demonstrates how to fake leaving the room – opening the door, slipping down, closing it while staying inside. He signs to the others, who understand.”
+"type": "stage_direction",
+"text": "The Toff demonstrates how to fake leaving the room – opening the door, slipping down, closing it while staying inside. He signs to the others, who understand."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Now, I shall sit with my back to the door. You go out one by one, so far as our friends can make out. Crouch very low to be on the safe side. They mustn’t see you through the window.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Now, I shall sit with my back to the door. You go out one by one, so far as our friends can make out. Crouch very low to be on the safe side. They mustn't see you through the window."
 },
 {
-“type”: “stage_direction”,
-“text”: “Bill makes his sham exit.”
+"type": "stage_direction",
+"text": "Bill makes his sham exit."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Remember, no revolvers. The police are, I believe, proverbially inquisitive.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Remember, no revolvers. The police are, I believe, proverbially inquisitive."
 },
 {
-“type”: “stage_direction”,
-“text”: “The other two follow Bill. All three are now crouching inside the door. The Toff puts the ruby beside him on the table. He lights a cigarette. The door at the back opens so slowly that you can hardly say at what moment it began. The Toff picks up his paper. A priest creeps along the floor, seeking cover from chairs. Bill watches, then leaps forward and knifes the priest. The Toff continues to read his sporting paper. He never looks around.”
+"type": "stage_direction",
+"text": "The other two follow Bill. All three are now crouching inside the door. The Toff puts the ruby beside him on the table. He lights a cigarette. The door at the back opens so slowly that you can hardly say at what moment it began. The Toff picks up his paper. A priest creeps along the floor, seeking cover from chairs. Bill watches, then leaps forward and knifes the priest. The Toff continues to read his sporting paper. He never looks around."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “There’s only one, Toffy. What shall we do?”
+"type": "dialogue",
+"character": "Bill",
+"text": "There's only one, Toffy. What shall we do?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Only one?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Only one?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Yes.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Yes."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Wait a moment. Let me think. Ah, yes. You go back, Bill. We must attract another guest. . . . Now, are you ready?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Wait a moment. Let me think. Ah, yes. You go back, Bill. We must attract another guest. . . . Now, are you ready?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Yes.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Yes."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “All right. You shall now see my demise at my Yorkshire residence. You must receive guests for me.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "All right. You shall now see my demise at my Yorkshire residence. You must receive guests for me."
 },
 {
-“type”: “stage_direction”,
-“text”: “The Toff leaps up in full view of the window, flings up both arms, and falls to the floor near the dead priest. A long pause. Again the door opens, very, very slowly. Another priest creeps in. He looks at his companion, turns him over, looks inside his clenched hands. Then he creeps toward the Toff. Bill knifes him like the other.”
+"type": "stage_direction",
+"text": "The Toff leaps up in full view of the window, flings up both arms, and falls to the floor near the dead priest. A long pause. Again the door opens, very, very slowly. Another priest creeps in. He looks at his companion, turns him over, looks inside his clenched hands. Then he creeps toward the Toff. Bill knifes him like the other."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “We’ve only got two, Toffy.”
+"type": "dialogue",
+"character": "Bill",
+"text": "We've only got two, Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Still another.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Still another."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “What’ll we do?”
+"type": "dialogue",
+"character": "Bill",
+"text": "What'll we do?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Hum.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Hum."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “This is the best way, much.”
+"type": "dialogue",
+"character": "Bill",
+"text": "This is the best way, much."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Out of the question. Never play the same game twice.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Out of the question. Never play the same game twice."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Why not, Toffy?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Why not, Toffy?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Doesn’t work if you do.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Doesn't work if you do."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Well?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Well?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “I have it, Albert. You will now walk into the room. I showed you how to do it.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "I have it, Albert. You will now walk into the room. I showed you how to do it."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Yes.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Yes."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Just run over here and have a fight at this window with these two men.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Just run over here and have a fight at this window with these two men."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “But they’re . . .”
+"type": "dialogue",
+"character": "Albert",
+"text": "But they're . . ."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Yes, they’re dead, my perspicuous Albert. But Bill and I are going to resuscitate them. . . . Come on.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Yes, they're dead, my perspicuous Albert. But Bill and I are going to resuscitate them. . . . Come on."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “That’s right, Bill. Come and help us, Sniggers. . . . Keep low, keep low. Wave their arms about, Sniggers. Don’t show yourself. Now, Albert, over you go. Our Albert is slain. Back you get, Bill. Back, Sniggers. Still, Albert. Mustn’t move when he comes. Not a muscle.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "That's right, Bill. Come and help us, Sniggers. . . . Keep low, keep low. Wave their arms about, Sniggers. Don't show yourself. Now, Albert, over you go. Our Albert is slain. Back you get, Bill. Back, Sniggers. Still, Albert. Mustn't move when he comes. Not a muscle."
 },
 {
-“type”: “stage_direction”,
-“text”: “A face appears at the window and stays for some time. Then the door opens and the third priest enters, looking craftily round. He sees his companions’ bodies. He suspects something. He takes up a knife in each hand and puts his back to the wall, looking left and right.”
+"type": "stage_direction",
+"text": "A face appears at the window and stays for some time. Then the door opens and the third priest enters, looking craftily round. He sees his companions' bodies. He suspects something. He takes up a knife in each hand and puts his back to the wall, looking left and right."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Come on, Bill.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Come on, Bill."
 },
 {
-“type”: “stage_direction”,
-“text”: “The priest rushes to the door. The Toff knifes the last priest from behind.”
+"type": "stage_direction",
+"text": "The priest rushes to the door. The Toff knifes the last priest from behind."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “A good day’s work, my friends.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "A good day's work, my friends."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Well done, Toffy. Oh, you are a deep one!”
+"type": "dialogue",
+"character": "Bill",
+"text": "Well done, Toffy. Oh, you are a deep one!"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “A deep one if ever there was one.”
+"type": "dialogue",
+"character": "Albert",
+"text": "A deep one if ever there was one."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “There ain’t any more, Bill, are there?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "There ain't any more, Bill, are there?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “No more in the world, my friend.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "No more in the world, my friend."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Aye, that’s all there are. There were only three in the temple. Three priests and their beastly idol.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Aye, that's all there are. There were only three in the temple. Three priests and their beastly idol."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “What is it worth, Toffy? Is it worth a thousand pounds?”
+"type": "dialogue",
+"character": "Albert",
+"text": "What is it worth, Toffy? Is it worth a thousand pounds?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “It’s worth all they’ve got in the shop. Worth just whatever we like to ask for it.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "It's worth all they've got in the shop. Worth just whatever we like to ask for it."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Then we’re millionaires now.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Then we're millionaires now."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Yes, and, what is more important, we no longer have any heirs.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Yes, and, what is more important, we no longer have any heirs."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “We’ll have to sell it now.”
+"type": "dialogue",
+"character": "Bill",
+"text": "We'll have to sell it now."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “That won’t be easy. It’s a pity it isn’t small and we had half a dozen. Hadn’t the idol any other on him?”
+"type": "dialogue",
+"character": "Albert",
+"text": "That won't be easy. It's a pity it isn't small and we had half a dozen. Hadn't the idol any other on him?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “No, he was green jade all over and only had this one eye. He had it in the middle of his forehead and was a long sight uglier than anything else in the world.”
+"type": "dialogue",
+"character": "Bill",
+"text": "No, he was green jade all over and only had this one eye. He had it in the middle of his forehead and was a long sight uglier than anything else in the world."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I’m sure we ought all to be very grateful to Toffy.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I'm sure we ought all to be very grateful to Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “And, indeed, we ought.”
+"type": "dialogue",
+"character": "Bill",
+"text": "And, indeed, we ought."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “If it hadn’t been for him. . . .”
+"type": "dialogue",
+"character": "Albert",
+"text": "If it hadn't been for him. . . ."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Yes, if it hadn’t been for old Toffy. . . .”
+"type": "dialogue",
+"character": "Bill",
+"text": "Yes, if it hadn't been for old Toffy. . . ."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “He’s a deep one.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "He's a deep one."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Well, you see I just have a knack of foreseeing things.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Well, you see I just have a knack of foreseeing things."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I should think you did.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I should think you did."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Why, I don’t suppose anything happens that our Toff doesn’t foresee. Does it, Toffy?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Why, I don't suppose anything happens that our Toff doesn't foresee. Does it, Toffy?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Well, I don’t think it does, Bill. I don’t think it often does.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Well, I don't think it does, Bill. I don't think it often does."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Life is no more than just a game of cards to our old Toff.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Life is no more than just a game of cards to our old Toff."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Well, we’ve taken these fellows’ trick.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Well, we've taken these fellows' trick."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “It wouldn’t do for any one to see them.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "It wouldn't do for any one to see them."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Oh, nobody will come this way. We’re all alone on a moor.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Oh, nobody will come this way. We're all alone on a moor."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Where will we put them?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Where will we put them?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Bury them in the cellar, but there’s no hurry.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Bury them in the cellar, but there's no hurry."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “And what then, Toffy?”
+"type": "dialogue",
+"character": "Bill",
+"text": "And what then, Toffy?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Why, then we’ll go to London and upset the ruby business. We have really come through this job very nicely.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Why, then we'll go to London and upset the ruby business. We have really come through this job very nicely."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “I think the first thing that we ought to do is to give a little supper to old Toffy. We’ll bury these fellows tonight.”
+"type": "dialogue",
+"character": "Bill",
+"text": "I think the first thing that we ought to do is to give a little supper to old Toffy. We'll bury these fellows tonight."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Yes, let’s.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Yes, let's."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “The very thing!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "The very thing!"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “And we’ll all drink his health.”
+"type": "dialogue",
+"character": "Bill",
+"text": "And we'll all drink his health."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Good old Toffy!”
+"type": "dialogue",
+"character": "Albert",
+"text": "Good old Toffy!"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “He ought to have been a general or a premier.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "He ought to have been a general or a premier."
 },
 {
-“type”: “stage_direction”,
-“text”: “They get bottles from the cupboard and sit down to supper.”
+"type": "stage_direction",
+"text": "They get bottles from the cupboard and sit down to supper."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Well, we’ve earned our bit of a supper.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Well, we've earned our bit of a supper."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Here’s to old Toffy, who guessed everything!”
+"type": "dialogue",
+"character": "Bill",
+"text": "Here's to old Toffy, who guessed everything!"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Good old Toffy!”
+"type": "dialogue",
+"character": "Albert",
+"text": "Good old Toffy!"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Good old Toffy!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Good old Toffy!"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Toffy, who saved our lives and made our fortunes.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Toffy, who saved our lives and made our fortunes."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Hear! Hear!”
+"type": "dialogue",
+"character": "Albert",
+"text": "Hear! Hear!"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Hear! Hear!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Hear! Hear!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “And here’s to Bill, who saved me twice tonight.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "And here's to Bill, who saved me twice tonight."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Couldn’t have done it but for your cleverness, Toffy.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Couldn't have done it but for your cleverness, Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Hear, hear! Hear! Hear!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Hear, hear! Hear! Hear!"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “He foresees everything.”
+"type": "dialogue",
+"character": "Albert",
+"text": "He foresees everything."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “A speech, Toffy. A speech from our general.”
+"type": "dialogue",
+"character": "Bill",
+"text": "A speech, Toffy. A speech from our general."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “A speech.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "A speech."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Well, get me some water. This whiskey’s too much for my head, and I must keep it clear till our friends are safe in the cellar.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Well, get me some water. This whiskey's too much for my head, and I must keep it clear till our friends are safe in the cellar."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Water? Yes, of course. Get him some water, Sniggers.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Water? Yes, of course. Get him some water, Sniggers."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “We don’t use water here. Where shall I get it?”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "We don't use water here. Where shall I get it?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Outside in the garden.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Outside in the garden."
 },
 {
-“type”: “stage_direction”,
-“text”: “Sniggers exits.”
+"type": "stage_direction",
+"text": "Sniggers exits."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Here’s to the future!”
+"type": "dialogue",
+"character": "Albert",
+"text": "Here's to the future!"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Here’s to Albert Thomas, Esquire.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Here's to Albert Thomas, Esquire."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “And William Jones, Esquire.”
+"type": "dialogue",
+"character": "Albert",
+"text": "And William Jones, Esquire."
 },
 {
-“type”: “stage_direction”,
-“text”: “Sniggers returns, terrified.”
+"type": "stage_direction",
+"text": "Sniggers returns, terrified."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Hullo, here’s Jacob Smith, Esquire, J. P., alias Sniggers, back again.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Hullo, here's Jacob Smith, Esquire, J. P., alias Sniggers, back again."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Toffy, I’ve been thinking about my share in that ruby. I don’t want it, Toffy; I don’t want it.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Toffy, I've been thinking about my share in that ruby. I don't want it, Toffy; I don't want it."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Nonsense, Sniggers. Nonsense.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Nonsense, Sniggers. Nonsense."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “You shall have it, Toffy, you shall have it yourself, only say Sniggers has no share in this ‘ere ruby. Say it, Toffy, say it!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "You shall have it, Toffy, you shall have it yourself, only say Sniggers has no share in this 'ere ruby. Say it, Toffy, say it!"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Want to turn informer, Sniggers?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Want to turn informer, Sniggers?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “No, no. Only I don’t want the ruby, Toffy. . . .”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "No, no. Only I don't want the ruby, Toffy. . . ."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “No more nonsense, Sniggers. We’re all in together in this. If one hangs, we all hang; but they won’t outwit me. Besides, it’s not a hanging affair, they had their knives.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "No more nonsense, Sniggers. We're all in together in this. If one hangs, we all hang; but they won't outwit me. Besides, it's not a hanging affair, they had their knives."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Toffy, Toffy, I always treated you fair, Toffy. I was always one to say, Give Toffy a chance. Take back my share, Toffy.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Toffy, Toffy, I always treated you fair, Toffy. I was always one to say, Give Toffy a chance. Take back my share, Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “What’s the matter? What are you driving at?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "What's the matter? What are you driving at?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Take it back, Toffy.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Take it back, Toffy."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Answer me, what are you up to?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Answer me, what are you up to?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I don’t want my share any more.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I don't want my share any more."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Have you seen the police?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Have you seen the police?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “No, no knives, Albert.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "No, no knives, Albert."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “What then?”
+"type": "dialogue",
+"character": "Albert",
+"text": "What then?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “The honest truth in open court, barring the ruby. We were attacked.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "The honest truth in open court, barring the ruby. We were attacked."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “There’s no police.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "There's no police."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Well, then, what’s the matter?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Well, then, what's the matter?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Out with it.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Out with it."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I swear to God. . . .”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I swear to God. . . ."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Well?”
+"type": "dialogue",
+"character": "Albert",
+"text": "Well?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “Don’t interrupt.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "Don't interrupt."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I swear I saw something what I didn’t like.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I swear I saw something what I didn't like."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “What you didn’t like?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "What you didn't like?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “O Toffy, Toffy, take it back. Take my share. Say you take it.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "O Toffy, Toffy, take it back. Take my share. Say you take it."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “What has he seen?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "What has he seen?"
 },
 {
-“type”: “stage_direction”,
-“text”: “Dead silence, only broken by Sniggers’s sobs. Then steps are heard. A hideous idol enters. It is blind and gropes its way. It gropes to the ruby and picks it up and screws it into a socket in its forehead. Sniggers still weeps softly. The rest stare in horror. The idol steps out, no longer groping. Its steps move off, then stop.”
+"type": "stage_direction",
+"text": "Dead silence, only broken by Sniggers's sobs. Then steps are heard. A hideous idol enters. It is blind and gropes its way. It gropes to the ruby and picks it up and screws it into a socket in its forehead. Sniggers still weeps softly. The rest stare in horror. The idol steps out, no longer groping. Its steps move off, then stop."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “O, great heavens!”
+"type": "dialogue",
+"character": "The Toff",
+"text": "O, great heavens!"
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “What is it, Toffy?”
+"type": "dialogue",
+"character": "Albert",
+"text": "What is it, Toffy?"
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Albert, it is that obscene idol – come from India.”
+"type": "dialogue",
+"character": "Bill",
+"text": "Albert, it is that obscene idol – come from India."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “It is gone.”
+"type": "dialogue",
+"character": "Albert",
+"text": "It is gone."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “It has taken its eye.”
+"type": "dialogue",
+"character": "Bill",
+"text": "It has taken its eye."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “We are saved.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "We are saved."
 },
 {
-“type”: “dialogue”,
-“character”: “The Voice”,
-“text”: “Meestaire William Jones, Able Seaman.”
+"type": "dialogue",
+"character": "The Voice",
+"text": "Meestaire William Jones, Able Seaman."
 },
 {
-“type”: “stage_direction”,
-“text”: “The Toff has never spoken, never moved. He only gazes stupidly in horror.”
+"type": "stage_direction",
+"text": "The Toff has never spoken, never moved. He only gazes stupidly in horror."
 },
 {
-“type”: “dialogue”,
-“character”: “Bill”,
-“text”: “Albert, Albert, what is this?”
+"type": "dialogue",
+"character": "Bill",
+"text": "Albert, Albert, what is this?"
 },
 {
-“type”: “stage_direction”,
-“text”: “Bill rises and walks out. One moan is heard. Sniggers goes to the window. He falls back sickly.”
+"type": "stage_direction",
+"text": "Bill rises and walks out. One moan is heard. Sniggers goes to the window. He falls back sickly."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “What has happened?”
+"type": "dialogue",
+"character": "Albert",
+"text": "What has happened?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I have seen it. I have seen it. O, I have seen it!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I have seen it. I have seen it. O, I have seen it!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “What was it, Sniggers?”
+"type": "dialogue",
+"character": "The Toff",
+"text": "What was it, Sniggers?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I have seen it.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I have seen it."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “What?”
+"type": "dialogue",
+"character": "Albert",
+"text": "What?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “O!”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "O!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Voice”,
-“text”: “Meestaire Albert Thomas, Able Seaman.”
+"type": "dialogue",
+"character": "The Voice",
+"text": "Meestaire Albert Thomas, Able Seaman."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Must I go, Toffy? Toffy, must I go?”
+"type": "dialogue",
+"character": "Albert",
+"text": "Must I go, Toffy? Toffy, must I go?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “Don’t move.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "Don't move."
 },
 {
-“type”: “dialogue”,
-“character”: “Albert”,
-“text”: “Toffy, Toffy.”
+"type": "dialogue",
+"character": "Albert",
+"text": "Toffy, Toffy."
 },
 {
-“type”: “stage_direction”,
-“text”: “Albert goes out.”
+"type": "stage_direction",
+"text": "Albert goes out."
 },
 {
-“type”: “dialogue”,
-“character”: “The Voice”,
-“text”: “Meestaire Jacob Smith, Able Seaman.”
+"type": "dialogue",
+"character": "The Voice",
+"text": "Meestaire Jacob Smith, Able Seaman."
 },
 {
-“type”: “dialogue”,
-“character”: “Sniggers”,
-“text”: “I can’t go, Toffy. I can’t go. I can’t do it.”
+"type": "dialogue",
+"character": "Sniggers",
+"text": "I can't go, Toffy. I can't go. I can't do it."
 },
 {
-“type”: “stage_direction”,
-“text”: “He goes.”
+"type": "stage_direction",
+"text": "He goes."
 },
 {
-“type”: “dialogue”,
-“character”: “The Voice”,
-“text”: “Meestaire Arnold Everett Scott-Fortescue, late Esquire, Able Seaman.”
+"type": "dialogue",
+"character": "The Voice",
+"text": "Meestaire Arnold Everett Scott-Fortescue, late Esquire, Able Seaman."
 },
 {
-“type”: “dialogue”,
-“character”: “The Toff”,
-“text”: “I did not foresee it.”
+"type": "dialogue",
+"character": "The Toff",
+"text": "I did not foresee it."
 },
 {
-“type”: “stage_direction”,
-“text”: “He goes out. CURTAIN.”
+"type": "stage_direction",
+"text": "He goes out. CURTAIN."
 }
 ]
 }

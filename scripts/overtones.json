@@ -1,1396 +1,1396 @@
 {
-“title”: “Overtones”,
-“author”: “Alice Gerstenberg”,
-“description”: “Two women have tea. Four women are on stage. Each character has a ‘cultured self’ and a ‘primitive self’ – the inner voice that says what she really thinks. As Harriet and Margaret exchange pleasantries, Hetty and Maggie hurl insults and reveal desperate truths. Both women are scheming. Both women are lying. The audience hears everything.”,
-“characters”: [
+"title": "Overtones",
+"author": "Alice Gerstenberg",
+"description": "Two women have tea. Four women are on stage. Each character has a 'cultured self' and a 'primitive self' – the inner voice that says what she really thinks. As Harriet and Margaret exchange pleasantries, Hetty and Maggie hurl insults and reveal desperate truths. Both women are scheming. Both women are lying. The audience hears everything.",
+"characters": [
 {
-“name”: “Harriet”,
-“description”: “The cultured self of Harriet Goodrich – polished, gracious, calculating. She married Charles for his money instead of marrying John the painter. She never lets her guard down in public. Her voice is affected and lingering. Think: a perfect hostess with a knife behind her smile.”,
-“lines”: 88,
-“difficulty”: “high”,
-“costumeIdeas”: “Light green – the jealous green. Something elegant. Speak in a polished, affected voice. Always composed.”
+"name": "Harriet",
+"description": "The cultured self of Harriet Goodrich – polished, gracious, calculating. She married Charles for his money instead of marrying John the painter. She never lets her guard down in public. Her voice is affected and lingering. Think: a perfect hostess with a knife behind her smile.",
+"lines": 88,
+"difficulty": "high",
+"costumeIdeas": "Light green – the jealous green. Something elegant. Speak in a polished, affected voice. Always composed."
 },
 {
-“name”: “Hetty”,
-“description”: “The primitive self of Harriet – crude, passionate, desperate. She is the real feelings underneath Harriet’s polish. She regrets giving up John, hates her husband, and wants revenge. Her voice is impulsive and staccato. Think: everything Harriet would say if she had no filter.”,
-“lines”: 78,
-“difficulty”: “high”,
-“costumeIdeas”: “Dark green – same style as Harriet but darker. Speak quickly, emotionally, urgently. You are the voice in her head.”
+"name": "Hetty",
+"description": "The primitive self of Harriet – crude, passionate, desperate. She is the real feelings underneath Harriet's polish. She regrets giving up John, hates her husband, and wants revenge. Her voice is impulsive and staccato. Think: everything Harriet would say if she had no filter.",
+"lines": 78,
+"difficulty": "high",
+"costumeIdeas": "Dark green – same style as Harriet but darker. Speak quickly, emotionally, urgently. You are the voice in her head."
 },
 {
-“name”: “Margaret”,
-“description”: “The cultured self of Margaret Caldwell – graceful, nonchalant, breezy. She married John the painter and lived in Paris. She acts like everything is wonderful. Her voice is superficial and airy. Think: a woman performing contentment while hiding desperation.”,
-“lines”: 51,
-“difficulty”: “medium”,
-“costumeIdeas”: “Lavender – something light and floaty. Speak in a breezy, nonchalant tone. Take small delicate bites of everything.”
+"name": "Margaret",
+"description": "The cultured self of Margaret Caldwell – graceful, nonchalant, breezy. She married John the painter and lived in Paris. She acts like everything is wonderful. Her voice is superficial and airy. Think: a woman performing contentment while hiding desperation.",
+"lines": 51,
+"difficulty": "medium",
+"costumeIdeas": "Lavender – something light and floaty. Speak in a breezy, nonchalant tone. Take small delicate bites of everything."
 },
 {
-“name”: “Maggie”,
-“description”: “The primitive self of Margaret – starving, terrified, scheming. She is the hunger and fear underneath Margaret’s composure. Her husband is failing, they have no money, and she came to get a portrait commission or they are ruined. Think: a woman who hasn’t eaten since breakfast watching someone else’s cake.”,
-“lines”: 50,
-“difficulty”: “medium”,
-“costumeIdeas”: “Purple – same style as Margaret but darker. A scarf over your face that you pull back for dramatic moments. Speak with raw emotion. Reach for the cake.”
+"name": "Maggie",
+"description": "The primitive self of Margaret – starving, terrified, scheming. She is the hunger and fear underneath Margaret's composure. Her husband is failing, they have no money, and she came to get a portrait commission or they are ruined. Think: a woman who hasn't eaten since breakfast watching someone else's cake.",
+"lines": 50,
+"difficulty": "medium",
+"costumeIdeas": "Purple – same style as Margaret but darker. A scarf over your face that you pull back for dramatic moments. Speak with raw emotion. Reach for the cake."
 }
 ],
-“beats”: [
+"beats": [
 {
-“type”: “stage_direction”,
-“text”: “Harriet’s fashionable living room. A tea table with a chair on either side. Harriet is busying herself with the tea things. The primitive selves never come into physical contact with their cultured selves, but try to sustain the impression of mental conflict.”
+"type": "stage_direction",
+"text": "Harriet's fashionable living room. A tea table with a chair on either side. Harriet is busying herself with the tea things. The primitive selves never come into physical contact with their cultured selves, but try to sustain the impression of mental conflict."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Harriet. Harriet, my other self. My trained self.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Harriet. Harriet, my other self. My trained self."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Yes?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Yes?"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I want to talk to you.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I want to talk to you."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Well?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Well?"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Oh, Harriet, you are beautiful today.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Oh, Harriet, you are beautiful today."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Am I presentable, Hetty?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Am I presentable, Hetty?"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Suits me.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Suits me."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I’ve tried to make the best of the good points.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I've tried to make the best of the good points."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “My passions are deeper than yours. I can’t keep on the mask as you do. I’m crude and real, you are my appearance in the world.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "My passions are deeper than yours. I can't keep on the mask as you do. I'm crude and real, you are my appearance in the world."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I am what you wish the world to believe you are.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I am what you wish the world to believe you are."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “You are the part of me that has been trained.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "You are the part of me that has been trained."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I am your educated self.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I am your educated self."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I am the rushing river; you are the ice over the current.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I am the rushing river; you are the ice over the current."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I am your subtle overtones.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I am your subtle overtones."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “But together we are one woman, the wife of Charles Goodrich.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "But together we are one woman, the wife of Charles Goodrich."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “There I disagree with you, Hetty, I alone am his wife.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "There I disagree with you, Hetty, I alone am his wife."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Harriet, how can you say such a thing!”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Harriet, how can you say such a thing!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Certainly. I am the one who flatters him. I have to be the one who talks to him. If I gave you a chance you would tell him at once that you dislike him.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Certainly. I am the one who flatters him. I have to be the one who talks to him. If I gave you a chance you would tell him at once that you dislike him."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I don’t love him, that’s certain.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I don't love him, that's certain."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “You leave all the fibbing to me. He doesn’t suspect that my calm, suave manner hides your hatred. Considering the amount of scheming it causes me it can safely be said that he is my husband.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "You leave all the fibbing to me. He doesn't suspect that my calm, suave manner hides your hatred. Considering the amount of scheming it causes me it can safely be said that he is my husband."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Oh, if you love him –”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Oh, if you love him –"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I? I haven’t any feelings. It isn’t my business to love anybody.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I? I haven't any feelings. It isn't my business to love anybody."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Then why need you object to calling him my husband?”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Then why need you object to calling him my husband?"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I resent your appropriation of a man who is managed only through the cleverness of my artifice.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I resent your appropriation of a man who is managed only through the cleverness of my artifice."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “You may be clever enough to deceive him, Harriet, but I am still the one who suffers. I can’t forget he is my husband. I can’t forget that I might have married John Caldwell.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "You may be clever enough to deceive him, Harriet, but I am still the one who suffers. I can't forget he is my husband. I can't forget that I might have married John Caldwell."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “How foolish of you to remember John, just because we met his wife by chance.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "How foolish of you to remember John, just because we met his wife by chance."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “That’s what I want to talk to you about. She may be here at any moment. I want to advise you about what to say to her this afternoon.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "That's what I want to talk to you about. She may be here at any moment. I want to advise you about what to say to her this afternoon."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “By all means tell me now and don’t interrupt while she is here. You have a most annoying habit of talking to me when people are present. Sometimes it is all I can do to keep my poise and appear not to be listening to you.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "By all means tell me now and don't interrupt while she is here. You have a most annoying habit of talking to me when people are present. Sometimes it is all I can do to keep my poise and appear not to be listening to you."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Impress her.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Impress her."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Hetty, dear, is it not my custom to impress people?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Hetty, dear, is it not my custom to impress people?"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I hate her.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I hate her."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I can’t let her see that.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I can't let her see that."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I hate her because she married John.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I hate her because she married John."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Only after you had refused him.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Only after you had refused him."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Was it my fault that I refused him?”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Was it my fault that I refused him?"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “That’s right, blame me.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "That's right, blame me."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “It was your fault. You told me he was too poor and never would be able to do anything in painting. Look at him now, known in Europe, just returned from eight years in Paris, famous.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "It was your fault. You told me he was too poor and never would be able to do anything in painting. Look at him now, known in Europe, just returned from eight years in Paris, famous."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “It was too poor a gamble at the time. It was much safer to accept Charles’s money and position.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "It was too poor a gamble at the time. It was much safer to accept Charles's money and position."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “And then John married Margaret within the year.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "And then John married Margaret within the year."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Out of spite.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Out of spite."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Freckled, gawky-looking thing she was, too.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Freckled, gawky-looking thing she was, too."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Europe improved her. She was stunning the other morning.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Europe improved her. She was stunning the other morning."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Make her jealous today.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Make her jealous today."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Shall I be haughty or cordial or caustic or –”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Shall I be haughty or cordial or caustic or –"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Above all else you must let her know that we are rich.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Above all else you must let her know that we are rich."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Oh, yes, I do that quite easily now.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Oh, yes, I do that quite easily now."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “You must put it on a bit.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "You must put it on a bit."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Never fear.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Never fear."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Tell her I love my husband.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Tell her I love my husband."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “My husband –”
+"type": "dialogue",
+"character": "Harriet",
+"text": "My husband –"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Are you going to quarrel with me?”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Are you going to quarrel with me?"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “No, I have no desire to quarrel with you. It is quite too uncomfortable. I couldn’t get away from you if I tried.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "No, I have no desire to quarrel with you. It is quite too uncomfortable. I couldn't get away from you if I tried."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “You were a stupid fool to make me refuse John, I’ll never forgive you – never –”
+"type": "dialogue",
+"character": "Hetty",
+"text": "You were a stupid fool to make me refuse John, I'll never forgive you – never –"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Don’t get me all excited. I’ll be in no condition to meet her properly this afternoon.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Don't get me all excited. I'll be in no condition to meet her properly this afternoon."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I could choke you for robbing me of John.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I could choke you for robbing me of John."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Don’t muss me!”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Don't muss me!"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “You don’t know how you have made me suffer.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "You don't know how you have made me suffer."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “It is not my business to have heartaches.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "It is not my business to have heartaches."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “You’re bloodless. Nothing but sham – sham – while I –”
+"type": "dialogue",
+"character": "Hetty",
+"text": "You're bloodless. Nothing but sham – sham – while I –"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Be quiet! I can’t let her see that I have been fighting with my inner self.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Be quiet! I can't let her see that I have been fighting with my inner self."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “And now after all my suffering you say it has cost you more than it has cost me to be married to Charles. But it’s the pain here in my heart – I’ve paid the price – I’ve paid – Charles is not your husband!”
+"type": "dialogue",
+"character": "Hetty",
+"text": "And now after all my suffering you say it has cost you more than it has cost me to be married to Charles. But it's the pain here in my heart – I've paid the price – I've paid – Charles is not your husband!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “He is.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "He is."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “He isn’t.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "He isn't."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “He is.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "He is."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “He isn’t! I’ll kill you!”
+"type": "dialogue",
+"character": "Hetty",
+"text": "He isn't! I'll kill you!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Don’t – don’t – you’re stronger than I – you’re –”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Don't – don't – you're stronger than I – you're –"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Say he’s mine.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Say he's mine."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “He’s ours.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "He's ours."
 },
 {
-“type”: “stage_direction”,
-“text”: “The telephone rings.”
+"type": "stage_direction",
+"text": "The telephone rings."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “There she is now.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "There she is now."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Wait! I can’t let the telephone girl down there hear my real self. It isn’t proper. Show Mrs. Caldwell up.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Wait! I can't let the telephone girl down there hear my real self. It isn't proper. Show Mrs. Caldwell up."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I’m so excited, my heart’s in my mouth.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I'm so excited, my heart's in my mouth."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “A nice state you’ve put my nerves into.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "A nice state you've put my nerves into."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Don’t let her see you’re nervous.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Don't let her see you're nervous."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Quick, put the veil on, or she’ll see you shining through me.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Quick, put the veil on, or she'll see you shining through me."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Tell her Charles is rich and fascinating – boast of our friends, make her feel she needs us.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Tell her Charles is rich and fascinating – boast of our friends, make her feel she needs us."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I’ll make her ask John to paint us.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I'll make her ask John to paint us."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “That’s just my thought – if John paints our portrait –”
+"type": "dialogue",
+"character": "Hetty",
+"text": "That's just my thought – if John paints our portrait –"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “We can wear an exquisite gown –”
+"type": "dialogue",
+"character": "Harriet",
+"text": "We can wear an exquisite gown –"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “And make him fall in love again and –”
+"type": "dialogue",
+"character": "Hetty",
+"text": "And make him fall in love again and –"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Yes.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Yes."
 },
 {
-“type”: “stage_direction”,
-“text”: “Margaret enters and extends her hand. She is followed by her counterpart, Maggie.”
+"type": "stage_direction",
+"text": "Margaret enters and extends her hand. She is followed by her counterpart, Maggie."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Oh, Margaret, I’m so glad to see you!”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Oh, Margaret, I'm so glad to see you!"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “That’s a lie.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "That's a lie."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “It’s enchanting to see you, Harriet.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "It's enchanting to see you, Harriet."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I’d bite you, if I dared.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I'd bite you, if I dared."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Wasn’t our meeting a stroke of luck?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Wasn't our meeting a stroke of luck?"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I’ve thought of you so often, Harriet; and to come back and find you living in New York.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I've thought of you so often, Harriet; and to come back and find you living in New York."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Mr. Goodrich has many interests here.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Mr. Goodrich has many interests here."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Flatter her.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Flatter her."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I know, Mr. Goodrich is so successful.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I know, Mr. Goodrich is so successful."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Tell her we’re rich.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Tell her we're rich."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Won’t you sit down?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Won't you sit down?"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “What a beautiful lamp!”
+"type": "dialogue",
+"character": "Margaret",
+"text": "What a beautiful lamp!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Do you like it? I’m afraid Charles paid an extravagant price.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Do you like it? I'm afraid Charles paid an extravagant price."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I don’t believe it.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I don't believe it."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I am sure he must have.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I am sure he must have."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “How well you are looking, Margaret.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "How well you are looking, Margaret."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Yes, you are not. There are circles under your eyes.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Yes, you are not. There are circles under your eyes."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I haven’t eaten since breakfast and I’m hungry.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I haven't eaten since breakfast and I'm hungry."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “How well you are looking, too.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "How well you are looking, too."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “You have hard lines about your lips, are you happy?”
+"type": "dialogue",
+"character": "Maggie",
+"text": "You have hard lines about your lips, are you happy?"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Don’t let her know that I’m unhappy.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Don't let her know that I'm unhappy."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Why shouldn’t I look well? My life is full, happy, complete –”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Why shouldn't I look well? My life is full, happy, complete –"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I wonder.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I wonder."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Tell her we have an automobile.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Tell her we have an automobile."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “My life is complete, too.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "My life is complete, too."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “My heart is torn with sorrow; my husband cannot make a living. He will kill himself if he does not get an order for a painting.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "My heart is torn with sorrow; my husband cannot make a living. He will kill himself if he does not get an order for a painting."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “You must come and see us in our studio. John has been doing some excellent portraits. He cannot begin to fill his orders.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "You must come and see us in our studio. John has been doing some excellent portraits. He cannot begin to fill his orders."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Tell her we have an automobile.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Tell her we have an automobile."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Do you take lemon in your tea?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Do you take lemon in your tea?"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Take cream. It’s more filling.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Take cream. It's more filling."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “No, cream, if you please. How cozy!”
+"type": "dialogue",
+"character": "Margaret",
+"text": "No, cream, if you please. How cozy!"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Only cakes! I could eat them all!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Only cakes! I could eat them all!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “How many lumps?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "How many lumps?"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Sugar is nourishing.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Sugar is nourishing."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Three, please. I used to drink very sweet coffee in Turkey and ever since I’ve –”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Three, please. I used to drink very sweet coffee in Turkey and ever since I've –"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I don’t believe you were ever in Turkey.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I don't believe you were ever in Turkey."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I wasn’t, but it is none of your business.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I wasn't, but it is none of your business."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Have you been in Turkey, do tell me about it.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Have you been in Turkey, do tell me about it."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Change the subject.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Change the subject."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “You must go there. You have so much taste in dress you would enjoy seeing their costumes.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "You must go there. You have so much taste in dress you would enjoy seeing their costumes."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Isn’t she going to pass the cake?”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Isn't she going to pass the cake?"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “John painted several portraits there.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "John painted several portraits there."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Why don’t you stop her bragging and tell her we have an automobile?”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Why don't you stop her bragging and tell her we have an automobile?"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Cake?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Cake?"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “At last!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "At last!"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Thank you.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Thank you."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Automobile!”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Automobile!"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Follow up the costumes with the suggestion that she would make a good model for John. It isn’t too early to begin getting what you came for.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Follow up the costumes with the suggestion that she would make a good model for John. It isn't too early to begin getting what you came for."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “What delicious cake.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "What delicious cake."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “There’s your chance for the auto.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "There's your chance for the auto."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Yes, it is good cake, isn’t it? There are always a great many people buying it at Harper’s. I sat in my automobile fifteen minutes this morning waiting for my chauffeur to get it.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Yes, it is good cake, isn't it? There are always a great many people buying it at Harper's. I sat in my automobile fifteen minutes this morning waiting for my chauffeur to get it."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Make her order a portrait.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Make her order a portrait."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “If you stopped at Harper’s you must have noticed the new gowns at Henderson’s. Aren’t the shop windows alluring these days?”
+"type": "dialogue",
+"character": "Margaret",
+"text": "If you stopped at Harper's you must have noticed the new gowns at Henderson's. Aren't the shop windows alluring these days?"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Even my chauffeur notices them.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Even my chauffeur notices them."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I know you have an automobile, I heard you the first time.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I know you have an automobile, I heard you the first time."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I notice gowns now with an artist’s eye as John does. The one you have on, my dear, is very paintable.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I notice gowns now with an artist's eye as John does. The one you have on, my dear, is very paintable."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Don’t let her see you’re anxious to be painted.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Don't let her see you're anxious to be painted."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Oh, it’s just a little model.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Oh, it's just a little model."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Don’t seem anxious to get the order.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Don't seem anxious to get the order."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Perhaps it isn’t the gown itself but the way you wear it that pleases the eye. Some people can wear anything with grace.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Perhaps it isn't the gown itself but the way you wear it that pleases the eye. Some people can wear anything with grace."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Yes, I’m very graceful.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Yes, I'm very graceful."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “You flatter me, my dear.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "You flatter me, my dear."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “On the contrary, Harriet, I have an intense admiration for you. I remember how beautiful you were – as a girl. In fact, I was quite jealous when John was paying you so much attention.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "On the contrary, Harriet, I have an intense admiration for you. I remember how beautiful you were – as a girl. In fact, I was quite jealous when John was paying you so much attention."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “She is gloating because I lost him.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "She is gloating because I lost him."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Those were childhood days in a country town.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Those were childhood days in a country town."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “She’s trying to make you feel that John was only a country boy.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "She's trying to make you feel that John was only a country boy."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Most great men have come from the country. There is a fair chance that John will be added to the list.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Most great men have come from the country. There is a fair chance that John will be added to the list."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I know it and I am bitterly jealous of you.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I know it and I am bitterly jealous of you."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Undoubtedly he owes much of his success to you, Margaret, your experience in economy and your ability to endure hardship. Those first few years in Paris must have been a struggle.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Undoubtedly he owes much of his success to you, Margaret, your experience in economy and your ability to endure hardship. Those first few years in Paris must have been a struggle."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “She is sneering at your poverty.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "She is sneering at your poverty."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Yes, we did find life difficult at first, not the luxurious start a girl has who marries wealth.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Yes, we did find life difficult at first, not the luxurious start a girl has who marries wealth."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Deny that you married Charles for his money.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Deny that you married Charles for his money."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “But John and I are so congenial in our tastes, that we were impervious to hardship or unhappiness.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "But John and I are so congenial in our tastes, that we were impervious to hardship or unhappiness."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Do you love each other? Is it really true?”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Do you love each other? Is it really true?"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Did you have all the romance of starving for his art?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Did you have all the romance of starving for his art?"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “She’s taunting you. Get even with her.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "She's taunting you. Get even with her."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Not for long. Prince Rier soon discovered John’s genius, and introduced him royally to wealthy Parisians who gave him many orders.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Not for long. Prince Rier soon discovered John's genius, and introduced him royally to wealthy Parisians who gave him many orders."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Are you telling the truth or are you lying?”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Are you telling the truth or are you lying?"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “If he had so many opportunities there, you must have had great inducements to come back to the States.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "If he had so many opportunities there, you must have had great inducements to come back to the States."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “We did, but not the kind you think.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "We did, but not the kind you think."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “John became the rage among Americans travelling in France, too, and they simply insisted upon his coming here.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "John became the rage among Americans travelling in France, too, and they simply insisted upon his coming here."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Whom is he going to paint here?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Whom is he going to paint here?"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “What names dare I make up?”
+"type": "dialogue",
+"character": "Maggie",
+"text": "What names dare I make up?"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Just at present Miss Dorothy Ainsworth of Oregon is posing. You may not know the name, but she is the daughter of a wealthy miner who found gold in Alaska.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Just at present Miss Dorothy Ainsworth of Oregon is posing. You may not know the name, but she is the daughter of a wealthy miner who found gold in Alaska."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I dare say there are many Western people we have never heard of.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I dare say there are many Western people we have never heard of."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “You must have found social life in New York very interesting, Harriet, after the simplicity of our home town.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "You must have found social life in New York very interesting, Harriet, after the simplicity of our home town."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “There’s no need to remind us that our beginnings were the same.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "There's no need to remind us that our beginnings were the same."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Of course Charles’s family made everything delightful for me. They are so well connected.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Of course Charles's family made everything delightful for me. They are so well connected."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Flatter her.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Flatter her."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I heard it mentioned yesterday that you had made yourself very popular. Some one said you were very clever!”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I heard it mentioned yesterday that you had made yourself very popular. Some one said you were very clever!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Who told you that?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Who told you that?"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Nobody!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Nobody!"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Oh, confidences should be suspected – respected, I mean. They said, too, that you are gaining some reputation as a critic of art.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Oh, confidences should be suspected – respected, I mean. They said, too, that you are gaining some reputation as a critic of art."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I make no pretenses.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I make no pretenses."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Are you and Mr. Goodrich interested in the same things, too?”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Are you and Mr. Goodrich interested in the same things, too?"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “No!”
+"type": "dialogue",
+"character": "Hetty",
+"text": "No!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Yes, indeed, Charles and I are inseparable.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Yes, indeed, Charles and I are inseparable."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I wonder.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I wonder."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Do have another cake.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Do have another cake."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Oh, yes.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Oh, yes."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I really shouldn’t – after my big luncheon. John took me to the Ritz and we are invited to the Bedfords’ for dinner – they have such a magnificent house near the drive – I really shouldn’t, but the cakes are so good.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I really shouldn't – after my big luncheon. John took me to the Ritz and we are invited to the Bedfords' for dinner – they have such a magnificent house near the drive – I really shouldn't, but the cakes are so good."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Starving!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Starving!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “More tea?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "More tea?"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Yes!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Yes!"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “No, thank you. How wonderfully life has arranged itself for you. Wealth, position, a happy marriage, every opportunity to enjoy all pleasures; beauty, art – how happy you must be.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "No, thank you. How wonderfully life has arranged itself for you. Wealth, position, a happy marriage, every opportunity to enjoy all pleasures; beauty, art – how happy you must be."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Don’t call me happy. I’ve never been happy since I gave up John. All these years without him – a future without him – no – no – I shall win him back – away from you – away from you –”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Don't call me happy. I've never been happy since I gave up John. All these years without him – a future without him – no – no – I shall win him back – away from you – away from you –"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I sometimes think it is unfair for any one to be as happy as I am. Charles and I are just as much in love now as when we married. To me he is just the dearest man in the world.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I sometimes think it is unfair for any one to be as happy as I am. Charles and I are just as much in love now as when we married. To me he is just the dearest man in the world."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “My John is. I love him so much I could die for him. I’m going through hunger and want to make him great and he loves me. He worships me!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "My John is. I love him so much I could die for him. I'm going through hunger and want to make him great and he loves me. He worships me!"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I should like to meet Mr. Goodrich. Bring him to our studio. John has some sketches to show. Not many, because all the portraits have been purchased by the subjects. He gets as much as four thousand dollars now.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I should like to meet Mr. Goodrich. Bring him to our studio. John has some sketches to show. Not many, because all the portraits have been purchased by the subjects. He gets as much as four thousand dollars now."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Don’t pay that much.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Don't pay that much."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “As much as that?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "As much as that?"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “It is not really too much when one considers that John is in the foremost rank of artists today. A picture painted by him now will double and treble in value.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "It is not really too much when one considers that John is in the foremost rank of artists today. A picture painted by him now will double and treble in value."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “It’s all a lie. He is growing weak with despair.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "It's all a lie. He is growing weak with despair."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Does he paint all day long?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Does he paint all day long?"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “No, he draws advertisements for our bread.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "No, he draws advertisements for our bread."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “When you and your husband come to see us, telephone first –”
+"type": "dialogue",
+"character": "Margaret",
+"text": "When you and your husband come to see us, telephone first –"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Yes, so he can get the advertisements out of the way.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Yes, so he can get the advertisements out of the way."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Otherwise you might arrive while he has a sitter, and John refuses to let me disturb him then.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Otherwise you might arrive while he has a sitter, and John refuses to let me disturb him then."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Make her ask for an order.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Make her ask for an order."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Le Grange offered to paint me for a thousand.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Le Grange offered to paint me for a thousand."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Louis Le Grange’s reputation isn’t worth more than that.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Louis Le Grange's reputation isn't worth more than that."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Well, I’ve heard his work well mentioned.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Well, I've heard his work well mentioned."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Yes, he is doing splendid work.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Yes, he is doing splendid work."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Oh, dear me, no. He is only praised by the masses. He is accepted not at all by artists themselves.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Oh, dear me, no. He is only praised by the masses. He is accepted not at all by artists themselves."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Must I really pay the full price?”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Must I really pay the full price?"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Le Grange thought I would make a good subject.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Le Grange thought I would make a good subject."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Let her fish for it.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Let her fish for it."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Of course you would. Why don’t you let Le Grange paint you, if you trust him?”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Of course you would. Why don't you let Le Grange paint you, if you trust him?"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “She doesn’t seem anxious to have John do it.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "She doesn't seem anxious to have John do it."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “But if Le Grange isn’t accepted by artists, it would be a waste of time to pose for him, wouldn’t it?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "But if Le Grange isn't accepted by artists, it would be a waste of time to pose for him, wouldn't it?"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Yes, I think it would.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Yes, I think it would."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Give us the order. John is so despondent he can’t endure much longer. Help us! Help me! Save us!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Give us the order. John is so despondent he can't endure much longer. Help us! Help me! Save us!"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Don’t seem too eager.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Don't seem too eager."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “And yet if he charges only a thousand one might consider it.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "And yet if he charges only a thousand one might consider it."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “If you really wish to be painted, why don’t you give a little more and have a portrait really worth while? John might be induced to do you for a little below his usual price considering that you used to be such good friends.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "If you really wish to be painted, why don't you give a little more and have a portrait really worth while? John might be induced to do you for a little below his usual price considering that you used to be such good friends."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Hurrah!”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Hurrah!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “That’s very nice of you to suggest – of course I don’t know –”
+"type": "dialogue",
+"character": "Harriet",
+"text": "That's very nice of you to suggest – of course I don't know –"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “For God’s sake, say yes.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "For God's sake, say yes."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Of course, I don’t know whether John would. He is very peculiar in these matters. He sets his value on his work and thinks it beneath him to discuss price.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Of course, I don't know whether John would. He is very peculiar in these matters. He sets his value on his work and thinks it beneath him to discuss price."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “You needn’t try to make us feel small.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "You needn't try to make us feel small."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Still, I might quite delicately mention to him that inasmuch as you have many influential friends you would be very glad to – to –”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Still, I might quite delicately mention to him that inasmuch as you have many influential friends you would be very glad to – to –"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Finish what I don’t want to say.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Finish what I don't want to say."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Help her out.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Help her out."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Oh, yes, introductions will follow the exhibition of my portrait. No doubt I –”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Oh, yes, introductions will follow the exhibition of my portrait. No doubt I –"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Be patronizing.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Be patronizing."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “No doubt I shall be able to introduce your husband to his advantage.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "No doubt I shall be able to introduce your husband to his advantage."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Saved.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Saved."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “If I find John in a propitious mood I shall take pleasure, for your sake, in telling him about your beauty. Just as you are sitting now would be a lovely pose.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "If I find John in a propitious mood I shall take pleasure, for your sake, in telling him about your beauty. Just as you are sitting now would be a lovely pose."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “We can go now.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "We can go now."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Don’t let her think she is doing us a favor.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Don't let her think she is doing us a favor."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “It will give me pleasure to add my name to your husband’s list of patronesses.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "It will give me pleasure to add my name to your husband's list of patronesses."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Run home and tell John the good news.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Run home and tell John the good news."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I little guessed when I came for a pleasant chat about old times that it would develop into business arrangements. I had no idea, Harriet, that you had any intention of being painted. By Le Grange, too. Well, I came just in time to rescue you.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I little guessed when I came for a pleasant chat about old times that it would develop into business arrangements. I had no idea, Harriet, that you had any intention of being painted. By Le Grange, too. Well, I came just in time to rescue you."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “Run home and tell John. Hurry, hurry!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "Run home and tell John. Hurry, hurry!"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “You managed the order very neatly. She doesn’t suspect that you wanted it.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "You managed the order very neatly. She doesn't suspect that you wanted it."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Now if I am not satisfied with my portrait I shall blame you, Margaret, dear. I am relying upon your opinion of John’s talent.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Now if I am not satisfied with my portrait I shall blame you, Margaret, dear. I am relying upon your opinion of John's talent."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “She doesn’t suspect what you came for. Run home and tell John!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "She doesn't suspect what you came for. Run home and tell John!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “You always had a brilliant mind, Margaret.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "You always had a brilliant mind, Margaret."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Ah, it is you who flatter, now.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Ah, it is you who flatter, now."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “You don’t have to stay so long. Hurry home!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "You don't have to stay so long. Hurry home!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Ah, one does not flatter when one tells the truth.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Ah, one does not flatter when one tells the truth."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I must be going or you will have me completely under your spell.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I must be going or you will have me completely under your spell."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “Yes, do go. I have to dress for dinner.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "Yes, do go. I have to dress for dinner."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Oh, don’t hurry.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Oh, don't hurry."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I hate you!”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I hate you!"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “No, really I must, but I hope we shall see each other often at the studio. I find you so stimulating.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "No, really I must, but I hope we shall see each other often at the studio. I find you so stimulating."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I hate you!”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I hate you!"
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “It is indeed gratifying to find a kindred spirit.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "It is indeed gratifying to find a kindred spirit."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I came for your gold.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I came for your gold."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “How delightful it is to know you again.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "How delightful it is to know you again."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I am going to make you and your husband suffer.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I am going to make you and your husband suffer."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “My kind regards to John.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "My kind regards to John."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “He has forgotten all about you.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "He has forgotten all about you."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “He will be so happy to receive them.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "He will be so happy to receive them."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I can hardly wait to talk to him again.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I can hardly wait to talk to him again."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “I shall wait, then, until you send me word?”
+"type": "dialogue",
+"character": "Harriet",
+"text": "I shall wait, then, until you send me word?"
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I’ll speak to John about it as soon as I can and tell you when to come.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I'll speak to John about it as soon as I can and tell you when to come."
 },
 {
-“type”: “stage_direction”,
-“text”: “Harriet takes Margaret’s hand affectionately. Hetty and Maggie rush at each other, throw back their veils, and fling their speeches fiercely.”
+"type": "stage_direction",
+"text": "Harriet takes Margaret's hand affectionately. Hetty and Maggie rush at each other, throw back their veils, and fling their speeches fiercely."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I love him – I love him –”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I love him – I love him –"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “He’s starving – I’m starving –”
+"type": "dialogue",
+"character": "Maggie",
+"text": "He's starving – I'm starving –"
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I’m going to take him away from you –”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I'm going to take him away from you –"
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I want your money – and your influence.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I want your money – and your influence."
 },
 {
-“type”: “dialogue”,
-“character”: “Hetty”,
-“text”: “I’m going to rob you – rob you.”
+"type": "dialogue",
+"character": "Hetty",
+"text": "I'm going to rob you – rob you."
 },
 {
-“type”: “dialogue”,
-“character”: “Maggie”,
-“text”: “I’m going to rob you – rob you.”
+"type": "dialogue",
+"character": "Maggie",
+"text": "I'm going to rob you – rob you."
 },
 {
-“type”: “stage_direction”,
-“text”: “The lights go out and come up again slowly, leaving only Margaret and Harriet visible.”
+"type": "stage_direction",
+"text": "The lights go out and come up again slowly, leaving only Margaret and Harriet visible."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “I’ve had such a delightful afternoon.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "I've had such a delightful afternoon."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “It has been a joy to see you.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "It has been a joy to see you."
 },
 {
-“type”: “dialogue”,
-“character”: “Margaret”,
-“text”: “Good-bye.”
+"type": "dialogue",
+"character": "Margaret",
+"text": "Good-bye."
 },
 {
-“type”: “dialogue”,
-“character”: “Harriet”,
-“text”: “Good-bye, my dear.”
+"type": "dialogue",
+"character": "Harriet",
+"text": "Good-bye, my dear."
 },
 {
-“type”: “stage_direction”,
-“text”: “CURTAIN.”
+"type": "stage_direction",
+"text": "CURTAIN."
 }
 ]
 }
