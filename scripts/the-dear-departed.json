@@ -1,0 +1,920 @@
+{
+“title”: “The Dear Departed”,
+“author”: “Stanley Houghton”,
+“description”: “A Comedy in One Act. Old Abel Merryweather has died – or so his daughter Amelia Slater believes. Before the body is even cold, she and her husband Henry are busy stealing his bureau, his clock, and his slippers. When her sister Elizabeth and brother-in-law Ben arrive for tea, the two couples immediately begin squabbling over who gets grandfather’s things. There is a brief, insincere competition over who loved him more, undercut by the fact that neither family wanted him living with them. Then Abel walks downstairs, very much alive, and discovers exactly what his daughters think of him. His revenge is magnificent.”,
+“characters”: [
+{
+“name”: “Mrs. Slater”,
+“description”: “Amelia Slater – the elder daughter, sharp, bossy, and acquisitive. She is the engine of the play’s greed. The moment she thinks her father is dead, she starts moving his furniture into her own rooms. She bullies her husband into helping and coaches her daughter Victoria on what to say. She considers herself the more devoted daughter and is furious when Elizabeth tries to claim any of the inheritance. She is not a villain – she is recognizably, uncomfortably human. Think: the relative who starts dividing up belongings before the funeral is planned.”,
+“lines”: 62,
+“difficulty”: “high”,
+“costumeIdeas”: “A practical house dress, perhaps with an apron she removes when company arrives. She changes into mourning black partway through the play – this is a key comic moment. Look busy, commanding, and perpetually dissatisfied.”
+},
+{
+“name”: “Henry”,
+“description”: “Henry Slater – Amelia’s husband, mild-mannered and hen-pecked. He does whatever his wife tells him, including hauling furniture and putting on his mourning clothes. He occasionally attempts a mild protest, which is immediately overruled. He is not unintelligent – he simply learned long ago that resistance is futile. His relationship with his wife is one of resigned obedience punctuated by quiet sighs. Think: a man who has been carrying other people’s furniture his entire marriage.”,
+“lines”: 25,
+“difficulty”: “medium”,
+“costumeIdeas”: “Working clothes that he changes to a dark suit when told to. Look put-upon and slightly winded from moving furniture. Defer to your wife in all things.”
+},
+{
+“name”: “Mrs. Jordan”,
+“description”: “Elizabeth Jordan – the younger daughter, equally greedy but better at disguising it. She arrives in full mourning and is immediately suspicious that things have been moved. She is skilled at the passive-aggressive accusation and the theatrical display of grief. She and Amelia have a long history of rivalry, and their father’s supposed death is merely the latest battleground. She claims to have been the more dutiful daughter while simultaneously trying to avoid having father live with her. Think: the sibling who accuses you of being selfish while doing the exact same thing.”,
+“lines”: 40,
+“difficulty”: “high”,
+“costumeIdeas”: “Full mourning – black dress, perhaps a black hat. She has come prepared to perform grief. Look dignified, offended, and ready to count the silverware.”
+},
+{
+“name”: “Ben”,
+“description”: “Ben Jordan – Elizabeth’s husband, more outspoken than Henry but no less ineffective. He is cheerful, blunt, and somewhat tactless. He makes observations that nobody wants to hear and asks questions nobody wants answered. He is the most honest person in the room, which means he is constantly getting shushed. He notices the bureau has been moved and says so. He wonders aloud about the insurance. He is a useful idiot for the plot. Think: the brother-in-law who says the quiet part out loud at every family gathering.”,
+“lines”: 16,
+“difficulty”: “medium”,
+“costumeIdeas”: “A dark suit, not quite as formal as his wife would like. He might have a slightly rumpled look. He is dressed for a funeral but has the energy of someone at a pub.”
+},
+{
+“name”: “Abel”,
+“description”: “Abel Merryweather – the ‘dear departed’ himself, a widower in his seventies who is very much alive. He has been napping upstairs while his daughters have been dividing up his possessions. He is shrewd, dry, and increasingly angry as he realizes what has been happening. His entrance – walking calmly downstairs while everyone screams – is the great comic turning point. His revenge at the end is to announce he is marrying the woman at the Ring-o’-Bells pub and changing his will. He has survived his daughters’ greed and intends to outlive their expectations. Think: a man who has just learned exactly what his funeral will look like, and has decided not to attend.”,
+“lines”: 25,
+“difficulty”: “high”,
+“costumeIdeas”: “A nightshirt or dressing gown and slippers. He has been asleep. He should look frail enough that you believe the family thought he was dead, but lively enough that his revenge is credible. The slippers are important – the Slaters steal them early on.”
+}
+],
+“beats”: [
+{
+“type”: “stage_direction”,
+“text”: “The Slaters’ sitting room. It is furnished with old-fashioned furniture including a bureau, a chest of drawers, and an armchair. There is a door leading upstairs and a door to the outside. The table is set for tea.”
+},
+{
+“type”: “stage_direction”,
+“text”: “Mrs. Slater enters hurriedly, followed by Henry, who is carrying one end of a bureau. They are in the process of moving it from upstairs.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Steady, Henry! Don’t scratch the paint. Set it down here.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Setting it down with a grunt.] I don’t think we ought to be doing this, Amelia.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Nonsense! If we don’t take it, Elizabeth will. You know what she’s like. Now go upstairs and bring down the clock.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “The clock as well?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Yes, the clock! And his slippers. Those nice ones with the fur lining. Be quick about it – they’ll be here any minute.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “It doesn’t seem right, Amelia. The poor old man’s not been dead two hours.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “And if Elizabeth gets here first, he won’t have been dead two hours before she’s stripped the room bare. I know my sister. Now go on!”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “What about Victoria? Shouldn’t she be told?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “I’ve sent her out to fetch the Jordans. Now listen to me, Henry. When Elizabeth arrives, she’s to see the bureau down here, as if it’s always been here. Do you understand? It’s always been ours.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “But she’ll know it wasn’t –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “She won’t know anything of the sort! Father gave it to us weeks ago. That’s what happened, Henry. He gave it to us because he wanted us to have it. Are you clear?”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Sighing.] If you say so, Amelia.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “I do say so. Now – the clock and the slippers. Go on!”
+},
+{
+“type”: “stage_direction”,
+“text”: “Henry exits upstairs. Mrs. Slater fusses with the bureau’s position, then begins laying out tea things.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “[To herself.] We’ll want the best china. Elizabeth will notice if we don’t use the best china. [Pause.] Though she never uses hers when we visit. Cheap cups with cracks in them.”
+},
+{
+“type”: “stage_direction”,
+“text”: “Henry returns carrying a clock and a pair of slippers.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Here you are. The clock and the slippers. [Pause.] He looks very peaceful up there, Amelia.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Put the clock on the mantelpiece. And put those slippers by the fire. Henry – you’d better change into your black suit.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “My black suit? Already?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Of course! Elizabeth will be in full mourning, mark my words. She never misses a chance to show off. We’re not going to be outdone.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Right you are.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “And Henry – on your way down, have a look at father and make sure he’s – well, make sure he’s presentable. Pull the sheet up properly.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Uncomfortably.] I wish you’d do it.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Don’t be ridiculous. He’s your father-in-law. Go on.”
+},
+{
+“type”: “stage_direction”,
+“text”: “Henry exits upstairs. Mrs. Slater changes into a black dress, checking her appearance. A knock at the door.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “[Opening the door.] Oh, Elizabeth. Ben. Come in.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “[Entering in full mourning, dabbing her eyes.] Oh, Amelia! I came as soon as I heard. Poor, dear father!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Yes, it’s very sad.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “[Following his wife in.] Afternoon, Amelia. Sorry about the old man.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “When did it happen?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “This afternoon, about two o’clock. He was sitting in his chair, and I brought him his tea, and when I came back – he’d gone.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “[Weeping.] Poor father! And to think I wasn’t here!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Well, you couldn’t have been, could you? It’s our month to have him.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “I know, but still – I wish I’d seen him one last time.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “You can see him now if you like. He’s upstairs.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “[Sharply.] Thank you, Ben. I’m quite aware of that.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Sit down, won’t you? I’ll make the tea.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “[Sitting and looking around.] Amelia – isn’t that father’s bureau?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “[Too quickly.] What? Oh, that. Yes – father gave it to us. Weeks ago.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Gave it to you? He never mentioned it to me.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Didn’t he? Well, he did. Quite insisted, actually.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “It was in his room last time we visited.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “No, it wasn’t.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “It was, you know. I remember because I –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “[Cutting in.] Never mind, Ben. [To Mrs. Slater.] And the clock? Did he give you the clock as well?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “The clock has always been there.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “[Looking at the mantelpiece.] No, it hasn’t. That clock used to be in father’s room. I know because mother bought it.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Elizabeth, I hardly think this is the time to be arguing about furniture. Our father is lying dead upstairs.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “I’m not arguing. I’m simply pointing out that you seem to have helped yourself to father’s things rather quickly.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “How dare you! I’ve looked after him for three years, month on and month off, and never a word of thanks from anyone!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Month on and month off is right! You couldn’t wait to pack him off to us when your month was up!”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “Now, now, ladies –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “That’s a fine thing to say! Who was it complained about the cost of feeding him? Who said he ate too much bacon?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “He did eat too much bacon. That’s a medical fact, not a complaint.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “Ladies, I think we should discuss the arrangements. Has the doctor been?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Henry’s going to fetch him.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “And the insurance? The old man was insured, wasn’t he?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Ben!”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “What? It’s a practical question. Somebody’s got to pay for the funeral.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Father was insured. I paid the premiums myself. Out of my own pocket.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “We paid them when he was with us!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Only the last two months. I’ve been paying for years.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Well, I should hope the insurance money will be shared equally.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Shared? When I’ve done all the work?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “All the work! You call it work, having father sit in a chair while you go about your business?”
+},
+{
+“type”: “stage_direction”,
+“text”: “Henry enters in his black suit.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Afternoon, Elizabeth. Afternoon, Ben.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “Afternoon, Henry. Sorry for your loss.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Thank you. [Pause.] Amelia, I’ve been thinking. Are you sure he’s – are you quite sure he’s dead? Because when I was up there just now, I thought I –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Of course he’s dead! I found him myself.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Yes, but –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Henry! Sit down and have your tea.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “We were just discussing the insurance, Henry.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Oh. Right.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “And the will. Has anyone seen father’s will?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “I believe it’s in the bureau.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “The bureau that he gave you. How convenient.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “What are you implying, Elizabeth?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “I’m not implying anything. I’m saying it outright. You’ve had father living here, you’ve moved his furniture into your rooms, and now you’ll have the will in your possession. It’s very tidy.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “If you’re suggesting I would tamper with father’s will –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “I’m suggesting nothing. I’m simply saying that the will should be read in front of both families.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “That seems fair enough.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Nobody asked you, Ben.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Don’t speak to my husband like that!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “I’ll speak to him however I please in my own house!”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Amelia –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “What?”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Nothing.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “Look, the fact is, the old man’s gone and there’s things to be settled. What about the other furniture upstairs? The chest of drawers, the bed, the –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “What about them?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “They should be divided fairly. I’ll take the chest of drawers. Mother always meant me to have it.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “She did nothing of the sort! Mother always said the chest was to stay in the family home!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “This isn’t the family home! This is your home! The family home was sold years ago!”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “She’s got a point there, Amelia.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “I’ll thank you to keep your opinions to yourself, Ben Jordan.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “And another thing – those slippers. Those are father’s slippers by the fire.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “They’re Henry’s slippers.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Looking at the slippers.] Well, actually –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “[With a deadly look at Henry.] They’re Henry’s slippers.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Yes. Mine. That’s right.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Henry Slater, those are father’s slippers and you know it. He was wearing them last Sunday when we came to tea.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “He was not!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “He was! I remember because I said what nice slippers they were and he said you’d bought them for his birthday.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “That’s – well, even if they were his, he gave them to Henry. Didn’t he, Henry?”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Miserably.] If you say so, Amelia.”
+},
+{
+“type”: “stage_direction”,
+“text”: “There is a noise from upstairs. Everyone freezes.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “What was that?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “It’s nothing. The cat, probably.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Nervously.] Amelia, I tried to tell you earlier –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Tell me what?”
+},
+{
+“type”: “stage_direction”,
+“text”: “The door opens. Abel Merryweather enters in his nightshirt and stockinged feet. He looks around the room. Everyone stares at him in horror.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “[Screaming.] Father!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “[Gasping.] Father! You’re – you’re –”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Alive? Aye, I’m alive. Sorry to disappoint you.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “Well, I’ll be –”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “I was having a nap. I woke up to find myself tucked in like a corpse, the window shut, and no slippers. [Looks at the slippers by the fire.] Ah. There they are.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Father, I thought you were dead! You were sitting in the chair and you weren’t breathing!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “I was asleep, Amelia. People do stop breathing so loud when they’re asleep.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Oh, father! Thank heavens you’re all right! [Moves to embrace him.] We’ve been so worried!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “[Stepping back.] Have you? Have you really? [Looks around the room.] Then perhaps you can tell me what my bureau is doing down here.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Your bureau?”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “My bureau. The one that was in my room an hour ago. The one that appears to have walked downstairs by itself.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Looking at the floor.] I did try to tell you, Amelia.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “I – we – we were going to polish it for you, father.”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Polish it. In the sitting room. While I lay dead upstairs.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “We didn’t know you weren’t dead!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “And the clock? Were you polishing that as well?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “[Silence.]”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “[Turning to Mrs. Jordan.] And you, Elizabeth. Come to mourn me, have you? In your best black dress?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Father, I –”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “And I suppose you weren’t planning to take anything home with you? Not the chest of drawers? Not the silverware?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Father, that’s not fair! I came because I was grief-stricken!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Grief-stricken. [To Ben.] Was she grief-stricken, Ben?”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “[Uncomfortably.] Well, she was upset, certainly.”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Upset about the chest of drawers, maybe.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “That’s a terrible thing to say!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “It’s true, though. She was arguing about the chest of drawers before you came down.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “And you’d already stolen the bureau and the clock!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Stolen! [Sits down in his armchair.] So that’s the way of it. I’m not dead five minutes –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “You weren’t dead at all!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “I wasn’t dead, but you thought I was, and that’s what matters. I know now what I’m worth to my own daughters. [Pause.] Less than a bureau, a clock, and a pair of slippers.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Father, please –”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Father, you’re being unfair –”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Am I? Let me tell you something. I’ve been passed back and forth between you like an old parcel for three years. One month here, one month there. Neither of you wants me. You just didn’t want the other one to have my things.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “That’s not true, father. We’ve been glad to have you.”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Don’t you start, Henry. You were carrying the bureau downstairs yourself.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Beaten.] I was told to.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Henry!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Well, I’ll tell you what I’ve decided. I’ve been thinking about this for some time, and today has settled it.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Decided what?”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “I’m getting married again.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “What?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Married? At your age?”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “At my age. To Mrs. Shorrocks at the Ring-o’-Bells. She’s a good woman and she doesn’t care about my bureau.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Mrs. Shorrocks! That woman from the pub?”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “That woman from the pub.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Father, you can’t be serious. You’re seventy-two years old!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Seventy-two and still alive, which is more than you expected half an hour ago. I’ll be changing my will, too.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “[Horrified.] Changing your will?”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Everything to Mrs. Shorrocks. The bureau, the clock, the slippers – the lot. Unless, of course, my devoted daughters can convince me otherwise.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Father, you know we love you! Don’t we, Henry?”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “Of course we do.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “Father, come and live with us! We’ll take such good care of you. You won’t have to share with Amelia anymore.”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “Share? He’s living with us, Elizabeth! He’s staying right here!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “He’s been complaining about your cooking for months!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “My cooking! At least I don’t give him cold mutton three days running!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “[Settling comfortably into his chair.] That’s more like it. Fight over keeping me alive for a change.”
+},
+{
+“type”: “dialogue”,
+“character”: “Ben”,
+“text”: “[To Abel, quietly.] You’re enjoying this, aren’t you?”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “Best afternoon I’ve had in years, Ben. [Pause.] Now – who’s making me a cup of tea?”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Slater”,
+“text”: “I’ll make it!”
+},
+{
+“type”: “dialogue”,
+“character”: “Mrs. Jordan”,
+“text”: “No, I’ll make it!”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “And I’ll have my slippers back, if it’s all the same to you, Henry.”
+},
+{
+“type”: “dialogue”,
+“character”: “Henry”,
+“text”: “[Handing them over immediately.] Of course, father. Of course.”
+},
+{
+“type”: “dialogue”,
+“character”: “Abel”,
+“text”: “[Putting on his slippers with satisfaction.] That’s better. [To the audience.] Reports of my death, as they say, have been greatly exaggerated.”
+},
+{
+“type”: “stage_direction”,
+“text”: “CURTAIN”
+}
+]
+}
