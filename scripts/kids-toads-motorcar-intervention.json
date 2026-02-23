@@ -1,0 +1,157 @@
+{
+  "title": "The Great Motorcar Intervention",
+  "author": "Kenneth Grahame (Adapted for Table Read)",
+  "description": "A chaotic family intervention. Mr. Badger and Ratty are trying to give a very serious, dramatic lecture to Mr. Toad about his dangerous habit of crashing stolen cars. Toad pretends to be sorry, but he just can't help himself. Perfect for two adults reading the strict friends, and one kid playing the completely unhinged Toad.",
+  "characters": [
+    {
+      "name": "Mr. Badger",
+      "description": "The strict, long-winded adult in the room. He is giving a very serious, dramatic, Shakespearean lecture about morality and responsibility. He thinks he is saving Toad's life.",
+      "difficulty": "high",
+      "costumeIdeas": "Glasses perched on the end of your nose, a stern frown, and perhaps a walking stick to point with. Use your deepest, most serious teacher voice."
+    },
+    {
+      "name": "Ratty",
+      "description": "The worried, anxious best friend. He is pacing back and forth, begging Toad to just listen to Badger. He is highly emotional and easily stressed out.",
+      "difficulty": "medium",
+      "costumeIdeas": "A nautical cap or a worried expression. Constantly wringing your hands together like you are about to panic."
+    },
+    {
+      "name": "Mr. Toad",
+      "description": "A spoiled, chaotic, unrepentant millionaire amphibian. You don't care about the rules at all. Your lines are short, loud, and full of silly actions.",
+      "difficulty": "easy",
+      "costumeIdeas": "An imaginary steering wheel (or a paper plate), driving goggles, and a massive, unearned sense of confidence."
+    }
+  ],
+  "beats": [
+    {
+      "type": "stage_direction",
+      "text": "The living room of Toad Hall. Mr. Toad is sitting in a chair, looking very pleased with himself. Mr. Badger and Ratty stand over him, looking extremely stern and disappointed."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Badger",
+      "text": "The hour has come, Toad. You knew it must come to this. We, your loyal friends, have watched you squander the wealth your worthy father left you, and we can bear it no longer!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Ratty",
+      "text": "Oh, Toad! It breaks my heart! You are getting us animals a terrible name in the district with your furious driving! You've crashed seven motorcars this month alone!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "[Cross your arms and pout.] I drive fast! Get out of my way!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Badger",
+      "text": "Poppycock! You are a menace to society, sir! A veritable danger to every peaceful creature upon the King's highway! Now, you will stand up and face me like a respectable animal."
+    },
+    {
+      "type": "stage_direction",
+      "text": "Toad stands up slowly, looking at the floor."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "[Rub your eyes like you are crying.] Boo hoo! I am a bad toad. I am sad."
+    },
+    {
+      "type": "dialogue",
+      "character": "Ratty",
+      "text": "There, there, Badger. You see? He is thoroughly repentant. The poor fellow recognizes the error of his ways."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Badger",
+      "text": "We shall see. Toad! I demand that you give me your solemn pledge, here and now, that you will never touch a motorcar again."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "[Peek through your fingers and smile.] No more cars?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Badger",
+      "text": "Never! You must promise to cast off this dreadful obsession and return to the quiet, dignified life of a country gentleman!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "[Jump up and wave your hands!] No! I will not! I love cars!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Ratty",
+      "text": "Toad! After all your tears just a moment ago? You deceitful amphibian!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "I tricked you! Vroom vroom! Beep beep! I am Toad!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Badger",
+      "text": "This is absolute madness! The creature is entirely consumed by the intoxicating fumes of petrol! He is beyond the reach of rational discourse!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Ratty",
+      "text": "What shall we do with him, Badger? We cannot let him roam the countryside in this delirious state!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "[Hold an imaginary steering wheel and run in a circle.] Honk honk! Look out! I am so fast!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Badger",
+      "text": "There is but one solution, Ratty. We must take him upstairs by force and lock him in his bedroom until the poison has left his system! Seize him!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "Badger and Ratty grab Toad by the arms. Toad wiggles and kicks."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "Hey! Let me go! I want to play! Vroom!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Ratty",
+      "text": "Hold his legs, Badger! Good heavens, he possesses the strength of a lunatic!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Badger",
+      "text": "Up the stairs with him! Into the chamber! We are doing this for your own salvation, you wretched animal!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "They shove Toad into his bedroom and lock the imaginary door with a loud CLICK. Badger and Ratty lean against the door, panting."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "[Bang on the table or the floor!] Let me out! I want to drive! Beep beep! Honk honk!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Ratty",
+      "text": "Do you think he will ever be cured, Mr. Badger?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Badger",
+      "text": "I fear, Ratty, that this will be a very long winter."
+    },
+    {
+      "type": "stage_direction",
+      "text": "CURTAIN"
+    }
+  ]
+}
