@@ -1,746 +1,746 @@
 {
-“title”: “The Monkey’s Paw”,
-“author”: “W.W. Jacobs”,
-“description”: “An old couple and their grown son receive a visitor bearing a dried monkey’s paw that grants three wishes – but at a terrible price. A classic horror story adapted for table reading from Jacobs’ 1902 short story. Three scenes, building from cozy fireside warmth to absolute dread. The final scene in the dark is one of the most frightening sequences in English literature.”,
-“characters”: [
+"title": "The Monkey's Paw",
+"author": "W.W. Jacobs",
+"description": "An old couple and their grown son receive a visitor bearing a dried monkey's paw that grants three wishes – but at a terrible price. A classic horror story adapted for table reading from Jacobs' 1902 short story. Three scenes, building from cozy fireside warmth to absolute dread. The final scene in the dark is one of the most frightening sequences in English literature.",
+"characters": [
 {
-“name”: “Mr. White”,
-“description”: “An elderly man, amiable and curious. He plays chess badly, drinks whiskey with old friends, and can’t resist a bit of magic. He snatches the paw from the fire against all warnings. By the end, he is on his hands and knees in the dark, searching desperately for the paw before the thing outside gets in. Think: a kind, ordinary man who makes one small mistake and pays for it with everything.”,
-“lines”: 38,
-“difficulty”: “high”,
-“costumeIdeas”: “Cardigan, reading glasses. Look comfortable and domestic at the start. By the final scene, you should look like a man who hasn’t slept in days.”
+"name": "Mr. White",
+"description": "An elderly man, amiable and curious. He plays chess badly, drinks whiskey with old friends, and can't resist a bit of magic. He snatches the paw from the fire against all warnings. By the end, he is on his hands and knees in the dark, searching desperately for the paw before the thing outside gets in. Think: a kind, ordinary man who makes one small mistake and pays for it with everything.",
+"lines": 38,
+"difficulty": "high",
+"costumeIdeas": "Cardigan, reading glasses. Look comfortable and domestic at the start. By the final scene, you should look like a man who hasn't slept in days."
 },
 {
-“name”: “Mrs. White”,
-“description”: “An elderly woman, warm and practical. She knits by the fire and teases her husband about chess. After Herbert’s death, grief transforms her – she becomes fierce, wild, desperate. Her screaming ‘It’s Herbert! It’s Herbert!’ while fighting to open the door is the most terrifying moment in the play. Think: a mother whose love has become something dangerous.”,
-“lines”: 31,
-“difficulty”: “high”,
-“costumeIdeas”: “Something homey – a shawl, an apron. You start as the warmest person in the room and end as the most frightening.”
+"name": "Mrs. White",
+"description": "An elderly woman, warm and practical. She knits by the fire and teases her husband about chess. After Herbert's death, grief transforms her – she becomes fierce, wild, desperate. Her screaming 'It's Herbert! It's Herbert!' while fighting to open the door is the most terrifying moment in the play. Think: a mother whose love has become something dangerous.",
+"lines": 31,
+"difficulty": "high",
+"costumeIdeas": "Something homey – a shawl, an apron. You start as the warmest person in the room and end as the most frightening."
 },
 {
-“name”: “Herbert”,
-“description”: “The Whites’ grown son – cheerful, witty, irreverent. He jokes about the paw, plays the piano, teases his parents. He is alive for the first scene and the beginning of the second. Then he is gone. Then he might be back. Think: the light of his parents’ life, which makes everything after unbearable.”,
-“lines”: 11,
-“difficulty”: “medium”,
-“costumeIdeas”: “Young, casual. Be the life of the party. Laugh easily. Your last scene is sitting alone by a dying fire, seeing faces in it.”
+"name": "Herbert",
+"description": "The Whites' grown son – cheerful, witty, irreverent. He jokes about the paw, plays the piano, teases his parents. He is alive for the first scene and the beginning of the second. Then he is gone. Then he might be back. Think: the light of his parents' life, which makes everything after unbearable.",
+"lines": 11,
+"difficulty": "medium",
+"costumeIdeas": "Young, casual. Be the life of the party. Laugh easily. Your last scene is sitting alone by a dying fire, seeing faces in it."
 },
 {
-“name”: “Sergeant-Major Morris”,
-“description”: “A tall, burly old soldier, back from twenty-one years in India. He tells tales of adventure but grows grave and frightened when the paw comes up. He throws it in the fire. He warns them. They don’t listen. Think: a man who knows exactly what the paw does and can’t stop anyone from using it.”,
-“lines”: 14,
-“difficulty”: “medium”,
-“costumeIdeas”: “Something military or formal. Be hearty and jovial telling stories, then deadly serious about the paw. You know something terrible.”
+"name": "Sergeant-Major Morris",
+"description": "A tall, burly old soldier, back from twenty-one years in India. He tells tales of adventure but grows grave and frightened when the paw comes up. He throws it in the fire. He warns them. They don't listen. Think: a man who knows exactly what the paw does and can't stop anyone from using it.",
+"lines": 14,
+"difficulty": "medium",
+"costumeIdeas": "Something military or formal. Be hearty and jovial telling stories, then deadly serious about the paw. You know something terrible."
 },
 {
-“name”: “The Visitor”,
-“description”: “A well-dressed man from Maw and Meggins, Herbert’s employer. He comes bearing news and compensation. He is uncomfortable, evasive, and deeply sorry. His line ‘Two hundred pounds’ is the worst thing anyone says in the whole play. Think: a man doing the hardest job of his life.”,
-“lines”: 7,
-“difficulty”: “easy”,
-“costumeIdeas”: “Nice clothes, a hat if you have one. Look uncomfortable from the moment you arrive. You don’t want to be here.”
+"name": "The Visitor",
+"description": "A well-dressed man from Maw and Meggins, Herbert's employer. He comes bearing news and compensation. He is uncomfortable, evasive, and deeply sorry. His line 'Two hundred pounds' is the worst thing anyone says in the whole play. Think: a man doing the hardest job of his life.",
+"lines": 7,
+"difficulty": "easy",
+"costumeIdeas": "Nice clothes, a hat if you have one. Look uncomfortable from the moment you arrive. You don't want to be here."
 },
 {
-“name”: “Narrator”,
-“description”: “The voice of the story. Jacobs wrote gorgeous, atmospheric prose between the dialogue – the dying fire, the creaking stairs, the knocking at the door. You set every scene and build the dread. Think: a campfire storyteller who knows exactly when to pause.”,
-“lines”: 38,
-“difficulty”: “medium”,
-“costumeIdeas”: “Anything comfortable. Sit slightly apart. Speak slowly in the final scene. Every pause matters.”
+"name": "Narrator",
+"description": "The voice of the story. Jacobs wrote gorgeous, atmospheric prose between the dialogue – the dying fire, the creaking stairs, the knocking at the door. You set every scene and build the dread. Think: a campfire storyteller who knows exactly when to pause.",
+"lines": 38,
+"difficulty": "medium",
+"costumeIdeas": "Anything comfortable. Sit slightly apart. Speak slowly in the final scene. Every pause matters."
 }
 ],
-“beats”: [
+"beats": [
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “Scene One. Without, the night was cold and wet, but in the small parlour of Laburnam Villa the blinds were drawn and the fire burned brightly. Father and son were at chess.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "Scene One. Without, the night was cold and wet, but in the small parlour of Laburnam Villa the blinds were drawn and the fire burned brightly. Father and son were at chess."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Hark at the wind.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Hark at the wind."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “I’m listening. Check.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "I'm listening. Check."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “I should hardly think that he’d come tonight.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "I should hardly think that he'd come tonight."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “Mate.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "Mate."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “That’s the worst of living so far out. Of all the beastly, slushy, out-of-the-way places to live in, this is the worst. Pathway’s a bog, and the road’s a torrent. I don’t know what people are thinking about.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "That's the worst of living so far out. Of all the beastly, slushy, out-of-the-way places to live in, this is the worst. Pathway's a bog, and the road's a torrent. I don't know what people are thinking about."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Never mind, dear. Perhaps you’ll win the next one.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Never mind, dear. Perhaps you'll win the next one."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “There he is.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "There he is."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “The old man rose with hospitable haste and opened the door. He entered the room followed by a tall burly man, beady of eye.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "The old man rose with hospitable haste and opened the door. He entered the room followed by a tall burly man, beady of eye."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Sergeant-Major Morris.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Sergeant-Major Morris."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “The sergeant-major took a seat by the fire. At the third glass of whiskey his eyes got brighter, and he began to talk. The little family regarded with eager interest this visitor from distant parts, as he spoke of strange scenes and doughty deeds; of wars and plagues and strange peoples.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "The sergeant-major took a seat by the fire. At the third glass of whiskey his eyes got brighter, and he began to talk. The little family regarded with eager interest this visitor from distant parts, as he spoke of strange scenes and doughty deeds; of wars and plagues and strange peoples."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Twenty-one years of it. When he went away he was a slip of a youth in the warehouse. Now look at him.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Twenty-one years of it. When he went away he was a slip of a youth in the warehouse. Now look at him."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “He don’t look to have taken much harm.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "He don't look to have taken much harm."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “I’d like to go to India myself, just to look round a bit, you know.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "I'd like to go to India myself, just to look round a bit, you know."
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “Better where you are.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "Better where you are."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “I should like to see those old temples and fakirs and jugglers. What was that you started telling me the other day about a monkey’s paw or something, Morris?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "I should like to see those old temples and fakirs and jugglers. What was that you started telling me the other day about a monkey's paw or something, Morris?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “Nothing. Leastways, nothing worth hearing.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "Nothing. Leastways, nothing worth hearing."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Monkey’s paw?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Monkey's paw?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “Well, it’s just a bit of what you might call magic, perhaps.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "Well, it's just a bit of what you might call magic, perhaps."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “His three listeners leaned forward eagerly.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "His three listeners leaned forward eagerly."
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “To look at, it’s just an ordinary little paw, dried to a mummy.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "To look at, it's just an ordinary little paw, dried to a mummy."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “He took something out of his pocket and held it out. Mrs. White drew back with a grimace, but Herbert took it and examined it curiously.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "He took something out of his pocket and held it out. Mrs. White drew back with a grimace, but Herbert took it and examined it curiously."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “And what is there special about it?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "And what is there special about it?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “It had a spell put on it by an old fakir. A very holy man. He wanted to show that fate ruled people’s lives, and that those who interfered with it did so to their sorrow. He put a spell on it so that three separate men could each have three wishes from it.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "It had a spell put on it by an old fakir. A very holy man. He wanted to show that fate ruled people's lives, and that those who interfered with it did so to their sorrow. He put a spell on it so that three separate men could each have three wishes from it."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “Well, why don’t you have three, sir?”
+"type": "dialogue",
+"character": "Herbert",
+"text": "Well, why don't you have three, sir?"
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “The soldier regarded him in the way that middle age is wont to regard presumptuous youth.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "The soldier regarded him in the way that middle age is wont to regard presumptuous youth."
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “I have.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "I have."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “And did you really have the three wishes granted?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "And did you really have the three wishes granted?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “I did.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "I did."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “And has anybody else wished?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "And has anybody else wished?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “The first man had his three wishes, yes. I don’t know what the first two were, but the third was for death. That’s how I got the paw.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "The first man had his three wishes, yes. I don't know what the first two were, but the third was for death. That's how I got the paw."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “If you’ve had your three wishes, it’s no good to you now, then, Morris. What do you keep it for?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "If you've had your three wishes, it's no good to you now, then, Morris. What do you keep it for?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “Fancy, I suppose.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "Fancy, I suppose."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “If you could have another three wishes, would you have them?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "If you could have another three wishes, would you have them?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “I don’t know. I don’t know.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "I don't know. I don't know."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “He took the paw, and dangling it between his finger and thumb, suddenly threw it upon the fire. Mr. White, with a slight cry, stooped down and snatched it off.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "He took the paw, and dangling it between his finger and thumb, suddenly threw it upon the fire. Mr. White, with a slight cry, stooped down and snatched it off."
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “Better let it burn.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "Better let it burn."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “If you don’t want it, Morris, give it to me.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "If you don't want it, Morris, give it to me."
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “I won’t. I threw it on the fire. If you keep it, don’t blame me for what happens. Pitch it on the fire again, like a sensible man.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "I won't. I threw it on the fire. If you keep it, don't blame me for what happens. Pitch it on the fire again, like a sensible man."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “How do you do it?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "How do you do it?"
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “Hold it up in your right hand and wish aloud. But I warn you of the consequences.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "Hold it up in your right hand and wish aloud. But I warn you of the consequences."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Sounds like the Arabian Nights. Don’t you think you might wish for four pairs of hands for me?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Sounds like the Arabian Nights. Don't you think you might wish for four pairs of hands for me?"
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “Her husband drew the talisman from his pocket and all three burst into laughter as the sergeant-major, with a look of alarm on his face, caught him by the arm.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "Her husband drew the talisman from his pocket and all three burst into laughter as the sergeant-major, with a look of alarm on his face, caught him by the arm."
 },
 {
-“type”: “dialogue”,
-“character”: “Sergeant-Major Morris”,
-“text”: “If you must wish, wish for something sensible.”
+"type": "dialogue",
+"character": "Sergeant-Major Morris",
+"text": "If you must wish, wish for something sensible."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “In the business of supper the talisman was partly forgotten, and afterward the three sat listening to a second instalment of the soldier’s adventures in India. At last, Morris caught the last train, and Herbert closed the door behind him.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "In the business of supper the talisman was partly forgotten, and afterward the three sat listening to a second instalment of the soldier's adventures in India. At last, Morris caught the last train, and Herbert closed the door behind him."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “If the tale about the monkey’s paw is not more truthful than those he has been telling us, we shan’t make much out of it.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "If the tale about the monkey's paw is not more truthful than those he has been telling us, we shan't make much out of it."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Did you give him anything for it, father?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Did you give him anything for it, father?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “A trifle. He didn’t want it, but I made him take it. And he pressed me again to throw it away.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "A trifle. He didn't want it, but I made him take it. And he pressed me again to throw it away."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “Why, we’re going to be rich, and famous, and happy. Wish to be an emperor, father, to begin with; then you can’t be henpecked.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "Why, we're going to be rich, and famous, and happy. Wish to be an emperor, father, to begin with; then you can't be henpecked."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “He darted round the table, pursued by Mrs. White armed with an antimacassar.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "He darted round the table, pursued by Mrs. White armed with an antimacassar."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “I don’t know what to wish for, and that’s a fact. It seems to me I’ve got all I want.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "I don't know what to wish for, and that's a fact. It seems to me I've got all I want."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “If you only cleared the house, you’d be quite happy, wouldn’t you? Well, wish for two hundred pounds, then; that’ll just do it.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "If you only cleared the house, you'd be quite happy, wouldn't you? Well, wish for two hundred pounds, then; that'll just do it."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “His father, smiling shamefacedly, held up the talisman, as his son, with a solemn face somewhat marred by a wink at his mother, sat down at the piano and struck a few impressive chords.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "His father, smiling shamefacedly, held up the talisman, as his son, with a solemn face somewhat marred by a wink at his mother, sat down at the piano and struck a few impressive chords."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “I wish for two hundred pounds.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "I wish for two hundred pounds."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “A fine crash from the piano greeted the words, interrupted by a shuddering cry from the old man. His wife and son ran toward him.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "A fine crash from the piano greeted the words, interrupted by a shuddering cry from the old man. His wife and son ran toward him."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “It moved! As I wished it twisted in my hands like a snake.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "It moved! As I wished it twisted in my hands like a snake."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “Well, I don’t see the money. And I bet I never shall.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "Well, I don't see the money. And I bet I never shall."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “It must have been your fancy, father.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "It must have been your fancy, father."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Never mind, though; there’s no harm done, but it gave me a shock all the same.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Never mind, though; there's no harm done, but it gave me a shock all the same."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “They sat down by the fire again. Outside, the wind was higher than ever, and a silence unusual and depressing settled upon all three, which lasted until the old couple rose to retire for the night.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "They sat down by the fire again. Outside, the wind was higher than ever, and a silence unusual and depressing settled upon all three, which lasted until the old couple rose to retire for the night."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “I expect you’ll find the cash tied up in a big bag in the middle of your bed, and something horrible squatting up on top of the wardrobe watching you as you pocket your ill-gotten gains.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "I expect you'll find the cash tied up in a big bag in the middle of your bed, and something horrible squatting up on top of the wardrobe watching you as you pocket your ill-gotten gains."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “Herbert sat alone in the darkness, gazing at the dying fire, and seeing faces in it. The last face was so horrible and so simian that he gazed at it in amazement. His hand grasped the monkey’s paw, and with a little shiver he wiped his hand on his coat and went up to bed.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "Herbert sat alone in the darkness, gazing at the dying fire, and seeing faces in it. The last face was so horrible and so simian that he gazed at it in amazement. His hand grasped the monkey's paw, and with a little shiver he wiped his hand on his coat and went up to bed."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “Scene Two. In the brightness of the wintry sun next morning, Herbert laughed at his fears. There was an air of wholesomeness about the room which it had lacked on the previous night.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "Scene Two. In the brightness of the wintry sun next morning, Herbert laughed at his fears. There was an air of wholesomeness about the room which it had lacked on the previous night."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “I suppose all old soldiers are the same. The idea of our listening to such nonsense! How could wishes be granted in these days? And if they could, how could two hundred pounds hurt you, father?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "I suppose all old soldiers are the same. The idea of our listening to such nonsense! How could wishes be granted in these days? And if they could, how could two hundred pounds hurt you, father?"
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “Might drop on his head from the sky.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "Might drop on his head from the sky."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Morris said the things happened so naturally that you might if you so wished attribute it to coincidence.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Morris said the things happened so naturally that you might if you so wished attribute it to coincidence."
 },
 {
-“type”: “dialogue”,
-“character”: “Herbert”,
-“text”: “Well, don’t break into the money before I come back. I’m afraid it’ll turn you into a mean, avaricious man, and we shall have to disown you.”
+"type": "dialogue",
+"character": "Herbert",
+"text": "Well, don't break into the money before I come back. I'm afraid it'll turn you into a mean, avaricious man, and we shall have to disown you."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “His mother laughed, and following him to the door, watched him down the road. Later, at dinner, they sat together.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "His mother laughed, and following him to the door, watched him down the road. Later, at dinner, they sat together."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Herbert will have some more of his funny remarks, I expect, when he comes home.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Herbert will have some more of his funny remarks, I expect, when he comes home."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “I dare say. But for all that, the thing moved in my hand; that I’ll swear to.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "I dare say. But for all that, the thing moved in my hand; that I'll swear to."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “You thought it did.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "You thought it did."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “I say it did. There was no thought about it; I had just – What’s the matter?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "I say it did. There was no thought about it; I had just – What's the matter?"
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “His wife made no reply. She was watching the mysterious movements of a man outside, who, peering in an undecided fashion at the house, appeared to be trying to make up his mind to enter. Three times he paused at the gate, and then walked on again. The fourth time he stood with his hand upon it, and then with sudden resolution flung it open and walked up the path.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "His wife made no reply. She was watching the mysterious movements of a man outside, who, peering in an undecided fashion at the house, appeared to be trying to make up his mind to enter. Three times he paused at the gate, and then walked on again. The fourth time he stood with his hand upon it, and then with sudden resolution flung it open and walked up the path."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “The stranger seemed ill at ease. He gazed furtively at Mrs. White and listened as she apologized for the appearance of the room. Then he was strangely silent.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "The stranger seemed ill at ease. He gazed furtively at Mrs. White and listened as she apologized for the appearance of the room. Then he was strangely silent."
 },
 {
-“type”: “dialogue”,
-“character”: “The Visitor”,
-“text”: “I – was asked to call. I come from Maw and Meggins.”
+"type": "dialogue",
+"character": "The Visitor",
+"text": "I – was asked to call. I come from Maw and Meggins."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Is anything the matter? Has anything happened to Herbert? What is it? What is it?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Is anything the matter? Has anything happened to Herbert? What is it? What is it?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “There, there, mother. Sit down, and don’t jump to conclusions. You’ve not brought bad news, I’m sure, sir.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "There, there, mother. Sit down, and don't jump to conclusions. You've not brought bad news, I'm sure, sir."
 },
 {
-“type”: “dialogue”,
-“character”: “The Visitor”,
-“text”: “I’m sorry –”
+"type": "dialogue",
+"character": "The Visitor",
+"text": "I'm sorry –"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Is he hurt?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Is he hurt?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Visitor”,
-“text”: “Badly hurt. But he is not in any pain.”
+"type": "dialogue",
+"character": "The Visitor",
+"text": "Badly hurt. But he is not in any pain."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Oh, thank God! Thank God for that! Thank –”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Oh, thank God! Thank God for that! Thank –"
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “She broke off suddenly as the sinister meaning of the assurance dawned upon her. She saw the awful confirmation of her fears in the other’s averted face. She caught her breath, and turning to her slower-witted husband, laid her trembling old hand upon his. There was a long silence.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "She broke off suddenly as the sinister meaning of the assurance dawned upon her. She saw the awful confirmation of her fears in the other's averted face. She caught her breath, and turning to her slower-witted husband, laid her trembling old hand upon his. There was a long silence."
 },
 {
-“type”: “dialogue”,
-“character”: “The Visitor”,
-“text”: “He was caught in the machinery.”
+"type": "dialogue",
+"character": "The Visitor",
+"text": "He was caught in the machinery."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Caught in the machinery. Yes.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Caught in the machinery. Yes."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “He sat staring blankly out at the window, and taking his wife’s hand between his own, pressed it as he had been wont to do in their old courting days nearly forty years before.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "He sat staring blankly out at the window, and taking his wife's hand between his own, pressed it as he had been wont to do in their old courting days nearly forty years before."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “He was the only one left to us. It is hard.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "He was the only one left to us. It is hard."
 },
 {
-“type”: “dialogue”,
-“character”: “The Visitor”,
-“text”: “The firm wished me to convey their sincere sympathy with you in your great loss. I beg that you will understand I am only their servant and merely obeying orders.”
+"type": "dialogue",
+"character": "The Visitor",
+"text": "The firm wished me to convey their sincere sympathy with you in your great loss. I beg that you will understand I am only their servant and merely obeying orders."
 },
 {
-“type”: “dialogue”,
-“character”: “The Visitor”,
-“text”: “I was to say that Maw and Meggins disclaim all responsibility. They admit no liability at all, but in consideration of your son’s services they wish to present you with a certain sum as compensation.”
+"type": "dialogue",
+"character": "The Visitor",
+"text": "I was to say that Maw and Meggins disclaim all responsibility. They admit no liability at all, but in consideration of your son's services they wish to present you with a certain sum as compensation."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “How much?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "How much?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Visitor”,
-“text”: “Two hundred pounds.”
+"type": "dialogue",
+"character": "The Visitor",
+"text": "Two hundred pounds."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “Unconscious of his wife’s shriek, the old man smiled faintly, put out his hands like a sightless man, and dropped, a senseless heap, to the floor.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "Unconscious of his wife's shriek, the old man smiled faintly, put out his hands like a sightless man, and dropped, a senseless heap, to the floor."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “Scene Three. In the huge new cemetery, some two miles distant, the old people buried their dead, and came back to a house steeped in shadow and silence.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "Scene Three. In the huge new cemetery, some two miles distant, the old people buried their dead, and came back to a house steeped in shadow and silence."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “But the days passed, and expectation gave place to resignation – the hopeless resignation of the old, sometimes miscalled apathy. Sometimes they hardly exchanged a word, for now they had nothing to talk about, and their days were long to weariness.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "But the days passed, and expectation gave place to resignation – the hopeless resignation of the old, sometimes miscalled apathy. Sometimes they hardly exchanged a word, for now they had nothing to talk about, and their days were long to weariness."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “It was about a week after that the old man, waking suddenly in the night, stretched out his hand and found himself alone. The room was in darkness, and the sound of subdued weeping came from the window.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "It was about a week after that the old man, waking suddenly in the night, stretched out his hand and found himself alone. The room was in darkness, and the sound of subdued weeping came from the window."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Come back. You will be cold.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Come back. You will be cold."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “It is colder for my son.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "It is colder for my son."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “He dozed fitfully, and then slept until a sudden wild cry from his wife awoke him with a start.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "He dozed fitfully, and then slept until a sudden wild cry from his wife awoke him with a start."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “The paw! The monkey’s paw!”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "The paw! The monkey's paw!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Where? Where is it? What’s the matter?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Where? Where is it? What's the matter?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “I want it. You’ve not destroyed it?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "I want it. You've not destroyed it?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “It’s in the parlour, on the bracket. Why?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "It's in the parlour, on the bracket. Why?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “I only just thought of it. Why didn’t I think of it before? Why didn’t you think of it?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "I only just thought of it. Why didn't I think of it before? Why didn't you think of it?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Think of what?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Think of what?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “The other two wishes. We’ve only had one.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "The other two wishes. We've only had one."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Was not that enough?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Was not that enough?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “No! We’ll have one more. Go down and get it quickly, and wish our boy alive again.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "No! We'll have one more. Go down and get it quickly, and wish our boy alive again."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Good God, you are mad!”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Good God, you are mad!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Get it. Get it quickly, and wish – Oh, my boy, my boy!”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Get it. Get it quickly, and wish – Oh, my boy, my boy!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “Get back to bed. You don’t know what you are saying.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "Get back to bed. You don't know what you are saying."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “We had the first wish granted. Why not the second?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "We had the first wish granted. Why not the second?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “A coincidence.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "A coincidence."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Go and get it and wish!”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Go and get it and wish!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “He has been dead ten days, and besides he – I would not tell you else, but – I could only recognize him by his clothing. If he was too terrible for you to see then, how now?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "He has been dead ten days, and besides he – I would not tell you else, but – I could only recognize him by his clothing. If he was too terrible for you to see then, how now?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Bring him back! Do you think I fear the child I have nursed?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Bring him back! Do you think I fear the child I have nursed?"
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “He went down in the darkness, and felt his way to the parlour, and then to the mantelpiece. The talisman was in its place, and a horrible fear that the unspoken wish might bring his mutilated son before him seized upon him. His brow cold with sweat, he groped along the wall until he found the passage, the unwholesome thing in his hand.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "He went down in the darkness, and felt his way to the parlour, and then to the mantelpiece. The talisman was in its place, and a horrible fear that the unspoken wish might bring his mutilated son before him seized upon him. His brow cold with sweat, he groped along the wall until he found the passage, the unwholesome thing in his hand."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “Even his wife’s face seemed changed as he entered the room. It was white and expectant, and to his fears seemed to have an unnatural look upon it. He was afraid of her.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "Even his wife's face seemed changed as he entered the room. It was white and expectant, and to his fears seemed to have an unnatural look upon it. He was afraid of her."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Wish!”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Wish!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “It is foolish and wicked.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "It is foolish and wicked."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “Wish!”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "Wish!"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “I wish my son alive again.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "I wish my son alive again."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “The talisman fell to the floor, and he regarded it fearfully. Then he sank trembling into a chair as the old woman, with burning eyes, walked to the window and raised the blind.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "The talisman fell to the floor, and he regarded it fearfully. Then he sank trembling into a chair as the old woman, with burning eyes, walked to the window and raised the blind."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “He sat until he was chilled with the cold, glancing occasionally at the figure of the old woman peering through the window. The candle, which had burnt below the rim of the candlestick, was throwing pulsating shadows on the ceiling and walls, until, with a flicker larger than the rest, it expired.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "He sat until he was chilled with the cold, glancing occasionally at the figure of the old woman peering through the window. The candle, which had burnt below the rim of the candlestick, was throwing pulsating shadows on the ceiling and walls, until, with a flicker larger than the rest, it expired."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “The old man, with an unspeakable sense of relief at the failure of the talisman, crept back to his bed, and a minute or two afterward the old woman came silently beside him.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "The old man, with an unspeakable sense of relief at the failure of the talisman, crept back to his bed, and a minute or two afterward the old woman came silently beside him."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “Neither spoke, but both lay silently listening to the ticking of the clock. A stair creaked, and a squeaky mouse scurried noisily through the wall. The darkness was oppressive.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "Neither spoke, but both lay silently listening to the ticking of the clock. A stair creaked, and a squeaky mouse scurried noisily through the wall. The darkness was oppressive."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “At the foot of the stairs the match went out, and he paused to strike another, and at the same moment a knock, so quiet and stealthy as to be scarcely audible, sounded on the front door.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "At the foot of the stairs the match went out, and he paused to strike another, and at the same moment a knock, so quiet and stealthy as to be scarcely audible, sounded on the front door."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “The matches fell from his hand. He stood motionless, his breath suspended until the knock was repeated. Then he turned and fled swiftly back to his room, and closed the door behind him. A third knock sounded through the house.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "The matches fell from his hand. He stood motionless, his breath suspended until the knock was repeated. Then he turned and fled swiftly back to his room, and closed the door behind him. A third knock sounded through the house."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “What’s that?”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "What's that?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “A rat. A rat. It passed me on the stairs.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "A rat. A rat. It passed me on the stairs."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “His wife sat up in bed listening. A loud knock resounded through the house.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "His wife sat up in bed listening. A loud knock resounded through the house."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “It’s Herbert! It’s Herbert!”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "It's Herbert! It's Herbert!"
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “She ran to the door, but her husband was before her, and catching her by the arm, held her tightly.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "She ran to the door, but her husband was before her, and catching her by the arm, held her tightly."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “What are you going to do?”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "What are you going to do?"
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “It’s my boy; it’s Herbert! I forgot it was two miles away. What are you holding me for? Let go. I must open the door.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "It's my boy; it's Herbert! I forgot it was two miles away. What are you holding me for? Let go. I must open the door."
 },
 {
-“type”: “dialogue”,
-“character”: “Mr. White”,
-“text”: “For God’s sake, don’t let it in.”
+"type": "dialogue",
+"character": "Mr. White",
+"text": "For God's sake, don't let it in."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “You’re afraid of your own son. Let me go. I’m coming, Herbert; I’m coming.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "You're afraid of your own son. Let me go. I'm coming, Herbert; I'm coming."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “There was another knock, and another. The old woman with a sudden wrench broke free and ran from the room. Her husband followed to the landing, and called after her appealingly as she hurried downstairs. He heard the chain rattle back and the bottom bolt drawn slowly and stiffly from the socket.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "There was another knock, and another. The old woman with a sudden wrench broke free and ran from the room. Her husband followed to the landing, and called after her appealingly as she hurried downstairs. He heard the chain rattle back and the bottom bolt drawn slowly and stiffly from the socket."
 },
 {
-“type”: “dialogue”,
-“character”: “Mrs. White”,
-“text”: “The bolt! Come down. I can’t reach it.”
+"type": "dialogue",
+"character": "Mrs. White",
+"text": "The bolt! Come down. I can't reach it."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “But her husband was on his hands and knees groping wildly on the floor in search of the paw. If he could only find it before the thing outside got in. A perfect fusillade of knocks reverberated through the house, and he heard the scraping of a chair as his wife put it down against the door. He heard the creaking of the bolt as it came slowly back, and at the same moment he found the monkey’s paw, and frantically breathed his third and last wish.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "But her husband was on his hands and knees groping wildly on the floor in search of the paw. If he could only find it before the thing outside got in. A perfect fusillade of knocks reverberated through the house, and he heard the scraping of a chair as his wife put it down against the door. He heard the creaking of the bolt as it came slowly back, and at the same moment he found the monkey's paw, and frantically breathed his third and last wish."
 },
 {
-“type”: “dialogue”,
-“character”: “Narrator”,
-“text”: “The knocking ceased suddenly, although the echoes of it were still in the house. He heard the chair drawn back and the door opened. A cold wind rushed up the staircase, and a long loud wail of disappointment and misery from his wife gave him courage to run down to her side, and then to the gate beyond. The street lamp flickering opposite shone on a quiet and deserted road.”
+"type": "dialogue",
+"character": "Narrator",
+"text": "The knocking ceased suddenly, although the echoes of it were still in the house. He heard the chair drawn back and the door opened. A cold wind rushed up the staircase, and a long loud wail of disappointment and misery from his wife gave him courage to run down to her side, and then to the gate beyond. The street lamp flickering opposite shone on a quiet and deserted road."
 }
 ]
 }

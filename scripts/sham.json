@@ -1,798 +1,798 @@
 {
-“title”: “Sham”,
-“author”: “Frank G. Tompkins”,
-“description”: “A Social Satire. A cultured burglar breaks into a wealthy couple’s home – only to discover that everything in it is fake. The paintings are copies, the antiques are reproductions, and the silver is plate. When the owners catch him, he’s not angry – he’s offended. What follows is a brilliantly awkward negotiation in which the thief tries to save the couple from social disgrace by stealing something, and they try desperately to convince him they own anything worth taking.”,
-“characters”: [
+"title": "Sham",
+"author": "Frank G. Tompkins",
+"description": "A Social Satire. A cultured burglar breaks into a wealthy couple's home – only to discover that everything in it is fake. The paintings are copies, the antiques are reproductions, and the silver is plate. When the owners catch him, he's not angry – he's offended. What follows is a brilliantly awkward negotiation in which the thief tries to save the couple from social disgrace by stealing something, and they try desperately to convince him they own anything worth taking.",
+"characters": [
 {
-“name”: “The Thief”,
-“description”: “A cultured, well-spoken gentleman burglar who fancies himself a connoisseur of fine art and antiques. He is polite, charming, and genuinely appalled by fakes. He doesn’t steal for money – he steals for quality. Think: a sommelier who has broken into your house and is now insulting your wine collection.”,
-“lines”: 41,
-“difficulty”: “high”,
-“costumeIdeas”: “Dark, well-tailored clothing. Gloves. A small flashlight or penlight. A bag or satchel for loot. Impeccable posture. Perhaps a dark turtleneck or neat coat – he looks more like an art dealer than a criminal.”
+"name": "The Thief",
+"description": "A cultured, well-spoken gentleman burglar who fancies himself a connoisseur of fine art and antiques. He is polite, charming, and genuinely appalled by fakes. He doesn't steal for money – he steals for quality. Think: a sommelier who has broken into your house and is now insulting your wine collection.",
+"lines": 41,
+"difficulty": "high",
+"costumeIdeas": "Dark, well-tailored clothing. Gloves. A small flashlight or penlight. A bag or satchel for loot. Impeccable posture. Perhaps a dark turtleneck or neat coat – he looks more like an art dealer than a criminal."
 },
 {
-“name”: “Clara”,
-“description”: “The lady of the house – fashionable, status-conscious, and deeply invested in keeping up appearances. She is quick-witted and sharp-tongued, with a sarcastic edge. She’s the one who bought most of the fake antiques and she knows it. Think: someone whose entire social identity is built on a house of cards, and a burglar just walked in with a magnifying glass.”,
-“lines”: 47,
-“difficulty”: “high”,
-“costumeIdeas”: “Evening wear – a nice dress or blouse with jewelry. She’s just come home from what she claims was the theatre. A fur stole or wrap if available. Look expensive, even if nothing you’re wearing is real either.”
+"name": "Clara",
+"description": "The lady of the house – fashionable, status-conscious, and deeply invested in keeping up appearances. She is quick-witted and sharp-tongued, with a sarcastic edge. She's the one who bought most of the fake antiques and she knows it. Think: someone whose entire social identity is built on a house of cards, and a burglar just walked in with a magnifying glass.",
+"lines": 47,
+"difficulty": "high",
+"costumeIdeas": "Evening wear – a nice dress or blouse with jewelry. She's just come home from what she claims was the theatre. A fur stole or wrap if available. Look expensive, even if nothing you're wearing is real either."
 },
 {
-“name”: “Charles”,
-“description”: “Clara’s husband – amiable, somewhat bumbling, and less invested in social pretension than his wife. He’s the first to crack under the thief’s critique and admit the stuff is fake. He’d rather have a drink with the burglar than call the police. Think: a guy who just wants a ham sandwich and somehow ended up in a hostage negotiation about porcelain.”,
-“lines”: 42,
-“difficulty”: “medium”,
-“costumeIdeas”: “Evening suit or nice shirt and jacket, loosened tie. He looks slightly uncomfortable in formal wear. The kind of guy who takes his jacket off the moment he walks in the door.”
+"name": "Charles",
+"description": "Clara's husband – amiable, somewhat bumbling, and less invested in social pretension than his wife. He's the first to crack under the thief's critique and admit the stuff is fake. He'd rather have a drink with the burglar than call the police. Think: a guy who just wants a ham sandwich and somehow ended up in a hostage negotiation about porcelain.",
+"lines": 42,
+"difficulty": "medium",
+"costumeIdeas": "Evening suit or nice shirt and jacket, loosened tie. He looks slightly uncomfortable in formal wear. The kind of guy who takes his jacket off the moment he walks in the door."
 },
 {
-“name”: “The Reporter”,
-“description”: “A newspaper reporter who arrives at the very end, investigating a string of art burglaries in the neighborhood. He is brisk, eager, and completely unaware of what just happened. His few questions bring the whole evening’s comedy to a sharp, ironic conclusion.”,
-“lines”: 7,
-“difficulty”: “easy”,
-“costumeIdeas”: “Rumpled jacket, notepad and pencil. A hat pushed back on the head. Press pass in the hatband if you want to go all in. Look like you’ve been chasing stories all night.”
+"name": "The Reporter",
+"description": "A newspaper reporter who arrives at the very end, investigating a string of art burglaries in the neighborhood. He is brisk, eager, and completely unaware of what just happened. His few questions bring the whole evening's comedy to a sharp, ironic conclusion.",
+"lines": 7,
+"difficulty": "easy",
+"costumeIdeas": "Rumpled jacket, notepad and pencil. A hat pushed back on the head. Press pass in the hatband if you want to go all in. Look like you've been chasing stories all night."
 }
 ],
-“beats”: [
+"beats": [
 {
-“type”: “stage_direction”,
-“text”: “A handsomely furnished living room in the home of Charles and Clara. There is a large bookcase, a sideboard with silver and glassware, paintings on the walls, a glass cabinet with curios, and various antiques about the room. Two doors – one leading to the hall, one to the interior of the house. It is late evening. The room is dark except for the beam of a small flashlight.”
+"type": "stage_direction",
+"text": "A handsomely furnished living room in the home of Charles and Clara. There is a large bookcase, a sideboard with silver and glassware, paintings on the walls, a glass cabinet with curios, and various antiques about the room. Two doors – one leading to the hall, one to the interior of the house. It is late evening. The room is dark except for the beam of a small flashlight."
 },
 {
-“type”: “stage_direction”,
-“text”: “The Thief enters cautiously through the hall door. He carries a small bag and wears gloves. He moves about the room with professional confidence, examining objects with his flashlight.”
+"type": "stage_direction",
+"text": "The Thief enters cautiously through the hall door. He carries a small bag and wears gloves. He moves about the room with professional confidence, examining objects with his flashlight."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Hmm. Let’s have a look at what we have here.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Hmm. Let's have a look at what we have here."
 },
 {
-“type”: “stage_direction”,
-“text”: “He examines a painting on the wall, bringing his light close to it. He shakes his head.”
+"type": "stage_direction",
+"text": "He examines a painting on the wall, bringing his light close to it. He shakes his head."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Copy. And a poor one at that.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Copy. And a poor one at that."
 },
 {
-“type”: “stage_direction”,
-“text”: “He moves to the sideboard and picks up a piece of silver, turning it over.”
+"type": "stage_direction",
+"text": "He moves to the sideboard and picks up a piece of silver, turning it over."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Plate. Just as I thought – plate.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Plate. Just as I thought – plate."
 },
 {
-“type”: “stage_direction”,
-“text”: “He goes to the glass cabinet and examines a vase.”
+"type": "stage_direction",
+"text": "He goes to the glass cabinet and examines a vase."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Imitation! The whole lot of it. Not a genuine piece in the cabinet.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Imitation! The whole lot of it. Not a genuine piece in the cabinet."
 },
 {
-“type”: “stage_direction”,
-“text”: “He picks up a miniature painting and examines it closely.”
+"type": "stage_direction",
+"text": "He picks up a miniature painting and examines it closely."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “And this – supposed to be a Gilbert Stuart, I imagine. Wouldn’t fool a child.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "And this – supposed to be a Gilbert Stuart, I imagine. Wouldn't fool a child."
 },
 {
-“type”: “stage_direction”,
-“text”: “He turns to examine the bookcase, running his flashlight along the spines.”
+"type": "stage_direction",
+"text": "He turns to examine the bookcase, running his flashlight along the spines."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Books. Let’s see. Sets – all sets. Bought by the yard, I’ll wager. Never been opened.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Books. Let's see. Sets – all sets. Bought by the yard, I'll wager. Never been opened."
 },
 {
-“type”: “stage_direction”,
-“text”: “He pulls one out and opens it.”
+"type": "stage_direction",
+"text": "He pulls one out and opens it."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Pages uncut! I knew it. Decoration, not literature.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Pages uncut! I knew it. Decoration, not literature."
 },
 {
-“type”: “stage_direction”,
-“text”: “He examines a luster set on the mantelpiece.”
+"type": "stage_direction",
+"text": "He examines a luster set on the mantelpiece."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Old luster, eh? Not old at all. Modern reproduction. Disgraceful.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Old luster, eh? Not old at all. Modern reproduction. Disgraceful."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “I’ve been in every house on this street and this is the worst of the lot. There isn’t a genuine article in the whole place. It’s sham – every bit of it – sham!”
+"type": "dialogue",
+"character": "The Thief",
+"text": "I've been in every house on this street and this is the worst of the lot. There isn't a genuine article in the whole place. It's sham – every bit of it – sham!"
 },
 {
-“type”: “stage_direction”,
-“text”: “The sound of a key in the front door. The Thief looks about quickly, then steps behind the curtain near the window. Charles and Clara enter from the hall. Charles turns on the lights.”
+"type": "stage_direction",
+"text": "The sound of a key in the front door. The Thief looks about quickly, then steps behind the curtain near the window. Charles and Clara enter from the hall. Charles turns on the lights."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Well, that was a waste of an evening.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Well, that was a waste of an evening."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Charles, I told you – we should have gone to the theatre as I wanted.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Charles, I told you – we should have gone to the theatre as I wanted."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “You didn’t want to go to the theatre any more than I did. You wanted to go to the movies, same as me.”
+"type": "dialogue",
+"character": "Charles",
+"text": "You didn't want to go to the theatre any more than I did. You wanted to go to the movies, same as me."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “I did not! And please don’t tell anyone we went to the movies. If the Hempsteds found out, we’d never hear the end of it.”
+"type": "dialogue",
+"character": "Clara",
+"text": "I did not! And please don't tell anyone we went to the movies. If the Hempsteds found out, we'd never hear the end of it."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Oh, hang the Hempsteds.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Oh, hang the Hempsteds."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Charles! The Hempsteds are the most cultivated people in this neighborhood.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Charles! The Hempsteds are the most cultivated people in this neighborhood."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “The Hempsteds are bores. Hibbard told me they go to the movies every Tuesday and Wednesday, and then talk about the theatre on Thursday.”
+"type": "dialogue",
+"character": "Charles",
+"text": "The Hempsteds are bores. Hibbard told me they go to the movies every Tuesday and Wednesday, and then talk about the theatre on Thursday."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “I don’t believe it. Mrs. Hempsted has the most beautiful things in her house. She couldn’t possibly go to the movies.”
+"type": "dialogue",
+"character": "Clara",
+"text": "I don't believe it. Mrs. Hempsted has the most beautiful things in her house. She couldn't possibly go to the movies."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “What’s one got to do with the other?”
+"type": "dialogue",
+"character": "Charles",
+"text": "What's one got to do with the other?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Everything. A woman of genuine taste does not go to the movies.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Everything. A woman of genuine taste does not go to the movies."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Well, you went.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Well, you went."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Sharply.] That is entirely different. I was dragged.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Sharply.] That is entirely different. I was dragged."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “You bought the tickets!”
+"type": "dialogue",
+"character": "Charles",
+"text": "You bought the tickets!"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “I don’t wish to discuss it. I’m going upstairs. You may get me a glass of water.”
+"type": "dialogue",
+"character": "Clara",
+"text": "I don't wish to discuss it. I'm going upstairs. You may get me a glass of water."
 },
 {
-“type”: “stage_direction”,
-“text”: “Charles goes to the sideboard. As he reaches for a glass, the Thief steps out from behind the curtain. Charles sees him and freezes.”
+"type": "stage_direction",
+"text": "Charles goes to the sideboard. As he reaches for a glass, the Thief steps out from behind the curtain. Charles sees him and freezes."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Good God!”
+"type": "dialogue",
+"character": "Charles",
+"text": "Good God!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Calmly, with a slight bow.] I beg your pardon.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Calmly, with a slight bow.] I beg your pardon."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Clara! Clara!”
+"type": "dialogue",
+"character": "Charles",
+"text": "Clara! Clara!"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Turning, sees the Thief and gasps.] Charles – there’s a man!”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Turning, sees the Thief and gasps.] Charles – there's a man!"
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “I can see there’s a man! [To the Thief.] What are you doing in my house?”
+"type": "dialogue",
+"character": "Charles",
+"text": "I can see there's a man! [To the Thief.] What are you doing in my house?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “I’m robbing it. Or rather – I was attempting to rob it.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "I'm robbing it. Or rather – I was attempting to rob it."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Charles, call the police!”
+"type": "dialogue",
+"character": "Clara",
+"text": "Charles, call the police!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “One moment, please. Before you telephone, I wonder if you’d allow me to explain.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "One moment, please. Before you telephone, I wonder if you'd allow me to explain."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Explain? You’re a burglar!”
+"type": "dialogue",
+"character": "Charles",
+"text": "Explain? You're a burglar!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “I am. And I must say, I’m rather embarrassed about it. Not about the burgling – about your house.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "I am. And I must say, I'm rather embarrassed about it. Not about the burgling – about your house."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “About our house?”
+"type": "dialogue",
+"character": "Clara",
+"text": "About our house?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Madame, I am a connoisseur. I don’t steal trash. I have a reputation to consider. And frankly – there is nothing in this house worth stealing.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Madame, I am a connoisseur. I don't steal trash. I have a reputation to consider. And frankly – there is nothing in this house worth stealing."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Indignant.] Nothing worth – ! Why, this room is full of the most valuable –”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Indignant.] Nothing worth – ! Why, this room is full of the most valuable –"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Holding up a hand.] Please. Shall I go through it? That painting – a copy, and a bad one. The silver on your sideboard – plate. The vase in your cabinet – modern imitation. That miniature you’re so proud of is not a Gilbert Stuart. And your luster set is not old.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Holding up a hand.] Please. Shall I go through it? That painting – a copy, and a bad one. The silver on your sideboard – plate. The vase in your cabinet – modern imitation. That miniature you're so proud of is not a Gilbert Stuart. And your luster set is not old."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Weakly.] I paid two hundred dollars for that luster set.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Weakly.] I paid two hundred dollars for that luster set."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Then you were cheated, madame. I’m sorry, but there it is. The whole house is sham.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Then you were cheated, madame. I'm sorry, but there it is. The whole house is sham."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[After a pause, sitting down heavily.] Well, I’ll be damned.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[After a pause, sitting down heavily.] Well, I'll be damned."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Charles!”
+"type": "dialogue",
+"character": "Clara",
+"text": "Charles!"
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “I always thought that luster set was phony.”
+"type": "dialogue",
+"character": "Charles",
+"text": "I always thought that luster set was phony."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “You did not!”
+"type": "dialogue",
+"character": "Clara",
+"text": "You did not!"
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “I did. Cousin Paul said so the first time he saw it.”
+"type": "dialogue",
+"character": "Charles",
+"text": "I did. Cousin Paul said so the first time he saw it."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Cousin Paul doesn’t know anything about luster.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Cousin Paul doesn't know anything about luster."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “If you’ll pardon me – Cousin Paul was right.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "If you'll pardon me – Cousin Paul was right."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[To Charles.] Are you going to stand there agreeing with a burglar?”
+"type": "dialogue",
+"character": "Clara",
+"text": "[To Charles.] Are you going to stand there agreeing with a burglar?"
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Well, he seems to know what he’s talking about.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Well, he seems to know what he's talking about."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Thank you. I do. I’ve handled the finest private collections in this city. The Pierpont house – magnificent. The Hawthorne estate – superb. Even the Hempsteds have some genuinely lovely pieces.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Thank you. I do. I've handled the finest private collections in this city. The Pierpont house – magnificent. The Hawthorne estate – superb. Even the Hempsteds have some genuinely lovely pieces."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Stung.] The Hempsteds!”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Stung.] The Hempsteds!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Oh yes. I took a very nice miniature from the Hempsteds. Genuine. Eighteenth century. A pleasure to steal.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Oh yes. I took a very nice miniature from the Hempsteds. Genuine. Eighteenth century. A pleasure to steal."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[Fascinated despite himself.] You don’t say.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[Fascinated despite himself.] You don't say."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “I do say. And that’s precisely the difficulty. I’ve robbed every house on this street except yours. When the neighbors compare notes tomorrow – as they will – your house will be the only one I’ve passed over.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "I do say. And that's precisely the difficulty. I've robbed every house on this street except yours. When the neighbors compare notes tomorrow – as they will – your house will be the only one I've passed over."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “What of it?”
+"type": "dialogue",
+"character": "Clara",
+"text": "What of it?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “What of it? Madame, think! A discriminating thief has visited every house in the neighborhood and found something worth taking – except yours. What will the Hempsteds say? What will all your neighbors think?”
+"type": "dialogue",
+"character": "The Thief",
+"text": "What of it? Madame, think! A discriminating thief has visited every house in the neighborhood and found something worth taking – except yours. What will the Hempsteds say? What will all your neighbors think?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Slowly, with dawning horror.] Oh.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Slowly, with dawning horror.] Oh."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Exactly. They’ll know. Everyone will know that you haven’t a genuine piece in the house. You’ll be exposed.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Exactly. They'll know. Everyone will know that you haven't a genuine piece in the house. You'll be exposed."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Exposed as what?”
+"type": "dialogue",
+"character": "Charles",
+"text": "Exposed as what?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “As – well – as shams.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "As – well – as shams."
 },
 {
-“type”: “stage_direction”,
-“text”: “A long pause. Clara sits down.”
+"type": "stage_direction",
+"text": "A long pause. Clara sits down."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Quietly.] He’s right, Charles.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Quietly.] He's right, Charles."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Oh, come now –”
+"type": "dialogue",
+"character": "Charles",
+"text": "Oh, come now –"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “He is right. If every house on the street has been robbed except ours, people will talk. They always talk. Mrs. Hempsted will be insufferable.”
+"type": "dialogue",
+"character": "Clara",
+"text": "He is right. If every house on the street has been robbed except ours, people will talk. They always talk. Mrs. Hempsted will be insufferable."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Let her be insufferable. She usually is.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Let her be insufferable. She usually is."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Charles, this is serious. [To the Thief.] Isn’t there something – anything – you could take?”
+"type": "dialogue",
+"character": "Clara",
+"text": "Charles, this is serious. [To the Thief.] Isn't there something – anything – you could take?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Sadly.] I’ve looked, madame. Believe me, I’ve looked.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Sadly.] I've looked, madame. Believe me, I've looked."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[Going to the sideboard.] What about this? My grandmother’s candlesticks.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[Going to the sideboard.] What about this? My grandmother's candlesticks."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Taking one and examining it.] Reproduction. Machine-made. Your grandmother may have owned them, but her grandmother didn’t.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Taking one and examining it.] Reproduction. Machine-made. Your grandmother may have owned them, but her grandmother didn't."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[Putting it back, deflated.] Right.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[Putting it back, deflated.] Right."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “The bureau in the hall – it’s Chippendale.”
+"type": "dialogue",
+"character": "Clara",
+"text": "The bureau in the hall – it's Chippendale."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “It’s Chippendale in the way that I’m the King of England. Which is to say – not at all.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "It's Chippendale in the way that I'm the King of England. Which is to say – not at all."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Rising.] The illuminated manuscripts! On the shelf there – I bought them in London!”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Rising.] The illuminated manuscripts! On the shelf there – I bought them in London!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Glancing at them.] Printed. Quite cleverly done, but printed. I’m afraid London saw you coming, madame.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Glancing at them.] Printed. Quite cleverly done, but printed. I'm afraid London saw you coming, madame."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Sitting back down, near tears.] This is horrible.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Sitting back down, near tears.] This is horrible."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[Going to the Thief.] Look here. This is very awkward. Can’t we come to some sort of – gentleman’s agreement?”
+"type": "dialogue",
+"character": "Charles",
+"text": "[Going to the Thief.] Look here. This is very awkward. Can't we come to some sort of – gentleman's agreement?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “What did you have in mind?”
+"type": "dialogue",
+"character": "The Thief",
+"text": "What did you have in mind?"
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Suppose you just – take something. Anything. And we’ll report it stolen. We’ll say it was very valuable. Nobody needs to know the difference.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Suppose you just – take something. Anything. And we'll report it stolen. We'll say it was very valuable. Nobody needs to know the difference."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Drawing himself up.] Sir, I am a thief, not a fraud. I have my honesty.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Drawing himself up.] Sir, I am a thief, not a fraud. I have my honesty."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Your honesty!”
+"type": "dialogue",
+"character": "Clara",
+"text": "Your honesty!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “A thief who steals imitations is no thief at all. It would ruin me. I have standards.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "A thief who steals imitations is no thief at all. It would ruin me. I have standards."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[To Clara.] He has standards.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[To Clara.] He has standards."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Sarcastically.] I heard him.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Sarcastically.] I heard him."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “However – I don’t wish to be unkind. I can see this is genuinely distressing to you. And I must admit, you’ve been very sporting about the whole thing. Most people would have called the police by now.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "However – I don't wish to be unkind. I can see this is genuinely distressing to you. And I must admit, you've been very sporting about the whole thing. Most people would have called the police by now."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Would you like a drink?”
+"type": "dialogue",
+"character": "Charles",
+"text": "Would you like a drink?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Charles!”
+"type": "dialogue",
+"character": "Clara",
+"text": "Charles!"
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Well, the man’s had a disappointing evening. The least we can do is offer him a brandy.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Well, the man's had a disappointing evening. The least we can do is offer him a brandy."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Smiling.] That’s very kind. I don’t mind if I do. [Pause.] The brandy’s not imitation, I hope?”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Smiling.] That's very kind. I don't mind if I do. [Pause.] The brandy's not imitation, I hope?"
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[Laughing.] No, the brandy’s real. It’s about the only thing in the house that is.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[Laughing.] No, the brandy's real. It's about the only thing in the house that is."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Sighing.] Pour me one too.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Sighing.] Pour me one too."
 },
 {
-“type”: “stage_direction”,
-“text”: “Charles pours three brandies. They drink.”
+"type": "stage_direction",
+"text": "Charles pours three brandies. They drink."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Very nice. Quite genuine.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Very nice. Quite genuine."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Thank God something passes the test.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Thank God something passes the test."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “Now, look here. I want to help you. I really do. I can see you’re decent people who’ve simply been taken in. It’s more common than you’d think.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "Now, look here. I want to help you. I really do. I can see you're decent people who've simply been taken in. It's more common than you'd think."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “That’s hardly comforting.”
+"type": "dialogue",
+"character": "Clara",
+"text": "That's hardly comforting."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “It should be. Half the fine homes in this city are furnished with phonies. The difference is, most people don’t know it. You, at least, now know the truth. And the truth is the beginning of genuine taste.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "It should be. Half the fine homes in this city are furnished with phonies. The difference is, most people don't know it. You, at least, now know the truth. And the truth is the beginning of genuine taste."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Slightly mollified.] Do you really think so?”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Slightly mollified.] Do you really think so?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “I know so. Now, here’s what I propose. I’ll take something with me tonight – to keep up appearances. One of your pictures, perhaps. The neighbors needn’t know it was worthless.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "I know so. Now, here's what I propose. I'll take something with me tonight – to keep up appearances. One of your pictures, perhaps. The neighbors needn't know it was worthless."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Would you? Oh, that would be wonderful.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Would you? Oh, that would be wonderful."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “On one condition.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "On one condition."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Name it.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Name it."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “That you stop this shamming. Get rid of the fakes. Buy less, but buy genuine. One real piece is worth a hundred imitations. If you’ll give up this shamming, I’ll feel repaid for my time and trouble.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "That you stop this shamming. Get rid of the fakes. Buy less, but buy genuine. One real piece is worth a hundred imitations. If you'll give up this shamming, I'll feel repaid for my time and trouble."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Looking at Charles.] He’s right, you know.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Looking at Charles.] He's right, you know."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “I know he’s right. I’ve been saying it for years.”
+"type": "dialogue",
+"character": "Charles",
+"text": "I know he's right. I've been saying it for years."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “You have not been saying it for years.”
+"type": "dialogue",
+"character": "Clara",
+"text": "You have not been saying it for years."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “I have! Who said the Chippendale looked like it came from a department store?”
+"type": "dialogue",
+"character": "Charles",
+"text": "I have! Who said the Chippendale looked like it came from a department store?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “That doesn’t count. You say that about everything.”
+"type": "dialogue",
+"character": "Clara",
+"text": "That doesn't count. You say that about everything."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Looking at his watch.] I really must be going. Far too much time as it is. Which picture shall I take?”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Looking at his watch.] I really must be going. Far too much time as it is. Which picture shall I take?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Take the one over the mantel. I never liked it anyway.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Take the one over the mantel. I never liked it anyway."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “That’s Cousin Paul’s favorite.”
+"type": "dialogue",
+"character": "Charles",
+"text": "That's Cousin Paul's favorite."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “All the more reason.”
+"type": "dialogue",
+"character": "Clara",
+"text": "All the more reason."
 },
 {
-“type”: “stage_direction”,
-“text”: “The Thief takes the painting down and wraps it.”
+"type": "stage_direction",
+"text": "The Thief takes the painting down and wraps it."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Here – let me help you. Clumsy with the wrapping, aren’t you?”
+"type": "dialogue",
+"character": "Charles",
+"text": "Here – let me help you. Clumsy with the wrapping, aren't you?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Give it here. [She wraps it deftly.] There.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Give it here. [She wraps it deftly.] There."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Taking the package.] Don’t try to thank me. And remember our agreement – no more shams.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Taking the package.] Don't try to thank me. And remember our agreement – no more shams."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “It’s a deal. Shall we make it unanimous, Clara?”
+"type": "dialogue",
+"character": "Charles",
+"text": "It's a deal. Shall we make it unanimous, Clara?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Smiling.] I suppose I haven’t any choice.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Smiling.] I suppose I haven't any choice."
 },
 {
-“type”: “dialogue”,
-“character”: “The Thief”,
-“text”: “[Bowing.] Good night. And – I am sorry about the luster set. Truly.”
+"type": "dialogue",
+"character": "The Thief",
+"text": "[Bowing.] Good night. And – I am sorry about the luster set. Truly."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Good night. And – thank you. I think.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Good night. And – thank you. I think."
 },
 {
-“type”: “stage_direction”,
-“text”: “The Thief exits through the hall door. Charles and Clara look at each other.”
+"type": "stage_direction",
+"text": "The Thief exits through the hall door. Charles and Clara look at each other."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Well, that’s the most extraordinary thing that’s ever happened to us.”
+"type": "dialogue",
+"character": "Charles",
+"text": "Well, that's the most extraordinary thing that's ever happened to us."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “We’ve just been robbed by a man with better taste than ours.”
+"type": "dialogue",
+"character": "Clara",
+"text": "We've just been robbed by a man with better taste than ours."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “And helped him do it.”
+"type": "dialogue",
+"character": "Charles",
+"text": "And helped him do it."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Starting to laugh.] Charles – we wrapped it for him!”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Starting to laugh.] Charles – we wrapped it for him!"
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[Laughing too.] I need another drink.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[Laughing too.] I need another drink."
 },
 {
-“type”: “stage_direction”,
-“text”: “There is a knock at the hall door. They both jump. Charles opens it. The maid shows in the Reporter.”
+"type": "stage_direction",
+"text": "There is a knock at the hall door. They both jump. Charles opens it. The maid shows in the Reporter."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Yes? What is it?”
+"type": "dialogue",
+"character": "Charles",
+"text": "Yes? What is it?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Reporter”,
-“text”: “Good evening. I’m from the Gazette. Sorry to disturb you at this hour.”
+"type": "dialogue",
+"character": "The Reporter",
+"text": "Good evening. I'm from the Gazette. Sorry to disturb you at this hour."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “The Gazette?”
+"type": "dialogue",
+"character": "Charles",
+"text": "The Gazette?"
 },
 {
-“type”: “dialogue”,
-“character”: “The Reporter”,
-“text”: “Yes, sir. I was out here on another story and I’ve got a big scoop. There’s been some artistic burglary in the neighborhood and I’ve run onto it. I understand several homes have been robbed tonight.”
+"type": "dialogue",
+"character": "The Reporter",
+"text": "Yes, sir. I was out here on another story and I've got a big scoop. There's been some artistic burglary in the neighborhood and I've run onto it. I understand several homes have been robbed tonight."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Quickly.] How dreadful!”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Quickly.] How dreadful!"
 },
 {
-“type”: “dialogue”,
-“character”: “The Reporter”,
-“text”: “The Hempsteds lost a valuable miniature. The Pierponts lost a painting. I need some stuff about the neighborhood. Have you folks lost anything?”
+"type": "dialogue",
+"character": "The Reporter",
+"text": "The Hempsteds lost a valuable miniature. The Pierponts lost a painting. I need some stuff about the neighborhood. Have you folks lost anything?"
 },
 {
-“type”: “stage_direction”,
-“text”: “Charles and Clara exchange a look.”
+"type": "stage_direction",
+"text": "Charles and Clara exchange a look."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[Slowly, with a straight face.] As a matter of fact – yes. We have.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[Slowly, with a straight face.] As a matter of fact – yes. We have."
 },
 {
-“type”: “dialogue”,
-“character”: “The Reporter”,
-“text”: “[Eagerly, pulling out his notepad.] You don’t say! What was taken?”
+"type": "dialogue",
+"character": "The Reporter",
+"text": "[Eagerly, pulling out his notepad.] You don't say! What was taken?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Sweetly.] A painting. A very valuable painting. Over the mantel.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Sweetly.] A painting. A very valuable painting. Over the mantel."
 },
 {
-“type”: “dialogue”,
-“character”: “The Reporter”,
-“text”: “[Writing.] Over the mantel. And the value, ma’am?”
+"type": "dialogue",
+"character": "The Reporter",
+"text": "[Writing.] Over the mantel. And the value, ma'am?"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Looking at Charles.] Priceless.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Looking at Charles.] Priceless."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “[Keeping a straight face with difficulty.] Absolutely priceless.”
+"type": "dialogue",
+"character": "Charles",
+"text": "[Keeping a straight face with difficulty.] Absolutely priceless."
 },
 {
-“type”: “dialogue”,
-“character”: “The Reporter”,
-“text”: “Wonderful – I mean, terrible. This is a big story. The thief obviously knew what he was after. He only took the finest things.”
+"type": "dialogue",
+"character": "The Reporter",
+"text": "Wonderful – I mean, terrible. This is a big story. The thief obviously knew what he was after. He only took the finest things."
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “[Smiling sweetly.] Yes. He was very… discriminating.”
+"type": "dialogue",
+"character": "Clara",
+"text": "[Smiling sweetly.] Yes. He was very… discriminating."
 },
 {
-“type”: “dialogue”,
-“character”: “The Reporter”,
-“text”: “Thank you, folks. Sorry for your loss. This’ll make the morning edition.”
+"type": "dialogue",
+"character": "The Reporter",
+"text": "Thank you, folks. Sorry for your loss. This'll make the morning edition."
 },
 {
-“type”: “stage_direction”,
-“text”: “The Reporter exits. Charles and Clara stare at each other for a moment, then both burst out laughing.”
+"type": "stage_direction",
+"text": "The Reporter exits. Charles and Clara stare at each other for a moment, then both burst out laughing."
 },
 {
-“type”: “dialogue”,
-“character”: “Charles”,
-“text”: “Priceless!”
+"type": "dialogue",
+"character": "Charles",
+"text": "Priceless!"
 },
 {
-“type”: “dialogue”,
-“character”: “Clara”,
-“text”: “Well, it is now.”
+"type": "dialogue",
+"character": "Clara",
+"text": "Well, it is now."
 },
 {
-“type”: “stage_direction”,
-“text”: “CURTAIN”
+"type": "stage_direction",
+"text": "CURTAIN"
 }
 ]
 }
