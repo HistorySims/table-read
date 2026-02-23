@@ -1,0 +1,1040 @@
+{
+"title": "The Game of Chess",
+"author": "Kenneth Sawyer Goodman",
+"description": "A Russian governor invites a revolutionary assassin into his study for a private interview – and refuses to have him searched. What follows is a battle of wits over a chessboard, a pistol, a glass of wine, and a story that may or may not be true. A taut political thriller about power, cunning, and whether the smartest man in the room is also the most dangerous.",
+"characters": [
+{
+"name": "Alexis",
+"description": "Alexis Alexandrovitch – a Russian governor, aristocrat, and chess player. Brilliant, urbane, and terrifyingly calm. He has invited his own assassin in for a chat. He says 'Well, well!' the way other men breathe. He treats his own murder as an intellectual exercise. Think: a man who needs to prove, to himself above all, that his mind is still the sharpest weapon in the room.",
+"lines": 102,
+"difficulty": "high",
+"costumeIdeas": "Something elegant – a nice jacket, a ring if you have one. Sit comfortably. Never stand up in alarm. Say 'Well, well!' with genuine pleasure at least five times."
+},
+{
+"name": "Boris",
+"description": "Boris Ivanovitch Shamrayeff – a peasant, a revolutionary, an assassin. He has a pistol in his pocket and full intention to use it. He is brave, sincere, and completely outmatched. He came to kill a tyrant and found something worse – a man who wants to be killed, or says he does, or is lying about everything. Think: a strong, honest man walking into a trap he cannot see.",
+"lines": 65,
+"difficulty": "high",
+"costumeIdeas": "Simple, working clothes. A cap in your hand. Stand stiffly at first. You are a weapon that is slowly being disarmed by conversation."
+},
+{
+"name": "Constantine",
+"description": "Alexis's secretary and chess partner. Loyal, worried, and overruled on every point. He wanted Boris arrested. He wanted Boris searched. He thinks Alexis is losing his edge. He is wrong. Think: the sensible man in a room full of madness.",
+"lines": 18,
+"difficulty": "easy",
+"costumeIdeas": "Something neat and professional. Look anxious. You know something terrible is about to happen and no one will listen to you."
+},
+{
+"name": "Footman",
+"description": "A servant. Perfectly correct, perfectly oblivious. He announces visitors and delivers messages. His final entrance – coming to fetch Constantine for chess while a dead man lies under a blanket – is darkly comic. Think: a man who does his job and asks no questions.",
+"lines": 6,
+"difficulty": "easy",
+"costumeIdeas": "Formal shirt, stand straight. Bow. Say 'Your excellency' with absolute neutrality no matter what is happening in the room."
+}
+],
+"beats": [
+{
+"type": "stage_direction",
+"text": "A luxurious wainscoted room in the house of Alexis. A fireplace, couches, high windows. A large table in the center with fruit, a flagon of wine, and glasses. Alexis and Constantine are playing chess at a small table in front of the fire."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "You seem to have lost your cunning, Constantine."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Wait!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Perhaps the pawn?"
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "No. So!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Ah, ha! That, eh? Well, well! The cunning is returning, is it?"
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Is the hour up, your excellency?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "No, no! We still have ten minutes to play."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Your excellency tires of the game, perhaps?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "No, I never tire of the game. When I do that, I shall tire of life itself. Chess is as much a gauge of a man's mental development as love or war or politics or any other game. When I play bad chess, I shall have ceased to be a competent governor."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "We patricians do not justify our lives by the toil of our hands. We should tune the machinery inside our skulls to its highest effectiveness. We must keep it tuned and timed and oiled. Ah, yes, it is that way we serve. When the machine balks or stops we are nothing."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "But your excellency was thinking of other things."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Was I so? Well, well! We shall see, we shall see! I was thinking of other things, eh? There, match me that if you can."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Ah! The one move that could have saved your king!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "There you have it! I doze, I dream, my mind wanders, and then it comes in a flash. The one move on the board! It is by such flashes I know myself."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Your excellency has inspiration."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Perhaps! But behind inspiration, always, the technique of the game."
+},
+{
+"type": "dialogue",
+"character": "Footman",
+"text": "Your excellency rang?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Is the man, Shamrayeff, waiting?"
+},
+{
+"type": "dialogue",
+"character": "Footman",
+"text": "A man, Boris Ivanovitch Shamrayeff, with a letter from your excellency, is waiting in the secretary's room."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "You may bring him here in three minutes."
+},
+{
+"type": "dialogue",
+"character": "Footman",
+"text": "Pardon, excellency, but the secretary wishes to know if the orders received from Mr. Constantine are correct."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "What orders?"
+},
+{
+"type": "dialogue",
+"character": "Footman",
+"text": "That the man, Boris Ivanovitch Shamrayeff, is not to be searched."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "There is no occasion to search the man."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Your move, my dear Constantine. We have exactly two minutes to finish the game and one minute for questions."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "So!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Ah! One moment! There! What now?"
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "This."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "And this!"
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Ah ha! I could check-mate your excellency in five more moves."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "The two minutes are up. Tell me, you are quite certain that your agents made no mistake in the matter of this man, Shamrayeff?"
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Quite certain, your excellency. I begged you to have him put under arrest yesterday. There is absolutely no question. The man's entire history is in your hands."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "And, in spite of all this, I have granted him a personal interview. I have given explicit orders that he is not to be searched. In short, I must be a fool, eh?"
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "I cannot question your excellency's judgment."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Ah, you can't question my judgment, eh? But you think! I saw something behind your eyes just now when you said you would check-mate me in five moves. You were thinking, 'Alexis Alexandrovitch, for all his fine talk, is not what he used to be. Something has slipped away from him.' Do you think I've become a coward?"
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Your excellency!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I sometimes think so, myself; that sometime there will be no flash, that I shall be check-mated once and for all. That's why I keep you here, hour after hour, playing chess with me; that's why I am tempted to try another kind of game with this man, Shamrayeff."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Then you have a definite reason for seeing this man?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "None that you would understand."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "But, in that case, might I point out to your excellency – Surely it would be safer –"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Don't speak to me as if you were speaking to a child. I know what you think: 'Alexis Alexandrovitch is not what he was. Things are slipping past him, he needs watching.' Well, the time is up. You have your orders."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Shall I take away the chessmen?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "No, leave them as they are. We'll finish the game when I ring for you. Well, well, well! You're going to say something. You think the game won't be finished. We'll see. We'll see about that!"
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "I beg your excellency –"
+},
+{
+"type": "dialogue",
+"character": "Footman",
+"text": "Boris Ivanovitch Shamrayeff."
+},
+{
+"type": "stage_direction",
+"text": "Boris enters wearing the clothes of a respectable artisan. He is strongly built with a rather fine but stolid face. He stands with his cap in his hand."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "So, so! You are Boris Ivanovitch Shamrayeff, are you? Well, well!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Yes, I am Boris Ivanovitch Shamrayeff!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "You found it hard to get at me, did you? Hard to get an interview with Alexis Alexandrovitch?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Not so hard as I had expected, your excellency."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Well, what are you waiting for? This man has something important to say to me. He's bashful. He can't speak out before so many people."
+},
+{
+"type": "dialogue",
+"character": "Constantine",
+"text": "Your excellency, I will wait in the passage."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Nonsense, nonsense! Go into the garden and think about your game of chess! Go!"
+},
+{
+"type": "stage_direction",
+"text": "Constantine and the Footman go out."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Sit down in that chair. I want to look at you."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Ah! There is no one watching us. This room is in a corner of the house – nothing but windows behind you, no balcony, no hangings. Open the door you came in by – there is no one in the passage. Turn the key, if you like."
+},
+{
+"type": "stage_direction",
+"text": "Boris steps quickly to the doors, throws them open, looks into the passage, shuts them again, turns the key in the lock and slips it into his pocket."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "You see we won't be disturbed. Now, sit down and tell me what you want."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I was only wondering."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Ha, ha! Wondering, eh?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I was wondering why your excellency chose to give me this opportunity."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "This opportunity?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "This opportunity to kill your excellency."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "So, so! To kill me? That's it, is it? Well, well! I thought as much, but of course, I couldn't be sure. Well, well! Go on, go on!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "God has delivered you into my hands."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Pah! Leave God out of it! Don't give me any such cant nonsense. I doubt if God takes any interest in either of us. I have delivered myself into your hands. That's the simple fact of the matter. I could have trapped you so easily, too, but I didn't even have you searched. You may as well take the pistol out of your pocket."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Your excellency seems amused."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "No, no, not amused! I'm only curious to see you handle the thing – morbid curiosity, if you like. Take it out, man, take it out!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "This is a solemn moment for us both, your excellency."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Solemn, eh? Well, well! Solemn! Oh, I suppose it is solemn for you, Boris Ivanovitch. To me it is simply curious grotesque. Well, well!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Keep your hand a little further from that bell, if you please."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I shan't ring. You would hardly wait for them to answer the bell, would you? No, no! I'm not such a fool as to think you'd do that? Well, well! I lift my hand and you shoot."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Yes."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Exactly. Well, I won't lift my hand."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Nothing on earth can save you, Alexis Alexandrovitch."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Nor you, my friend, for that matter! You hardly expect to leave the house, shall we say, unmolested?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I do not expect to leave it alive, excellency."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "No, that would be asking too much. I was here to let you in. I won't be able to let you out again. You will have lost a useful friend, Boris Ivanovitch."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "It is in your hands to end the interview. Come, come, you must hate me a great deal, my friend, to give your own life for the sake of taking mine."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I do not hate you."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "So? How odd! I thought that everyone of your sort hated me. You might at least flatter me to the extent of showing some emotion. Come, come, flatter me to that extent."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I do not care to flatter you."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Ah, well, well! I shall have to do without it then."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "My own feelings have nothing to do with it. I am an instrument of God."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "God again! What has God to do with it? Do you happen to play a good game of chess?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Why do you ask me such a thing?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Because you interrupted a game here. Constantine threatened me with check-mate in five more moves. Check-mate in five moves! No, no! Not so easy as that!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I have had enough of your jestings, excellency."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "You won't play then? Well, well! I had promised myself to finish the game. We shall see! We shall see!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Surely your excellency has something you wish to say –"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I have told you once, when you tire of the interview it is in your hands to end it. What are you waiting for? You become tedious!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Have you no desire to pray, excellency?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Pray? Pray? Who would listen to me? No, I'd rather chat."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Yes, yes, we'll chat until you gather courage to do what you came for."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "It takes no courage to kill a thing like you."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "It takes a certain kind of courage to kill – rats."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I have been chosen, excellency."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "So, so! The lot fell on you, did it? The honor! The distinction! You look at it in that way, don't you? Like the rest of your kind, you have political ideas, eh?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I have no political ideas."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "No political ideas? Well, well! No personal hatred? Pray explain yourself, man."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I am a peasant. My father and my father's father were peasants. You are a noble. Your line runs back to Tartar princes. It is a matter of centuries of pain and slavery against centuries of oppression and violence. I take no account of today, only of yesterday and tomorrow."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Your acts have been cruel and harsh, doubtless. I hardly know. I throw them out of the scale. I throw out my own sufferings. They are not enough in themselves to tip the balance. You and I are nothing. It is caste against caste."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I gave myself to the revolutionary party, yes! I am their agent as you say, but I know little of their ideas for Russia. I care less. I only know that the band to which I belong represents the struggle which I feel in my own breast. I am their willing tool. I do their will because the right of vengeance comes down to me in the blood."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Yes, yes! A fanatic!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "It is my order against yours."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Ah, your order against mine, eh? Centuries of pain against centuries of oppression. Well, well! You set aside today, do you? You throw your own little pains and penalties out of the scale on one side, and my little tyrannies and floggings and acts of villainy out on the other?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "You see yourself only as the avenger of a caste against a caste. The right of vengeance and the need of it comes down to you in the blood, does it? You're exalted by the breath of dead peasants, are you? It's because of that and only because of it that you take pride in the work you have set your hand to."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Huh! Grotesque! You strike the air with a rod of smoke. You've stumbled upon the essence of the inane. You're about to commit a fantastic mockery of Justice."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I have held my hand too long!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Wait! There is still something to be said; something for you to think of in the moment between the time you take my life and the time you take your own. You are about to kill the man you might have been yourself. You are about to – I, and not you, am Boris Ivanovitch."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "What rubbish are you talking now?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "You are Alexis Alexandrovitch!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Why! You are mad!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Wait! When you were a child, you had a foster-brother. You ran with him in the fields. You slept by his side at night. You fought with him over rough toys and bits of food. When you were seven years old, a man on horseback came and took him away. You never knew his true parentage and your father flogged you when you cried for him. Can you remember that?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Aye, I can remember that well."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Your father deserted your mother the following year. A little later she died. She told you nothing of the other child. You went to Kieff, to the house of your uncle, and became apprenticed to a bootmaker."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Leave off! You can't mystify me by telling me the story of my own life. It proves nothing. Your agents have ways of knowing such things: what I was, what I am, everything."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Yes! Leave all that! As you say, it proves nothing. Yet we are foster-brothers, you and I."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "A sign!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Our good mother was endowed with a grim sense of humor. She sent her own boy to be reared as the son of princes, and the little aristocrat, left with her for safety, she sent to – well, you know to what sort of a life she sent him."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Give me a sign!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I have no sign to give you."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Ah, ah! What else? What else have you to tell me?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I, and not you, am the son of peasants. Do you see now why I call your errand grotesque?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Lies! Lies! Lies! What do you expect to gain by telling me such lies?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Nothing."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Do you expect me to believe you? Do you expect me to embrace you and clap my hat on my head and toss this pistol out the window and tell you to do what you like with me?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I expect nothing. I know that I am one dead man talking to another."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I can't fathom you. I know there must be some trick up your sleeve, but I can't fathom you."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "There is no trick. You asked me why I chose to give you this opportunity to kill me. I'm telling you. That's all."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Lies! Utterly useless lies!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "No! Utterly useless truth! Do you think I wish to believe myself Boris Ivanovitch Shamrayeff, born a peasant? I, who have sat in high places and given my life to preserving an order of men to which I do not belong, which my blood ought to cry out against."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Do you think I would have believed it if the belief had not been forced upon me? I have ways of knowing truth from falsehood, my friend. You are striking at a man who is dead before you touch him."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "What I have found out in the past week, others already know. I have come to the end, I tell you. I have been a fantastic dupe. I cannot go on. I would have killed myself today, but I have a horror of taking my own life. You have come in time to save me from that."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Was that your only reason for seeing me?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I admit I was curious to see another man who had been as great a dupe as myself."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Lies! Lies! What else? Have you anything more to say?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I only ask you to finish your work. Unless you have a scruple against killing your – In which case, go! The door is still open to you."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Very pretty! Very touching! Go back, eh? And tell my comrades that I let Alexis the Red slip through my fingers because he told me a child's story of changeling foster-brothers? No, no!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Kill me, then!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I – I can't. There's a chance that what you have said may be true after all. And yet, I can't live if it's false. And, by God, I can't live if it's true!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "In either case, we must both die."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Aye, you speak the truth there, but I dare not kill you. I tell you, I dare not! There must be some way out! Some other way!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Are you brave enough to take poison? Yes! Good! Do you see this ring? I press a spring, so. There is a fine powder under the stone, so! I drop a few grains into one of these glasses. We draw lots. One of us drinks the wine and the other still has your pistol to use! It is very simple after all."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Yah! Now, by God, I see the trick! Lies! Lies! Every word of it was lies! I can see through you now. You're devilishly cunning with your sleight-of-hand, but I draw no lots for poison with the like of you."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Have it your own way. See, there's more than enough for both. Take the glass in your own hands, divide it yourself, pour the wine yourself, and then, to satisfy you, I'll drink first."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "You carry the bluff to the bitter end, do you? Well, we'll see."
+},
+{
+"type": "stage_direction",
+"text": "Boris mixes the powder, pours the wine, and hands one glass to Alexis."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "To your easy death, brother."
+},
+{
+"type": "stage_direction",
+"text": "He lifts the glass and drinks."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Ah! So you're a brave man after all! What if I were to leave you now, eh?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "My men have orders to seize you the moment you leave the room."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "In that case! To your final redemption, brother!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Sit down!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Have we long to wait?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Perhaps five minutes. It's a Chinese concoction. They call it the draught of final oblivion. I believe it to be painless. I'm told that one becomes numb. Do you find yourself becoming drowsy?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "No. My senses seem to be becoming more alert. Your voice sounds very sharp and clear."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Lift your hand."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "It seems very heavy. Are you afraid of Death, excellency?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "No, I am not afraid of Death, brother, not in the least."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Nor I!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Good! Now, move your feet."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I don't seem to be able to. That's strange. I can't feel anything."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Nor I! Can you get out of your chair?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I – I can hardly move my hand. I might move by a supreme effort but I haven't the will. I – I feel no pain, only a ringing in my head."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "So? Well, well! Can you still hear perfectly?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Yes – yes, I can still hear."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Tell me, on your hope of redemption, was what you said to me just now the truth?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "On my hope of redemption, eh?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "If it was, I ask you to forgive me."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I have nothing to forgive."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Thanks!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "On my hope of redemption, Boris Shamrayeff, everything I told you was lies! Lies! Lies!"
+},
+{
+"type": "stage_direction",
+"text": "Boris struggles painfully to his feet and lurches toward the table where he laid the pistol. Alexis springs to the table, seizes the pistol and tosses it out of the window. Boris supports himself against the edge of the table, half sitting, half leaning, his mouth open, his eyes staring."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Well, you can still speak, can't you?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "You fiend! You dog! You liar! Ha, ha, ha! At least you can't escape! No need for me to strike you!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Ha, ha!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Well! Sneer at me if you like. You are feeling the agony too, Alexis Alexandrovitch. You can't deny it."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I am not dying, Boris Shamrayeff."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "But, I know! I saw! I saw you drink! You're dying, excellency!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Yes, we drank together, didn't we? Well, well! And your eye wasn't off me an instant, was it? And you didn't lift your cup till I'd drained the last drop of mine, did you? Well, well, well!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "I saw you drink what I drank."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Yes, I did drink it, Boris Ivanovitch, didn't I? But what is sending you down to fry in Hell with the stupid ghosts of your bestial ancestors is only embarrassing me with the slightest of headaches."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "It – it is not possible!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Eh? An oriental trick. A man in constant fear of poison may accustom himself, little by little, to a dose that would blast the life of an ordinary man. A fantastic precaution these days, only interesting to an antiquarian like myself. Well, well, you can hear me, can't you? I tell you I could have taken the entire mess; half of it seems to have been enough for you."
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Why? Why have you done this thing to me?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Body of St. Michael! I am of one order, you of another. You are a terrorist, a Red; the blood of my brother, shot down in the streets of Kronstadt, the lives of my friends, the preservation of the sacred empire – are these nothing? Nothing – beside your dirty petitions of right! Pah! God has delivered you into MY hands. I, and not you, am the instrument of God today!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Boris Ivanovitch, can you still hear me? Eh?"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Yes!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "So! So! One thing more! Why did I risk my own life to get yours? You would like to know that, wouldn't you? Why did I let you in here at all? You'd ask that if you could. Ha, ha!"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Well, it was because men were thinking that Alexis Alexandrovitch wasn't what he used to be; because I was beginning to think so myself. Because I had begun to doubt my own wits. I had to let myself be brought to bay. I had to look into the muzzle of your pistol. I had to pit my life against yours in a struggle where I had no other weapon, no other help, than this."
+},
+{
+"type": "stage_direction",
+"text": "He taps his forehead."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "I think it unlikely that Constantine will check-mate me in five moves today!"
+},
+{
+"type": "dialogue",
+"character": "Boris",
+"text": "Fiend! Fiend! Fiend!"
+},
+{
+"type": "stage_direction",
+"text": "Boris crumples up and falls to the floor. Alexis takes a cover from the couch and throws it over him."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "So, it's over, is it? Well, well, well! To the night without stars! To the mist that never lifts! To the bottom of nothingness! Peace be with you!"
+},
+{
+"type": "stage_direction",
+"text": "He taps the bell and seats himself at the chessboard. The Footman enters."
+},
+{
+"type": "dialogue",
+"character": "Footman",
+"text": "Your excellency rang?"
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "Go into the garden and find Mr. Constantine. Tell him I am ready to finish our game of chess."
+},
+{
+"type": "stage_direction",
+"text": "The Footman bows and withdraws."
+},
+{
+"type": "dialogue",
+"character": "Alexis",
+"text": "So! So! The bishop – the queen! No! Yes, yes! I have it! I have it! Body of St. Michael, not in five moves, not in five moves tonight! Ah! Ha, ha! So! So! Well, well, well!"
+},
+{
+"type": "stage_direction",
+"text": "He rubs his hands softly and looks up just as Constantine enters. CURTAIN."
+}
+]
+}
