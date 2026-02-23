@@ -1,0 +1,192 @@
+{
+  "id": "mr_toad_trial_family_lit",
+  "title": "The Trial of Mr. Toad",
+  "author": "Adapted from Kenneth Grahame",
+  "description": "Mr. Toad stands trial for taking a motor-car. His friends Rat and Badger watch in dismay as Toad cannot stop talking about speed.",
+  "characters": [
+    {
+      "name": "Judge",
+      "description": "Very serious and proud of the law. A good role for a child who wants to act important.",
+      "difficulty": "medium"
+    },
+    {
+      "name": "Prosecutor",
+      "description": "Reads the charges clearly and properly.",
+      "difficulty": "hard"
+    },
+    {
+      "name": "Mr. Toad",
+      "description": "Excited, boastful, and suddenly very sorry.",
+      "difficulty": "easy"
+    },
+    {
+      "name": "Rat",
+      "description": "Toad’s loyal friend. Kind, worried, and embarrassed.",
+      "difficulty": "hard"
+    },
+    {
+      "name": "Badger",
+      "description": "Firm friend who believes in rules and responsibility.",
+      "difficulty": "easy"
+    }
+  ],
+  "beats": [
+    {
+      "type": "stage_direction",
+      "text": "A courtroom. The Judge sits high. Mr. Toad stands below. Rat and Badger sit together, looking troubled."
+    },
+    {
+      "type": "dialogue",
+      "character": "Judge",
+      "text": "Bring in the prisoner!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Prosecutor",
+      "text": "Your Honour, the prisoner is charged with stealing a motor-car and driving it at a dangerous speed."
+    },
+    {
+      "type": "dialogue",
+      "character": "Rat",
+      "text": "Oh, Toad, Toad, this is very bad."
+    },
+    {
+      "type": "dialogue",
+      "character": "Badger",
+      "text": "I told you to leave those motor-cars alone."
+    },
+    {
+      "type": "dialogue",
+      "character": "Judge",
+      "text": "Prisoner, how do you plead?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "Motor-cars! Beautiful motor-cars!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "Beep beep!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Judge",
+      "text": "That is not an answer."
+    },
+    {
+      "type": "dialogue",
+      "character": "Prosecutor",
+      "text": "He took the car without permission and drove it wildly."
+    },
+    {
+      "type": "dialogue",
+      "character": "Rat",
+      "text": "You have disgraced us all, Toad."
+    },
+    {
+      "type": "dialogue",
+      "character": "Badger",
+      "text": "Be quiet and listen to the court."
+    },
+    {
+      "type": "dialogue",
+      "character": "Judge",
+      "text": "Prisoner, did you take the motor-car?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "I took it, and I drove it, and I loved it."
+    },
+    {
+      "type": "dialogue",
+      "character": "Rat",
+      "text": "Oh dear."
+    },
+    {
+      "type": "dialogue",
+      "character": "Prosecutor",
+      "text": "He crashed the motor-car and showed no remorse."
+    },
+    {
+      "type": "dialogue",
+      "character": "Badger",
+      "text": "Say you are sorry, Toad."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "I am very sorry."
+    },
+    {
+      "type": "dialogue",
+      "character": "Rat",
+      "text": "He is incorrigible."
+    },
+    {
+      "type": "dialogue",
+      "character": "Judge",
+      "text": "The court finds you guilty of stealing a motor-car."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "Guilty!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Judge",
+      "text": "You are sentenced to a long term of imprisonment."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "Prison!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Rat",
+      "text": "We will visit you and bring you books."
+    },
+    {
+      "type": "dialogue",
+      "character": "Badger",
+      "text": "You must learn to control yourself."
+    },
+    {
+      "type": "dialogue",
+      "character": "Judge",
+      "text": "Take him away."
+    },
+    {
+      "type": "stage_direction",
+      "text": "Mr. Toad is led toward the door. He turns back to his friends."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "Good-bye, Rat! Good-bye, Badger!"
+    },
+    {
+      "type": "dialogue",
+      "character": "Rat",
+      "text": "Oh, Toad, what will become of you?"
+    },
+    {
+      "type": "dialogue",
+      "character": "Badger",
+      "text": "This is a sad business."
+    },
+    {
+      "type": "dialogue",
+      "character": "Mr. Toad",
+      "text": "Beep beep!"
+    },
+    {
+      "type": "stage_direction",
+      "text": "He is taken away. Rat sighs. Badger shakes his head. Curtain."
+    }
+  ]
+}
